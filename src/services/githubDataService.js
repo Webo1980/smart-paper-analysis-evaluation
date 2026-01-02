@@ -1,4 +1,7 @@
 // src/services/githubDataService.js
+import config from '../config/appConfig';
+// Static data imports for demo mode
+const staticEvaluations = import.meta.glob('../data/userEvaluations/evaluations/*.json', { eager: true });
 import { processEvaluationData } from '../utils/dataProcessing';
 import { calculateConfusionMatrices } from '../utils/confusionMatrixCalculator';
 import { calculateStatistics } from '../utils/statisticalAnalysis';
@@ -192,6 +195,13 @@ class GitHubDataService {
 
   async fetchAllEvaluations() {
     console.log('fetchAllEvaluations called');
+
+    // Demo mode: return static data
+    if (config.isDemo) {
+      console.log('📊 Demo mode: using static data');
+      const evaluations = Object.values(staticEvaluations).map(m => m.default || m);
+      return { success: true, data: evaluations };
+    }
     
     const cacheKey = 'all_evaluations';
     const cached = this.getFromCache(cacheKey);
