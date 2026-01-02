@@ -6,6 +6,10 @@ Interactive evaluation dashboard for the SARAG (Section-Aware Retrieval-Augmente
 [![Vite](https://img.shields.io/badge/Vite-5+-purple.svg)](https://vitejs.dev/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
+## Live Demo
+
+**Dashboard**: [https://sarag-evaluation.netlify.app/dashboard?view=full](https://sarag-evaluation.netlify.app/dashboard?view=full)
+
 ## Overview
 
 This dashboard provides comprehensive analysis tools for evaluating the SARAG paper analysis system. It implements a three-way evaluation framework that integrates:
@@ -31,13 +35,61 @@ This dashboard provides comprehensive analysis tools for evaluating the SARAG pa
 | **GT Analytics** | Ground truth data analysis |
 | **GT Data** | Raw ground truth data viewer |
 
+## Running Modes
+
+The dashboard supports two modes:
+
+| Mode | Purpose | GitHub Token | Saves Data |
+|------|---------|--------------|------------|
+| **Demo** | View results, Netlify deployment | Not required | No |
+| **Full** | Reproduce paper, run evaluations | Required | Yes |
+
+### Demo Mode (Default)
+
+For viewing evaluation results without any configuration:
+
+```bash
+npm install
+npm run dev
+```
+
+Open: http://localhost:5173/dashboard?view=full
+
+Features:
+- View all evaluation metrics and visualizations
+- No GitHub token required
+- Data is bundled with the application
+- Ideal for Netlify deployment
+
+### Full Mode
+
+For reproducing the paper and running new evaluations:
+
+1. Create `.env` file:
+```env
+VITE_APP_MODE=full
+VITE_GITHUB_TOKEN=your_github_token
+VITE_GITHUB_OWNER=Webo1980
+VITE_GITHUB_REPO=smart-paper-analysis-evaluation
+```
+
+2. Run:
+```bash
+npm run dev
+```
+
+Features:
+- All demo mode features
+- Submit new evaluations
+- Save data to GitHub repository
+- Requires GitHub token with `repo` scope
+
 ## Installation
 
 ### Prerequisites
 
 - Node.js >= 16.0.0
 - npm or yarn
-- GitHub account (for data persistence)
 
 ### Setup
 
@@ -52,44 +104,42 @@ This dashboard provides comprehensive analysis tools for evaluating the SARAG pa
    npm install
    ```
 
-3. **Configure environment variables**
-   
-   Create a `.env` file:
-   ```env
-   VITE_GITHUB_TOKEN=your_github_personal_access_token
-   VITE_GITHUB_OWNER=your_github_username
-   VITE_GITHUB_REPO=smart-paper-analysis-evaluation
-   ```
-
-4. **Set up GitHub Actions** (see [GitHub Integration](#github-integration) section)
-
-5. **Run the development server**
+3. **Run development server**
    ```bash
    npm run dev
    ```
 
-6. **Access the dashboard**
+4. **Access the dashboard**
    - Evaluation form: http://localhost:5173/
    - Full dashboard: http://localhost:5173/dashboard?view=full
 
-## GitHub Integration
+## Full Mode Setup (For Paper Reproduction)
 
-The dashboard uses GitHub for persistent storage of evaluation data. Follow these steps to set it up:
+To reproduce the paper's evaluation workflow and submit new evaluations:
 
-### Step 1: Create a Personal Access Token
+### Step 1: Create GitHub Personal Access Token
 
 1. Go to [github.com/settings/tokens](https://github.com/settings/tokens)
 2. Click **Generate new token (classic)**
-3. Give it a name (e.g., "SARAG Evaluation")
-4. Select scopes:
-   - `repo` (full control of private repositories)
-   - `workflow` (update GitHub Action workflows)
+3. Name: "SARAG Evaluation"
+4. Select scopes: `repo` (full control)
 5. Click **Generate token**
-6. Copy the token and save it securely
+6. Copy and save the token
 
-### Step 2: Create GitHub Action Workflow
+### Step 2: Configure Environment
 
-Create the file `.github/workflows/update-evaluation.yml` in your repository:
+Create `.env` file in project root:
+
+```env
+VITE_APP_MODE=full
+VITE_GITHUB_TOKEN=ghp_your_token_here
+VITE_GITHUB_OWNER=Webo1980
+VITE_GITHUB_REPO=smart-paper-analysis-evaluation
+```
+
+### Step 3: Set Up GitHub Actions (Optional)
+
+For automatic data updates, create `.github/workflows/update-evaluation.yml`:
 
 ```yaml
 name: Update Evaluation Data
@@ -151,82 +201,6 @@ jobs:
           fi
 ```
 
-### Step 3: Configure Environment Variables
-
-Add your GitHub token to the `.env` file:
-
-```env
-VITE_GITHUB_TOKEN=ghp_your_token_here
-VITE_GITHUB_OWNER=Webo1980
-VITE_GITHUB_REPO=smart-paper-analysis-evaluation
-```
-
-## Usage
-
-### For Evaluators
-
-1. Navigate to http://localhost:5173/
-2. Enter your evaluator information (name, role, expertise)
-3. Select a paper to evaluate
-4. Complete the five-stage evaluation:
-   - Metadata accuracy and quality
-   - Research field accuracy and quality
-   - Research problem accuracy and quality
-   - Template accuracy and quality
-   - Content accuracy and quality
-5. Provide qualitative feedback
-6. Submit evaluation (automatically saved to GitHub)
-
-### For Researchers
-
-1. Navigate to http://localhost:5173/dashboard?view=full
-2. Explore evaluation metrics across all tabs
-3. Analyze:
-   - Overall system performance
-   - Component-level accuracy vs quality
-   - Expertise-weighted scores
-   - Inter-rater reliability
-   - Qualitative feedback patterns
-
-## Project Structure
-
-```
-smart-paper-analysis-evaluation/
-├── src/
-│   ├── components/
-│   │   ├── Dashboard/
-│   │   │   ├── Overview.jsx
-│   │   │   ├── ConfusionMatrix.jsx
-│   │   │   ├── ExpertiseAnalysis.jsx
-│   │   │   ├── Charts.jsx
-│   │   │   ├── PaperAnalysis.jsx
-│   │   │   ├── AccuracyView.jsx
-│   │   │   ├── AgreementAnalysis.jsx
-│   │   │   ├── QualityView.jsx
-│   │   │   ├── ErrorAnalysis.jsx
-│   │   │   ├── FeedbackAnalysis.jsx
-│   │   │   └── GTAnalytics.jsx
-│   │   └── Evaluation/
-│   │       └── EvaluationForm.jsx
-│   ├── data/
-│   │   ├── evaluations/          # Evaluation JSON files
-│   │   └── groundTruth/          # ORKG ground truth data
-│   ├── hooks/
-│   │   └── useGitHubStorage.js   # GitHub integration hook
-│   ├── utils/
-│   │   ├── calculations.js       # Score calculations
-│   │   └── metrics.js            # Evaluation metrics
-│   ├── App.jsx
-│   └── main.jsx
-├── .github/
-│   └── workflows/
-│       └── update-evaluation.yml # GitHub Action
-├── .env                          # Environment variables
-├── package.json
-├── vite.config.js
-└── README.md
-```
-
 ## Evaluation Metrics
 
 ### Scoring Formula
@@ -237,8 +211,8 @@ Final Score = (Automated Score × 60%) + (User Rating × 40%)
 
 ### Expertise Weighting
 
-| Tier | Weight Range | Roles |
-|------|--------------|-------|
+| Tier | Weight Range | Example Roles |
+|------|--------------|---------------|
 | Expert | 4.0 - 5.0 | Professor, PostDoc, Senior Researcher |
 | Senior | 3.0 - 4.0 | Researcher, PhD Student (advanced) |
 | Intermediate | 2.0 - 3.0 | PhD Student, Master Student |
@@ -256,22 +230,93 @@ Final Score = (Automated Score × 60%) + (User Rating × 40%)
 
 ## Deployment
 
-### Build for Production
+### Netlify (Demo Mode)
 
-```bash
-npm run build
-```
-
-### Deploy to Netlify
+The easiest way to deploy:
 
 1. Connect your GitHub repository to Netlify
-2. Set build command: `npm run build`
-3. Set publish directory: `dist`
-4. Add environment variables in Netlify dashboard
+2. Configure build settings:
+   - Build command: `npm run build`
+   - Publish directory: `dist`
+3. No environment variables needed (uses demo mode)
 
-### Live Demo
+### Netlify Configuration
 
-An interactive evaluation dashboard is available at: [https://sarag-evaluation.netlify.app](https://sarag-evaluation.netlify.app)
+Create `netlify.toml`:
+
+```toml
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+```
+
+Create `public/_redirects`:
+
+```
+/*    /index.html   200
+```
+
+### Self-Hosted (Full Mode)
+
+1. Clone the repository
+2. Create `.env` with full mode configuration
+3. Build: `npm run build`
+4. Deploy the `dist` folder to your server
+
+## Usage
+
+### For Viewing Results (Demo Mode)
+
+1. Navigate to http://localhost:5173/dashboard?view=full
+2. Explore evaluation metrics across all tabs
+3. Analyze system performance, accuracy, and quality metrics
+
+### For Running Evaluations (Full Mode)
+
+1. Configure full mode (see [Full Mode Setup](#full-mode-setup-for-paper-reproduction))
+2. Navigate to http://localhost:5173/
+3. Enter evaluator information (name, role, expertise)
+4. Select a paper to evaluate
+5. Complete the five-stage evaluation
+6. Submit (automatically saved to GitHub)
+
+## API Reference
+
+### Data Service
+
+```javascript
+import dataService from './services/dataService';
+
+// Get all evaluations
+const evaluations = await dataService.getEvaluations();
+
+// Get ground truth
+const groundTruth = await dataService.getGroundTruth();
+
+// Get dashboard data (all at once)
+const { data } = await dataService.getDashboardData();
+
+// Check current mode
+const modeInfo = dataService.getModeInfo();
+// { mode: 'demo', isDemo: true, isFull: false, canSave: false }
+
+// Save evaluation (full mode only)
+const result = await dataService.saveEvaluation(evaluationData);
+```
+
+## Troubleshooting
+
+| Issue | Solution |
+|-------|----------|
+| Page not found on refresh | Add `_redirects` file to `public/` folder |
+| GitHub API CORS error | Check environment variables are set correctly |
+| Data not loading | Verify JSON files exist in `src/data/` folders |
+| Save not working | Ensure `VITE_APP_MODE=full` and token is valid |
 
 ## Related Projects
 
