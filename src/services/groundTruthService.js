@@ -4,8 +4,8 @@
  */
 import config from '../config/appConfig';
 
-const staticGroundTruth = import.meta.glob('../data/evaluations/*.json', { eager: true });
-
+// For demo mode, we'll fetch the CSV from the bundled assets
+// The CSV file should be copied to public folder or imported as asset
 import Papa from 'papaparse';
 
 class GroundTruthService {
@@ -15,7 +15,7 @@ class GroundTruthService {
     this.repo = import.meta.env.VITE_GITHUB_REPO || '';
     this.token = import.meta.env.VITE_GITHUB_TOKEN || '';
     this.csvPath = import.meta.env.VITE_ORKG_CSV_PATH || 'src/data/evaluations/orkg_papers_20250204_163723.csv';
-    
+
     this.data = null;
     this.paperIndex = new Map();
     this.doiIndex = new Map();
@@ -23,7 +23,7 @@ class GroundTruthService {
     this.loaded = false;
     this.csvUrl = null;
     this._hasLoggedStructure = false;
-    
+
     console.log('GroundTruthService initialized:', {
       owner: this.owner,
       repo: this.repo,
@@ -38,36 +38,62 @@ class GroundTruthService {
    * @returns {Promise<void>}
    */
   async loadFromGitHub() {
-    // Demo mode: use static data
+    // Demo mode: fetch CSV from public folder or bundled asset
     if (config.isDemo) {
-      console.log('📊 Demo mode: loading static ground truth');
-      const data = Object.values(staticGroundTruth).map(m => m.default || m);
-      this.groundTruthData = data;
-      return { success: true, data };
+      console.log('📊 Demo mode: loading static ground truth CSV');
+      
+      try {
+        // Try to fetch from public folder first (Netlify serves these)
+        // The CSV should be at /orkg_papers.csv in public folder
+        const response = await fetch('/orkg_papers.csv');
+        
+        if (!response.ok) {
+          console.warn('⚠️ Could not load CSV from /orkg_papers.csv, trying alternate path...');
+          // Try alternate path
+          const altResponse = await fetch('/data/orkg_papers_20250204_163723.csv');
+          if (!altResponse.ok) {
+            throw new Error(`CSV not found in public folder`);
+          }
+          const csvText = await altResponse.text();
+          return this._parseCSV(csvText);
+        }
+        
+        const csvText = await response.text();
+        console.log('✓ Loaded CSV from public folder');
+        return this._parseCSV(csvText);
+      } catch (error) {
+        console.error('❌ Error loading CSV in demo mode:', error);
+        // Return empty data instead of crashing
+        this.data = [];
+        this.loaded = true;
+        console.warn('⚠️ Ground truth not available in demo mode - some features may be limited');
+        return;
+      }
     }
+
     if (!this.owner || !this.repo || !this.token) {
       throw new Error('GitHub configuration missing. Check your .env file for VITE_GITHUB_USERNAME, VITE_GITHUB_REPO, and VITE_GITHUB_TOKEN');
     }
 
     const apiUrl = `https://api.github.com/repos/${this.owner}/${this.repo}/contents/${this.csvPath}`;
-    
+
     try {
       console.log('Loading CSV from GitHub API:', apiUrl);
-      
+
       const response = await fetch(apiUrl, {
         headers: {
           'Authorization': `Bearer ${this.token}`,
           'Accept': 'application/vnd.github.v3.raw'
         }
       });
-      
+
       if (!response.ok) {
         throw new Error(`GitHub API error: ${response.status} ${response.statusText}`);
       }
-      
+
       const csvText = await response.text();
       console.log('✓ Successfully loaded CSV from GitHub API');
-      
+
       this.csvUrl = apiUrl;
       return this._parseCSV(csvText);
     } catch (error) {
@@ -86,14 +112,14 @@ class GroundTruthService {
   async loadFromGitHubCustom(owner, repo, path) {
     const csvUrl = `https://raw.githubusercontent.com/${owner}/${repo}/main/${path}`;
     this.csvUrl = csvUrl;
-    
+
     try {
       console.log('Loading CSV from:', csvUrl);
       const response = await fetch(csvUrl);
       if (!response.ok) {
         throw new Error(`Failed to fetch CSV: ${response.statusText}`);
       }
-      
+
       const csvText = await response.text();
       return this._parseCSV(csvText);
     } catch (error) {
@@ -118,7 +144,7 @@ class GroundTruthService {
           if (results.errors.length > 0) {
             console.warn('CSV parsing warnings:', results.errors);
           }
-          
+
           this.data = results.data;
           this._buildIndexes();
           this.loaded = true;
@@ -186,12 +212,12 @@ class GroundTruthService {
 
     evaluations.forEach((evaluation, index) => {
       const paperId = this._extractPaperIdFromEvaluation(evaluation);
-      
+
       if (paperId) {
         const currentCount = this.evaluationCount.get(paperId) || 0;
         this.evaluationCount.set(paperId, currentCount + 1);
         matched++;
-        
+
         if (index < 3) {
           console.log(`Evaluation ${index + 1}: DOI = ${paperId}`);
         }
@@ -208,12 +234,12 @@ class GroundTruthService {
 
     console.log(`✓ Evaluation count update: ${matched} matched, ${unmatched} unmatched`);
     console.log(`✓ Tracking ${this.evaluationCount.size} unique papers with evaluations`);
-    
+
     // Show top evaluated papers
     const sortedCounts = Array.from(this.evaluationCount.entries())
       .sort((a, b) => b[1] - a[1])
       .slice(0, 5);
-    
+
     if (sortedCounts.length > 0) {
       console.log('Top evaluated papers:');
       sortedCounts.forEach(([doi, count]) => {
@@ -232,18 +258,9 @@ class GroundTruthService {
   _extractPaperIdFromEvaluation(evaluation) {
     if (evaluation?.evaluationMetrics?.overall?.metadata?.doi?.referenceValue) {
       const doi = this._normalizeDOI(evaluation?.evaluationMetrics?.overall?.metadata?.doi?.referenceValue);
-      console.log('✓ Found DOI in overall.metadata.doi.referenceValue:', doi);
       return doi;
     }
-    else{
-        console.warn('❌ Could not extract DOI from evaluation:', {
-          token: evaluation.token,
-          hasOverall: !!evaluation.overall,
-          hasMetadata: !!evaluation.overall?.metadata,
-          metadataKeys: evaluation.overall?.metadata ? Object.keys(evaluation.overall.metadata) : []
-        });
-      return null;
-    }
+    return null;
   }
 
   /**
@@ -294,7 +311,7 @@ class GroundTruthService {
     return this.data.map(paper => {
       const paperId = paper.doi ? this._normalizeDOI(paper.doi) : paper.paper_id;
       const evaluationCount = this.getEvaluationCount(paperId);
-      
+
       return {
         ...paper,
         evaluationCount,
@@ -352,7 +369,7 @@ class GroundTruthService {
 
     if (filters.searchQuery) {
       const query = filters.searchQuery.toLowerCase();
-      filtered = filtered.filter(p => 
+      filtered = filtered.filter(p =>
         p.title && p.title.toLowerCase().includes(query)
       );
     }
@@ -376,7 +393,7 @@ class GroundTruthService {
       }
     });
 
-    return Array.from(fieldsMap.values()).sort((a, b) => 
+    return Array.from(fieldsMap.values()).sort((a, b) =>
       a.name.localeCompare(b.name)
     );
   }
@@ -397,7 +414,7 @@ class GroundTruthService {
       }
     });
 
-    return Array.from(templatesMap.values()).sort((a, b) => 
+    return Array.from(templatesMap.values()).sort((a, b) =>
       a.name.localeCompare(b.name)
     );
   }
@@ -427,8 +444,8 @@ class GroundTruthService {
       evaluatedPapers: evaluatedPapers.length,
       pendingPapers: this.data.length - evaluatedPapers.length,
       totalEvaluations,
-      avgEvaluationsPerPaper: evaluatedPapers.length > 0 
-        ? (totalEvaluations / evaluatedPapers.length).toFixed(2) 
+      avgEvaluationsPerPaper: evaluatedPapers.length > 0
+        ? (totalEvaluations / evaluatedPapers.length).toFixed(2)
         : 0,
       uniqueFields: this.getUniqueResearchFields().length,
       uniqueTemplates: this.getUniqueTemplates().length,

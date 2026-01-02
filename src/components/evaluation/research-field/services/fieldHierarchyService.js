@@ -1,5 +1,10 @@
 // src/components/evaluation/research-field/services/fieldHierarchyService.js
 
+import config from '../../../../config/appConfig';
+
+// Static import for demo mode
+import staticHierarchy from '../../../../../data/evaluations/research_fields_hierarchy.json';
+
 // Research field hierarchy data
 let researchFieldsHierarchy = null;
 
@@ -13,8 +18,15 @@ export const loadResearchFieldHierarchy = async () => {
     return researchFieldsHierarchy;
   }
 
+  // Demo mode: use static import
+  if (config.isDemo) {
+    console.log('📊 Demo mode: using static research fields hierarchy');
+    researchFieldsHierarchy = staticHierarchy;
+    return researchFieldsHierarchy;
+  }
+
+  // Full mode: fetch from GitHub API
   try {
-    // Load data from JSON file
     const response = await fetch(
       `https://api.github.com/repos/${import.meta.env.VITE_GITHUB_USERNAME}/${import.meta.env.VITE_GITHUB_REPO}/contents/src/data/evaluations/research_fields_hierarchy.json`,
       {

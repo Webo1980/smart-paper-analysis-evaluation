@@ -1,46 +1,86 @@
 /**
  * System Analysis Service
- * Handles loading and processing system analysis JSON files from GitHub
+ * Handles loading and processing system analysis JSON files
+ * Supports both Demo mode (static imports) and Full mode (GitHub API)
  */
+
+import config from '../config/appConfig';
+
+// Static data imports for demo mode - MUST be at module level
+const staticSystemData = import.meta.glob('../../data/evaluations/*.json', { eager: true });
 
 class SystemAnalysisService {
   constructor() {
     this.systemAnalyses = new Map(); // Map of token -> analysis data
+    this.staticDataLoaded = false;
     this.githubConfig = {
-      owner: import.meta.env.VITE_GITHUB_USERNAME, // Replace with your GitHub username/org
-      repo:  import.meta.env.VITE_GITHUB_REPO,     // Replace with your repository name
-      token: import.meta.env.VITE_GITHUB_TOKEN  // Replace with your GitHub token (or use environment variable)
+      owner: import.meta.env.VITE_GITHUB_USERNAME || import.meta.env.VITE_GITHUB_OWNER,
+      repo: import.meta.env.VITE_GITHUB_REPO,
+      token: import.meta.env.VITE_GITHUB_TOKEN
     };
+  }
+
+  /**
+   * Initialize static data for demo mode
+   * @private
+   */
+  _loadStaticData() {
+    if (this.staticDataLoaded) return;
+    
+    console.log('📊 SystemAnalysisService: Loading static system data...');
+    
+    let loadedCount = 0;
+    Object.entries(staticSystemData).forEach(([path, module]) => {
+      const data = module.default || module;
+      if (data && typeof data === 'object' && data.token) {
+        this.systemAnalyses.set(data.token, data);
+        loadedCount++;
+      }
+    });
+    
+    console.log(`✓ SystemAnalysisService: Loaded ${loadedCount} system analyses from static files`);
+    this.staticDataLoaded = true;
   }
 
   /**
    * Configure GitHub repository settings
    * @param {Object} config - GitHub configuration
-   * @param {string} config.owner - Repository owner
-   * @param {string} config.repo - Repository name
-   * @param {string} config.token - GitHub access token
    */
-  configure(config) {
-    this.githubConfig = { ...this.githubConfig, ...config };
+  configure(newConfig) {
+    this.githubConfig = { ...this.githubConfig, ...newConfig };
   }
 
   /**
-   * Load system analysis from GitHub by token
+   * Load system analysis by token
+   * In demo mode, uses static imports
+   * In full mode, fetches from GitHub API
    * @param {string} token - Evaluation token
    * @returns {Promise<Object>} Parsed analysis data
    */
   async loadSystemData(token) {
-    try {
-      // Check if already loaded
+    // Check if already loaded
+    if (this.systemAnalyses.has(token)) {
+      return this.systemAnalyses.get(token);
+    }
+
+    // Demo mode: use static data
+    if (config.isDemo) {
+      this._loadStaticData();
+      
       if (this.systemAnalyses.has(token)) {
         return this.systemAnalyses.get(token);
       }
+      
+      // Not found in static data
+      console.warn(`⚠️ SystemAnalysisService: Token ${token} not found in static data`);
+      return null;
+    }
 
-      // Construct GitHub file path
+    // Full mode: fetch from GitHub API
+    try {
       const filePath = `src/data/evaluations/${token}.json`;
       const url = `https://api.github.com/repos/${this.githubConfig.owner}/${this.githubConfig.repo}/contents/${filePath}`;
 
-      // Fetch from GitHub
       const response = await fetch(url, {
         headers: {
           'Authorization': `Bearer ${this.githubConfig.token}`,
@@ -49,23 +89,20 @@ class SystemAnalysisService {
       });
 
       if (!response.ok) {
-        throw new Error(`Failed to load system data from GitHub: ${response.status} ${response.statusText}`);
+        throw new Error(`GitHub API error: ${response.status} ${response.statusText}`);
       }
 
-      // Parse JSON
       const analysisData = await response.json();
 
-      // Validate that it has a token
       if (!analysisData.token) {
         throw new Error('System data missing required token field');
       }
 
-      // Store in cache
       this.systemAnalyses.set(token, analysisData);
-
       return analysisData;
     } catch (error) {
-      throw new Error(`Failed to load system data for token ${token}: ${error.message}`);
+      console.error(`❌ Failed to load system data for token ${token}:`, error.message);
+      throw error;
     }
   }
 
@@ -75,16 +112,20 @@ class SystemAnalysisService {
    * @returns {Promise<Map<string, Object>>} Map of token -> analysis data
    */
   async loadMultipleSystemData(tokens) {
-    const promises = tokens.map(token => 
-      this.loadSystemData(token).catch(error => {
-        console.error(`Error loading token ${token}:`, error);
-        return null; // Return null for failed loads
-      })
-    );
+    // In demo mode, load all static data first
+    if (config.isDemo) {
+      this._loadStaticData();
+    }
 
-    const results = await Promise.all(promises);
+    const results = await Promise.all(
+      tokens.map(token => 
+        this.loadSystemData(token).catch(error => {
+          console.warn(`⚠️ Could not load token ${token}:`, error.message);
+          return null;
+        })
+      )
+    );
     
-    // Create map of successful loads
     const systemDataMap = new Map();
     tokens.forEach((token, index) => {
       if (results[index]) {
@@ -102,7 +143,6 @@ class SystemAnalysisService {
    */
   async loadFromFile(jsonFile) {
     return new Promise((resolve, reject) => {
-      // Validate input is a File or Blob
       if (!(jsonFile instanceof File) && !(jsonFile instanceof Blob)) {
         reject(new Error('Input must be a File or Blob object'));
         return;
@@ -115,17 +155,13 @@ class SystemAnalysisService {
           const jsonText = e.target.result;
           let analysisData;
           
-          // Handle both string and object formats
           if (jsonText.startsWith('"') && jsonText.endsWith('"')) {
-            // It's a JSON-encoded string
             const parsed = JSON.parse(jsonText);
             analysisData = JSON.parse(parsed);
           } else {
-            // It's a direct JSON object
             analysisData = JSON.parse(jsonText);
           }
           
-          // Store by token
           if (analysisData.token) {
             this.systemAnalyses.set(analysisData.token, analysisData);
           }
@@ -157,6 +193,10 @@ class SystemAnalysisService {
    * @returns {Object|null} Analysis data
    */
   getByToken(token) {
+    // Ensure static data is loaded in demo mode
+    if (config.isDemo && !this.staticDataLoaded) {
+      this._loadStaticData();
+    }
     return this.systemAnalyses.get(token) || null;
   }
 
@@ -167,6 +207,11 @@ class SystemAnalysisService {
    */
   getByDOI(doi) {
     if (!doi) return null;
+    
+    // Ensure static data is loaded in demo mode
+    if (config.isDemo && !this.staticDataLoaded) {
+      this._loadStaticData();
+    }
     
     const normalizedDoi = doi.toLowerCase();
     for (const [token, analysis] of this.systemAnalyses) {
@@ -182,6 +227,10 @@ class SystemAnalysisService {
    * @returns {Array<Object>} All analyses
    */
   getAllAnalyses() {
+    // Ensure static data is loaded in demo mode
+    if (config.isDemo && !this.staticDataLoaded) {
+      this._loadStaticData();
+    }
     return Array.from(this.systemAnalyses.values());
   }
 
@@ -320,6 +369,11 @@ class SystemAnalysisService {
    * @returns {Object} Statistics
    */
   getStatistics() {
+    // Ensure static data is loaded in demo mode
+    if (config.isDemo && !this.staticDataLoaded) {
+      this._loadStaticData();
+    }
+    
     const analyses = this.getAllAnalyses();
     
     return {
@@ -338,6 +392,9 @@ class SystemAnalysisService {
    * @returns {boolean} True if data is loaded
    */
   isLoaded() {
+    if (config.isDemo && !this.staticDataLoaded) {
+      this._loadStaticData();
+    }
     return this.systemAnalyses.size > 0;
   }
 
@@ -346,6 +403,7 @@ class SystemAnalysisService {
    */
   clear() {
     this.systemAnalyses.clear();
+    this.staticDataLoaded = false;
   }
 }
 

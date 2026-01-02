@@ -200,7 +200,7 @@ class GitHubDataService {
     if (config.isDemo) {
       console.log('📊 Demo mode: using static data');
       const evaluations = Object.values(staticEvaluations).map(m => m.default || m);
-      return { success: true, data: evaluations };
+      return { success: true, data: evaluations, raw: evaluations };  // ADD raw
     }
     
     const cacheKey = 'all_evaluations';
