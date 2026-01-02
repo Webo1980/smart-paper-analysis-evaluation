@@ -1,5 +1,5 @@
 // File: src/services/integratedDataService.js
-
+import config from '../config/appConfig';
 import groundTruthService from './groundTruthService';
 import githubDataService from './githubDataService';
 import systemAnalysisService from './SystemAnalysisService'; // ← NEW: Import system analysis service

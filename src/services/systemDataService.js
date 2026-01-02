@@ -1,3 +1,6 @@
+import config from '../config/appConfig';
+const staticSystemData = import.meta.glob('../data/evaluations/*.json', { eager: true });
+
 /**
  * System Data Service
  * Manages system-generated analysis data (Data Source 1.2)
@@ -144,8 +147,8 @@ class SystemDataService {
    * @private
    */
   async _fetchFromGitHub(filePath) {
-    if (!this.owner || !this.repo || !this.token) {
-      throw new Error('GitHub configuration missing. Check VITE_GITHUB_USERNAME, VITE_GITHUB_REPO, and VITE_GITHUB_TOKEN');
+    if (!config.isDemo && (!this.owner || !this.repo || !this.token)) {
+      throw new Error('GitHub configuration missing...');
     }
 
     const apiUrl = `https://api.github.com/repos/${this.owner}/${this.repo}/contents/${filePath}`;

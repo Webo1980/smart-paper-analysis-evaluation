@@ -2,6 +2,9 @@
  * Ground Truth Service
  * Loads and manages ORKG CSV data with evaluation tracking
  */
+import config from '../config/appConfig';
+
+const staticGroundTruth = import.meta.glob('../data/evaluations/*.json', { eager: true });
 
 import Papa from 'papaparse';
 
@@ -35,6 +38,13 @@ class GroundTruthService {
    * @returns {Promise<void>}
    */
   async loadFromGitHub() {
+    // Demo mode: use static data
+    if (config.isDemo) {
+      console.log('📊 Demo mode: loading static ground truth');
+      const data = Object.values(staticGroundTruth).map(m => m.default || m);
+      this.groundTruthData = data;
+      return { success: true, data };
+    }
     if (!this.owner || !this.repo || !this.token) {
       throw new Error('GitHub configuration missing. Check your .env file for VITE_GITHUB_USERNAME, VITE_GITHUB_REPO, and VITE_GITHUB_TOKEN');
     }
