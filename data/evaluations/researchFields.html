@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ORKG Research Fields Hierarchy</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        button {
+            padding: 10px 15px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-bottom: 20px;
+        }
+        #status {
+            margin-bottom: 20px;
+        }
+        progress {
+            width: 100%;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>ORKG Research Fields Hierarchy</h1>
+    <button id="fetchButton">Fetch Research Field Hierarchy</button>
+    <div id="status"></div>
+    
+    <script>
+        // Browser-compatible script for fetching and saving research field hierarchy
+        async function fetchResearchFieldChildren(fieldId) {
+            try {
+                const response = await fetch(`https://incubating.orkg.org/api/research-fields/${fieldId}/children`);
+                
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                
+                return await response.json();
+            } catch (error) {
+                console.error(`Error fetching research field ${fieldId}:`, error);
+                return null;
+            }
+        }
+
+        async function buildResearchFieldHierarchy(fieldId, fieldLabel = null, statusElement) {
+            // Update status
+            if (statusElement) {
+                statusElement.innerHTML += `<p>Fetching data for: ${fieldLabel || fieldId}...</p>`;
+            }
+            
+            const data = await fetchResearchFieldChildren(fieldId);
+            
+            if (!data || !data.content) {
+                return {
+                    id: fieldId,
+                    label: fieldLabel,
+                    children: []
+                };
+            }
+            
+            const result = {
+                id: fieldId,
+                label: fieldLabel,
+                children: []
+            };
+            
+            // Filter research fields
+            const researchFields = data.content.filter(item => 
+                item.resource && 
+                item.resource.classes && 
+                item.resource.classes.includes("ResearchField")
+            );
+            
+            // Update status with count
+            if (statusElement) {
+                statusElement.innerHTML += `<p>Found ${researchFields.length} sub-fields for ${fieldLabel || fieldId}</p>`;
+            }
+            
+            // Process each child field
+            const childPromises = researchFields.map(async (item) => {
+                // For each child, create its object and recursively fetch its children
+                const childField = {
+                    id: item.resource.id,
+                    label: item.resource.label,
+                    children: []
+                };
+                
+                // Always recursively fetch, regardless of child_count
+                const childHierarchy = await buildResearchFieldHierarchy(
+                    item.resource.id, 
+                    item.resource.label,
+                    statusElement
+                );
+                
+                childField.children = childHierarchy.children;
+                return childField;
+            });
+            
+            // Wait for all child fetches to complete
+            result.children = await Promise.all(childPromises);
+            return result;
+        }
+
+        // Function to save JSON data to file (browser compatible)
+        function saveToJsonFile(data, filename) {
+            const jsonData = JSON.stringify(data, null, 2);
+            const blob = new Blob([jsonData], { type: 'application/json' });
+            const url = URL.createObjectURL(blob);
+            
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = filename;
+            document.body.appendChild(a);
+            a.click();
+            
+            // Cleanup
+            setTimeout(() => {
+                document.body.removeChild(a);
+                URL.revokeObjectURL(url);
+            }, 0);
+        }
+
+        // Main function to start the process
+        async function getCompleteResearchFieldHierarchy(statusElement) {
+            statusElement.innerHTML = "<p>Starting to fetch the complete research field hierarchy...</p>";
+            const rootId = "R11"; // Starting from the root field
+            
+            const hierarchy = await buildResearchFieldHierarchy(rootId, "Root Research Field", statusElement);
+            
+            statusElement.innerHTML += "<p>Complete hierarchy fetched successfully.</p>";
+            statusElement.innerHTML += `<p>Total number of top-level fields: ${hierarchy.children.length}</p>`;
+            
+            // Save the hierarchy to a JSON file
+            saveToJsonFile(hierarchy, 'research_fields_hierarchy.json');
+            
+            statusElement.innerHTML += "<p>Data saved as 'research_fields_hierarchy.json'</p>";
+            
+            return hierarchy;
+        }
+
+        // Add event listener to button
+        document.getElementById('fetchButton').addEventListener('click', function() {
+            const statusElement = document.getElementById('status');
+            statusElement.innerHTML = '<progress></progress>';
+            
+            getCompleteResearchFieldHierarchy(statusElement)
+                .then(() => {
+                    statusElement.innerHTML += "<p><strong>Hierarchy processing completed!</strong></p>";
+                })
+                .catch(error => {
+                    statusElement.innerHTML += `<p style="color: red">Error: ${error.message}</p>`;
+                    console.error("Error in hierarchy generation:", error);
+                });
+        });
+    </script>
+</body>
+</html>

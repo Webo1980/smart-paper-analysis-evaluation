@@ -1,0 +1,57 @@
+name: Update Evaluation Data
+on:
+  repository_dispatch:
+    types: [update-evaluation]
+
+permissions:
+  contents: write
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0  # Fetch full history for proper merge handling
+
+      - name: Configure Git
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git config pull.rebase true  # Always rebase when pulling
+
+      - name: Ensure latest changes
+        run: |
+          git fetch origin main
+          git reset --hard origin/main  # Ensure clean state
+          git pull --rebase  # Pull with rebase to avoid merge commits
+
+      - name: Update evaluation data
+        env:
+          EVALUATION_DATA: ${{ toJson(github.event.client_payload.data) }}
+          TOKEN: ${{ github.event.client_payload.token }}
+        run: |
+          mkdir -p src/data/evaluations
+          echo "$EVALUATION_DATA" | python3 -m json.tool > "src/data/evaluations/${TOKEN}.json"
+
+      - name: Commit changes
+        run: |
+          git add src/data/evaluations/
+          git commit -m "Update evaluation data: ${{ github.event.client_payload.token }}" || echo "No changes to commit"
+
+      - name: Push changes with retry
+        run: |
+          max_attempts=3
+          attempt=0
+          while [ $attempt -lt $max_attempts ]; do
+            git push origin main && break
+            attempt=$((attempt+1))
+            git fetch origin main
+            git pull --rebase origin main
+            sleep 2
+          done
+          
+          if [ $attempt -eq $max_attempts ]; then
+            echo "Failed to push after $max_attempts attempts"
+            exit 1
+          fi

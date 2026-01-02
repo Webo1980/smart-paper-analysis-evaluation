@@ -1,0 +1,3489 @@
+{
+  "id": "R11",
+  "label": "Root Research Field",
+  "children": [
+    {
+      "id": "R107",
+      "label": "Physical Sciences & Mathematics",
+      "children": [
+        {
+          "id": "R108",
+          "label": "Applied Mathematics",
+          "children": [
+            {
+              "id": "R109",
+              "label": "Control Theory",
+              "children": []
+            },
+            {
+              "id": "R110",
+              "label": "Dynamic Systems",
+              "children": []
+            },
+            {
+              "id": "R111",
+              "label": "Non-linear Dynamics",
+              "children": []
+            },
+            {
+              "id": "R112",
+              "label": "Numerical Analysis and Computation",
+              "children": []
+            },
+            {
+              "id": "R113",
+              "label": "Partial Differential Equations",
+              "children": []
+            },
+            {
+              "id": "R114",
+              "label": "Ordinary Differential Equations and Applied Dynamics",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "R115",
+          "label": "Astrophysics and Astronomy",
+          "children": [
+            {
+              "id": "R116",
+              "label": "Physical Processes",
+              "children": []
+            },
+            {
+              "id": "R117",
+              "label": "Instrumentation",
+              "children": []
+            },
+            {
+              "id": "R118",
+              "label": "The Sun and the Solar System",
+              "children": []
+            },
+            {
+              "id": "R119",
+              "label": "Stars, Interstellar Medium and the Galaxy",
+              "children": []
+            },
+            {
+              "id": "R120",
+              "label": "External Galaxies",
+              "children": []
+            },
+            {
+              "id": "R121",
+              "label": "Cosmology",
+              "children": []
+            },
+            {
+              "id": "R138056",
+              "label": "Planetary Sciences",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "R122",
+          "label": "Chemistry",
+          "children": [
+            {
+              "id": "R123",
+              "label": "Analytical Chemistry",
+              "children": []
+            },
+            {
+              "id": "R124",
+              "label": "Biochemistry",
+              "children": []
+            },
+            {
+              "id": "R125",
+              "label": "Environmental Chemistry",
+              "children": []
+            },
+            {
+              "id": "R126",
+              "label": "Materials Chemistry",
+              "children": []
+            },
+            {
+              "id": "R127",
+              "label": "Medicinal-Pharmaceutical Chemistry",
+              "children": []
+            },
+            {
+              "id": "R128",
+              "label": "Inorganic Chemistry",
+              "children": []
+            },
+            {
+              "id": "R129",
+              "label": "Organic Chemistry",
+              "children": []
+            },
+            {
+              "id": "R130",
+              "label": "Physical Chemistry",
+              "children": [
+                {
+                  "id": "R137714",
+                  "label": "Physical Chemistry of Molecules, Liquids and Interfaces, Biophysical Chemistry",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "R131",
+              "label": "Polymer Chemistry",
+              "children": []
+            },
+            {
+              "id": "R137540",
+              "label": "Theoretical Chemistry",
+              "children": [
+                {
+                  "id": "R137544",
+                  "label": "Theoretical Chemistry: Electron Structure, Dynamics, Simulation",
+                  "children": []
+                },
+                {
+                  "id": "R137545",
+                  "label": "Theoretical Chemistry: Molecules, Materials, Surfaces",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "R137541",
+              "label": "Solid State and Surface Chemistry, Material Synthesis",
+              "children": []
+            },
+            {
+              "id": "R137651",
+              "label": "Process Engineering, Technical Chemistry",
+              "children": [
+                {
+                  "id": "R137652",
+                  "label": "Technical Chemistry",
+                  "children": []
+                },
+                {
+                  "id": "R137653",
+                  "label": "Chemical and Thermal Process Engineering",
+                  "children": []
+                },
+                {
+                  "id": "R137654",
+                  "label": "Mechanical Process Engineering",
+                  "children": []
+                },
+                {
+                  "id": "R137655",
+                  "label": "Biological Process Engineering",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "R137711",
+              "label": "Molecular Chemistry",
+              "children": [
+                {
+                  "id": "R137712",
+                  "label": "Inorganic Molecular Chemistry - Synthesis and Characterisation",
+                  "children": []
+                },
+                {
+                  "id": "R137713",
+                  "label": "Organic Molecular Chemistry - Synthesis and Characterisation",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "R137715",
+              "label": "Biological Chemistry and Food Chemistry",
+              "children": [
+                {
+                  "id": "R137716",
+                  "label": "Biological and Biomimetic Chemistry",
+                  "children": []
+                },
+                {
+                  "id": "R85",
+                  "label": "Food Chemistry",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "R132",
+          "label": "Computer Sciences",
+          "children": [
+            {
+              "id": "R112117",
+              "label": "Cryptography and Security",
+              "children": []
+            },
+            {
+              "id": "R112118",
+              "label": "Computer Vision and Pattern Recognition",
+              "children": []
+            },
+            {
+              "id": "R112119",
+              "label": "Computers and Society",
+              "children": []
+            },
+            {
+              "id": "R112121",
+              "label": "Computer Science General Literature",
+              "children": []
+            },
+            {
+              "id": "R112122",
+              "label": "Computer Science and Game Theory",
+              "children": []
+            },
+            {
+              "id": "R112123",
+              "label": "Human Computer Interfaces",
+              "children": []
+            },
+            {
+              "id": "R133",
+              "label": "Artificial Intelligence",
+              "children": [
+                {
+                  "id": "R112125",
+                  "label": "Machine Learning",
+                  "children": []
+                },
+                {
+                  "id": "R112127",
+                  "label": "Multiagent Systems",
+                  "children": []
+                },
+                {
+                  "id": "R112129",
+                  "label": "Neural and Evolutionary Computing",
+                  "children": []
+                },
+                {
+                  "id": "R112132",
+                  "label": "Audio and Speech Processing",
+                  "children": []
+                },
+                {
+                  "id": "R112133",
+                  "label": "Image and Video Processing",
+                  "children": []
+                },
+                {
+                  "id": "R145261",
+                  "label": "Natural Language Processing",
+                  "children": []
+                },
+                {
+                  "id": "R78413",
+                  "label": "Learner-Interface Interaction",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "R134",
+              "label": "Computer and Systems Architecture",
+              "children": []
+            },
+            {
+              "id": "R135",
+              "label": "Databases/Information Systems",
+              "children": [
+                {
+                  "id": "R112120",
+                  "label": "Digital Libraries",
+                  "children": []
+                },
+                {
+                  "id": "R141823",
+                  "label": "Semantic Web",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "R136",
+              "label": "Graphics",
+              "children": []
+            },
+            {
+              "id": "R137",
+              "label": "Numerical Analysis/Scientific Computing",
+              "children": []
+            },
+            {
+              "id": "R137676",
+              "label": "Theoretical Computer Science",
+              "children": []
+            },
+            {
+              "id": "R137677",
+              "label": "Software Engineering and Programming Languages",
+              "children": []
+            },
+            {
+              "id": "R137678",
+              "label": "Security and Dependability",
+              "children": []
+            },
+            {
+              "id": "R137679",
+              "label": "Operating, Communication, Database and Distributed Systems",
+              "children": []
+            },
+            {
+              "id": "R137680",
+              "label": "Interactive and Intelligent Systems, Image and Language Processing, Computer Graphics and Visualisation",
+              "children": []
+            },
+            {
+              "id": "R137681",
+              "label": "Information Systems, Process and Knowledge Management",
+              "children": []
+            },
+            {
+              "id": "R137682",
+              "label": "Computer Architecture and Embedded Systems",
+              "children": []
+            },
+            {
+              "id": "R137683",
+              "label": "Massively Parallel and Data-Intensive Systems",
+              "children": []
+            },
+            {
+              "id": "R138",
+              "label": "Programming Languages/Compilers",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "R137635",
+          "label": "Optics, Quantum Optics and Physics of Atoms, Molecules and Plasmas",
+          "children": []
+        },
+        {
+          "id": "R137637",
+          "label": "Particles, Nuclei and Fields",
+          "children": [
+            {
+              "id": "R137638",
+              "label": "Nuclear and Elementary Particle Physics, Quantum Mechanics, Relativity, Fields",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "R137639",
+          "label": "Statistical Physics, Soft Matter, Biological Physics, Nonlinear Dynamics",
+          "children": []
+        },
+        {
+          "id": "R137641",
+          "label": "Water Research",
+          "children": [
+            {
+              "id": "R137642",
+              "label": "Hydrogeology, Hydrology, Limnology, Urban Water Management, Water Chemistry, Integrated Water Resources Management",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "R137643",
+          "label": "Chemical Solid State and Surface Research",
+          "children": [
+            {
+              "id": "R137541",
+              "label": "Solid State and Surface Chemistry, Material Synthesis",
+              "children": []
+            },
+            {
+              "id": "R137717",
+              "label": "Physical Chemistry of Solids and Surfaces, Material Characterisation",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "R137644",
+          "label": "Polymer Research",
+          "children": [
+            {
+              "id": "R137542",
+              "label": "Preparatory and Physical Chemistry of Polymers",
+              "children": []
+            },
+            {
+              "id": "R137543",
+              "label": "Experimental and Theoretical Physics of Polymers",
+              "children": []
+            },
+            {
+              "id": "R137645",
+              "label": "Polymer Materials",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "R137718",
+          "label": "Mineralogy, Petrology and Geochemistry",
+          "children": []
+        },
+        {
+          "id": "R142",
+          "label": "Earth Sciences",
+          "children": [
+            {
+              "id": "R143",
+              "label": "Biogeochemistry",
+              "children": []
+            },
+            {
+              "id": "R144",
+              "label": "Cosmochemistry",
+              "children": []
+            },
+            {
+              "id": "R145",
+              "label": "Environmental Sciences",
+              "children": []
+            },
+            {
+              "id": "R146",
+              "label": "Geology",
+              "children": []
+            },
+            {
+              "id": "R147",
+              "label": "Geochemistry",
+              "children": []
+            },
+            {
+              "id": "R148",
+              "label": "Geophysics and Seismology",
+              "children": [
+                {
+                  "id": "R114016",
+                  "label": "Geophysics",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "R149",
+              "label": "Glaciology",
+              "children": []
+            },
+            {
+              "id": "R150",
+              "label": "Mineral Physics",
+              "children": []
+            },
+            {
+              "id": "R151",
+              "label": "Paleobiology",
+              "children": []
+            },
+            {
+              "id": "R152",
+              "label": "Paleontology",
+              "children": []
+            },
+            {
+              "id": "R153",
+              "label": "Soil Science",
+              "children": []
+            },
+            {
+              "id": "R154",
+              "label": "Tectonics and Structure",
+              "children": []
+            },
+            {
+              "id": "R155",
+              "label": "Vulcanology",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "R156",
+          "label": "Mathematics",
+          "children": [
+            {
+              "id": "R112128",
+              "label": "Mathematical Software",
+              "children": []
+            },
+            {
+              "id": "R112136",
+              "label": "Category Theory",
+              "children": []
+            },
+            {
+              "id": "R112137",
+              "label": "Complex Variables",
+              "children": []
+            },
+            {
+              "id": "R112140",
+              "label": "Mathematics History and Overview",
+              "children": []
+            },
+            {
+              "id": "R157",
+              "label": "Algebra",
+              "children": [
+                {
+                  "id": "R112134",
+                  "label": "Commutative Algebra",
+                  "children": []
+                },
+                {
+                  "id": "R112142",
+                  "label": "Quantum Algebra",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "R158",
+              "label": "Algebraic Geometry",
+              "children": []
+            },
+            {
+              "id": "R159",
+              "label": "Analysis",
+              "children": []
+            },
+            {
+              "id": "R160",
+              "label": "Discrete Mathematics and Combinatorics",
+              "children": []
+            },
+            {
+              "id": "R161",
+              "label": "Dynamics/Dynamical Systems",
+              "children": []
+            },
+            {
+              "id": "R162",
+              "label": "Geometry and Topology",
+              "children": [
+                {
+                  "id": "R112135",
+                  "label": "Algebraic Topology",
+                  "children": []
+                },
+                {
+                  "id": "R112138",
+                  "label": "Differential Geometry",
+                  "children": []
+                },
+                {
+                  "id": "R112139",
+                  "label": "General Topology",
+                  "children": []
+                },
+                {
+                  "id": "R112141",
+                  "label": "Metric Geometry",
+                  "children": []
+                },
+                {
+                  "id": "R112143",
+                  "label": "Symplectic Geometry",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "R163",
+              "label": "Harmonic Analysis and Representation",
+              "children": []
+            },
+            {
+              "id": "R164",
+              "label": "Logic and Foundations",
+              "children": []
+            },
+            {
+              "id": "R165",
+              "label": "Number Theory",
+              "children": []
+            },
+            {
+              "id": "R166",
+              "label": "Set Theory",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "R167",
+          "label": "Oceanography and Atmospheric Sciences and Meteorology",
+          "children": [
+            {
+              "id": "R168",
+              "label": "Atmospheric Sciences",
+              "children": []
+            },
+            {
+              "id": "R169",
+              "label": "Climate",
+              "children": []
+            },
+            {
+              "id": "R170",
+              "label": "Fresh Water Studies",
+              "children": []
+            },
+            {
+              "id": "R171",
+              "label": "Meteorology",
+              "children": []
+            },
+            {
+              "id": "R172",
+              "label": "Oceanography",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "R173",
+          "label": "Physics",
+          "children": [
+            {
+              "id": "R113277",
+              "label": "Nonlinear Sciences",
+              "children": [
+                {
+                  "id": "R114000",
+                  "label": "Adaptation and Self-Organizing Systems",
+                  "children": []
+                },
+                {
+                  "id": "R114001",
+                  "label": "Chaotic Dynamics",
+                  "children": []
+                },
+                {
+                  "id": "R114002",
+                  "label": "Cellular Automata and Lattice Gases",
+                  "children": []
+                },
+                {
+                  "id": "R114003",
+                  "label": "Pattern Formation and Solitons",
+                  "children": []
+                },
+                {
+                  "id": "R114004",
+                  "label": "Exactly Solvable and Integrable Systems",
+                  "children": []
+                },
+                {
+                  "id": "R114005",
+                  "label": "Nuclear Experiment",
+                  "children": []
+                },
+                {
+                  "id": "R114006",
+                  "label": "Nuclear Theory",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "R114005",
+              "label": "Nuclear Experiment",
+              "children": []
+            },
+            {
+              "id": "R114007",
+              "label": "Accelerator Physics",
+              "children": []
+            },
+            {
+              "id": "R114008",
+              "label": "Applied Physics",
+              "children": []
+            },
+            {
+              "id": "R114011",
+              "label": "Classical Physics",
+              "children": []
+            },
+            {
+              "id": "R114012",
+              "label": "Computational Physics",
+              "children": []
+            },
+            {
+              "id": "R114013",
+              "label": "Data Analysis, Statistics and Probability",
+              "children": []
+            },
+            {
+              "id": "R114014",
+              "label": "Physics Education",
+              "children": []
+            },
+            {
+              "id": "R114015",
+              "label": "General Physics",
+              "children": []
+            },
+            {
+              "id": "R114137",
+              "label": "History and Philosophy of Physics",
+              "children": []
+            },
+            {
+              "id": "R114138",
+              "label": "Medical Physics",
+              "children": []
+            },
+            {
+              "id": "R114139",
+              "label": "Popular Physics",
+              "children": []
+            },
+            {
+              "id": "R114141",
+              "label": "Space Physics",
+              "children": []
+            },
+            {
+              "id": "R137539",
+              "label": "Geophysics and Geodesy",
+              "children": [
+                {
+                  "id": "R114016",
+                  "label": "Geophysics",
+                  "children": []
+                },
+                {
+                  "id": "R137640",
+                  "label": "Geodesy, Photogrammetry, Remote Sensing, Geoinformatics, Cartography",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "R175",
+              "label": "Atomic, Molecular and Optical Physics",
+              "children": [
+                {
+                  "id": "R114009",
+                  "label": "Atomic and Molecular Clusters",
+                  "children": []
+                },
+                {
+                  "id": "R114010",
+                  "label": "Atomic Physics",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "R176",
+              "label": "Biological and Chemical Physics",
+              "children": []
+            },
+            {
+              "id": "R177",
+              "label": "Condensed Matter Physics",
+              "children": [
+                {
+                  "id": "R112144",
+                  "label": "Disordered Systems and Neural Networks",
+                  "children": []
+                },
+                {
+                  "id": "R112145",
+                  "label": "Mesoscale and Nanoscale Physics",
+                  "children": []
+                },
+                {
+                  "id": "R112147",
+                  "label": "Soft Condensed Matter",
+                  "children": []
+                },
+                {
+                  "id": "R137551",
+                  "label": "Experimental Condensed Matter Physics",
+                  "children": []
+                },
+                {
+                  "id": "R137552",
+                  "label": "Theoretical Condensed Matter Physics",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "R178",
+              "label": "Cosmology, Relativity, and Gravity",
+              "children": []
+            },
+            {
+              "id": "R179",
+              "label": "Elementary Particles and Fields and String Theory",
+              "children": []
+            },
+            {
+              "id": "R180",
+              "label": "Engineering Physics",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "R187",
+          "label": "Statistics and Probability",
+          "children": [
+            {
+              "id": "R114013",
+              "label": "Data Analysis, Statistics and Probability",
+              "children": []
+            },
+            {
+              "id": "R114151",
+              "label": "Other Statistics",
+              "children": []
+            },
+            {
+              "id": "R188",
+              "label": "Applied Statistics",
+              "children": []
+            },
+            {
+              "id": "R189",
+              "label": "Biostatistics",
+              "children": []
+            },
+            {
+              "id": "R190",
+              "label": "Biometry",
+              "children": []
+            },
+            {
+              "id": "R191",
+              "label": "Probability",
+              "children": []
+            },
+            {
+              "id": "R192",
+              "label": "Statistical Methodology",
+              "children": []
+            },
+            {
+              "id": "R193",
+              "label": "Statistical Theory",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "R12",
+      "label": "Life Sciences",
+      "children": [
+        {
+          "id": "R104",
+          "label": "Bioinformatics",
+          "children": []
+        },
+        {
+          "id": "R105",
+          "label": "Biotechnology",
+          "children": []
+        },
+        {
+          "id": "R106",
+          "label": "Systems Biology",
+          "children": []
+        },
+        {
+          "id": "R13",
+          "label": "Biochemistry, Biophysics, and Structural Biology",
+          "children": [
+            {
+              "id": "R14",
+              "label": "Biochemistry",
+              "children": []
+            },
+            {
+              "id": "R15",
+              "label": "Biogeochemistry",
+              "children": []
+            },
+            {
+              "id": "R16",
+              "label": "Biophysics",
+              "children": []
+            },
+            {
+              "id": "R17",
+              "label": "Molecular Biology",
+              "children": [
+                {
+                  "id": "R114144",
+                  "label": "Biomolecules",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "R18",
+              "label": "Structural Biology",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "R136133",
+          "label": "Medicine",
+          "children": [
+            {
+              "id": "R136134",
+              "label": "Epidemiology and Medical Biometry/Statistics",
+              "children": []
+            },
+            {
+              "id": "R136135",
+              "label": "Public Health, Health Services Research, Social Medicine",
+              "children": []
+            },
+            {
+              "id": "R136136",
+              "label": "Human Genetics",
+              "children": []
+            },
+            {
+              "id": "R136137",
+              "label": "Nutritional Sciences",
+              "children": []
+            },
+            {
+              "id": "R136138",
+              "label": "Medical Informatics and Medical Bioinformatics",
+              "children": []
+            },
+            {
+              "id": "R136139",
+              "label": "Radiology, Nuclear Medicine, Radiotherapy, Radiobiology",
+              "children": []
+            },
+            {
+              "id": "R136140",
+              "label": "Medical Physics, Biomedical Technology",
+              "children": []
+            },
+            {
+              "id": "R136143",
+              "label": "Pharmacy",
+              "children": []
+            },
+            {
+              "id": "R136144",
+              "label": "Anaesthesiology",
+              "children": []
+            },
+            {
+              "id": "R136145",
+              "label": "Cardiology, Angiology",
+              "children": []
+            },
+            {
+              "id": "R136146",
+              "label": "Pneumology, Thoracic Surgery",
+              "children": []
+            },
+            {
+              "id": "R136147",
+              "label": "Hematology, Oncology",
+              "children": []
+            },
+            {
+              "id": "R136148",
+              "label": "Gastroenterology",
+              "children": []
+            },
+            {
+              "id": "R136149",
+              "label": "Nephrology",
+              "children": []
+            },
+            {
+              "id": "R136150",
+              "label": "Rheumatology",
+              "children": []
+            },
+            {
+              "id": "R136151",
+              "label": "Dermatology",
+              "children": []
+            },
+            {
+              "id": "R136152",
+              "label": "Pediatric and Adolescent Medicine",
+              "children": []
+            },
+            {
+              "id": "R136153",
+              "label": "Gynaecology and Obstetrics",
+              "children": []
+            },
+            {
+              "id": "R136154",
+              "label": "Clinical Immunology and Allergology",
+              "children": []
+            },
+            {
+              "id": "R136155",
+              "label": "Reproductive Medicine, Urology",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "R136172",
+          "label": "Agriculture, Forestry and Veterinary Medicine",
+          "children": [
+            {
+              "id": "R136173",
+              "label": "Ecology of Land Use",
+              "children": []
+            },
+            {
+              "id": "R136174",
+              "label": "Veterinary Medical Sciene",
+              "children": []
+            },
+            {
+              "id": "R136175",
+              "label": "Animal Breeding, Animal Nutrition, Animal Husbandry",
+              "children": []
+            },
+            {
+              "id": "R136177",
+              "label": "Plant Cultivation, Plant Nutrition, Agricultural Technology",
+              "children": []
+            },
+            {
+              "id": "R136178",
+              "label": "Agricultural Economics, Agricultural Policy, Agricultural Sociology",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "R19",
+          "label": "Cell and Developmental Biology",
+          "children": [
+            {
+              "id": "R20",
+              "label": "Anatomy",
+              "children": []
+            },
+            {
+              "id": "R21",
+              "label": "Cell Biology",
+              "children": [
+                {
+                  "id": "R114145",
+                  "label": "Cell Behavior",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "R22",
+              "label": "Developmental Biology",
+              "children": []
+            },
+            {
+              "id": "R23",
+              "label": "Cancer Biology",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "R24",
+          "label": "Ecology and Evolutionary Biology",
+          "children": [
+            {
+              "id": "R25",
+              "label": "Behavior and Ethology",
+              "children": []
+            },
+            {
+              "id": "R26",
+              "label": "Biogeochemistry",
+              "children": []
+            },
+            {
+              "id": "R27",
+              "label": "Botany",
+              "children": []
+            },
+            {
+              "id": "R28",
+              "label": "Evolution",
+              "children": []
+            },
+            {
+              "id": "R29",
+              "label": "Population Biology",
+              "children": []
+            },
+            {
+              "id": "R30",
+              "label": "Terrestrial and Aquatic Ecology",
+              "children": []
+            },
+            {
+              "id": "R593766",
+              "label": "Invasion biology",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "R31",
+          "label": "Public Health",
+          "children": [
+            {
+              "id": "R32",
+              "label": "Environmental Health",
+              "children": []
+            },
+            {
+              "id": "R33",
+              "label": "Epidemiology",
+              "children": []
+            },
+            {
+              "id": "R34",
+              "label": "Biostatistics",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "R35",
+          "label": "Genetics and Genomics",
+          "children": [
+            {
+              "id": "R36",
+              "label": "Computational Biology",
+              "children": []
+            },
+            {
+              "id": "R37",
+              "label": "Genetics",
+              "children": []
+            },
+            {
+              "id": "R38",
+              "label": "Genomics",
+              "children": []
+            },
+            {
+              "id": "R39",
+              "label": "Molecular genetics",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "R40",
+          "label": "Immunology and Infectious Disease",
+          "children": [
+            {
+              "id": "R41",
+              "label": "Immunity",
+              "children": []
+            },
+            {
+              "id": "R42",
+              "label": "Immunology of Infectious Disease",
+              "children": []
+            },
+            {
+              "id": "R43",
+              "label": "Immunopathology",
+              "children": []
+            },
+            {
+              "id": "R44",
+              "label": "Immunoprophylaxis and Therapy",
+              "children": []
+            },
+            {
+              "id": "R45",
+              "label": "Pathology",
+              "children": []
+            },
+            {
+              "id": "R46",
+              "label": "Parasitology",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "R47",
+          "label": "Biology/Integrated Biology/ Integrated Biomedical Sciences",
+          "children": [
+            {
+              "id": "R114146",
+              "label": "Other Quantitative Biology",
+              "children": []
+            },
+            {
+              "id": "R114147",
+              "label": "Quantitative Methods)",
+              "children": []
+            },
+            {
+              "id": "R48",
+              "label": "Biomechanics",
+              "children": []
+            },
+            {
+              "id": "R49",
+              "label": "Exercise Physiology",
+              "children": []
+            },
+            {
+              "id": "R50",
+              "label": "Motor Control",
+              "children": []
+            },
+            {
+              "id": "R51",
+              "label": "Psychology of Movement",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "R52",
+          "label": "Microbiology",
+          "children": [
+            {
+              "id": "R136129",
+              "label": "Metabolism, Biochemistry and Genetics of Microorganisms",
+              "children": []
+            },
+            {
+              "id": "R136130",
+              "label": "Microbial Ecology and Applied Microbiology",
+              "children": []
+            },
+            {
+              "id": "R136131",
+              "label": "Medical Microbiology and Mycology, Hygiene, Molecular Infection Biology",
+              "children": []
+            },
+            {
+              "id": "R53",
+              "label": "Bacteriology",
+              "children": []
+            },
+            {
+              "id": "R54",
+              "label": "Environmental Microbiology and Microbial Ecology",
+              "children": []
+            },
+            {
+              "id": "R55",
+              "label": "Microbial Physiology",
+              "children": []
+            },
+            {
+              "id": "R56",
+              "label": "Pathogenic Microbiology",
+              "children": []
+            },
+            {
+              "id": "R57",
+              "label": "Virology",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "R58",
+          "label": "Neuroscience and Neurobiology",
+          "children": [
+            {
+              "id": "R136163",
+              "label": "Developmental Neurobiology",
+              "children": []
+            },
+            {
+              "id": "R136164",
+              "label": "Experimental and Theoretical Network Neuroscience",
+              "children": []
+            },
+            {
+              "id": "R136166",
+              "label": "Experimental Models for the Understanding of Nervous System Diseases",
+              "children": []
+            },
+            {
+              "id": "R136167",
+              "label": "Clinical Neurology; Neurosurgery and Neuroradiology",
+              "children": []
+            },
+            {
+              "id": "R136168",
+              "label": "Biological Psychiatry",
+              "children": []
+            },
+            {
+              "id": "R136169",
+              "label": "Clinical Psychiatry, Psychotherapy, Child and Adolescent Psychiatry",
+              "children": []
+            },
+            {
+              "id": "R136170",
+              "label": "Ophthalmology",
+              "children": []
+            },
+            {
+              "id": "R136171",
+              "label": "Molecular and Cellular Neurology and Neuropathology",
+              "children": []
+            },
+            {
+              "id": "R59",
+              "label": "Behavioral Neurobiology",
+              "children": []
+            },
+            {
+              "id": "R60",
+              "label": "Cognitive Neuroscience",
+              "children": [
+                {
+                  "id": "R111778",
+                  "label": "Communication Neuroscience",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "R61",
+              "label": "Computational Neuroscience",
+              "children": []
+            },
+            {
+              "id": "R62",
+              "label": "Developmental Neuroscience",
+              "children": []
+            },
+            {
+              "id": "R63",
+              "label": "Molecular and Cellular Neuroscience",
+              "children": []
+            },
+            {
+              "id": "R64",
+              "label": "Systems Neuroscience",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "R65",
+          "label": "Nursing Pharmacology, Toxicology and Environmental Health",
+          "children": [
+            {
+              "id": "R66",
+              "label": "Environmental Health",
+              "children": []
+            },
+            {
+              "id": "R67",
+              "label": "Medicinal Chemistry and Pharmaceutics",
+              "children": []
+            },
+            {
+              "id": "R68",
+              "label": "Pharmacology",
+              "children": []
+            },
+            {
+              "id": "R69",
+              "label": "Toxicology",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "R70",
+          "label": "Physiology",
+          "children": [
+            {
+              "id": "R71",
+              "label": "Cellular and Molecular Physiology",
+              "children": []
+            },
+            {
+              "id": "R72",
+              "label": "Comparative and Evolutionary Physiology",
+              "children": []
+            },
+            {
+              "id": "R73",
+              "label": "Endocrinology",
+              "children": []
+            },
+            {
+              "id": "R74",
+              "label": "Exercise Physiology",
+              "children": []
+            },
+            {
+              "id": "R75",
+              "label": "Systems and Integrative Physiology",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "R76",
+          "label": "Animal Sciences",
+          "children": [
+            {
+              "id": "R77",
+              "label": "Animal Sciences",
+              "children": []
+            },
+            {
+              "id": "R78",
+              "label": "Aquaculture and Fisheries",
+              "children": []
+            },
+            {
+              "id": "R79",
+              "label": "Dairy Science",
+              "children": []
+            },
+            {
+              "id": "R80",
+              "label": "Poultry (or Avian) Science",
+              "children": []
+            },
+            {
+              "id": "R81",
+              "label": "Zoology",
+              "children": [
+                {
+                  "id": "R136124",
+                  "label": "Systematics and Morphology (Zoology)",
+                  "children": []
+                },
+                {
+                  "id": "R136125",
+                  "label": "Evolution, Anthropology",
+                  "children": []
+                },
+                {
+                  "id": "R136126",
+                  "label": "Animal Physiology and Biochemistry",
+                  "children": []
+                },
+                {
+                  "id": "R136127",
+                  "label": "Ecology and Biodiversity of Animals and Ecosystems, Organismic Interactions",
+                  "children": []
+                },
+                {
+                  "id": "R136128",
+                  "label": "Sensory and Behavioural Biology",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "R82",
+          "label": "Entomology Food Science",
+          "children": [
+            {
+              "id": "R83",
+              "label": "Food Processing",
+              "children": []
+            },
+            {
+              "id": "R84",
+              "label": "Food Microbiology",
+              "children": []
+            },
+            {
+              "id": "R85",
+              "label": "Food Chemistry",
+              "children": []
+            },
+            {
+              "id": "R86",
+              "label": "Food Biotechnology",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "R87",
+          "label": "Forestry and Forest Sciences",
+          "children": [
+            {
+              "id": "R88",
+              "label": "Forest Biology",
+              "children": []
+            },
+            {
+              "id": "R89",
+              "label": "Forest Management",
+              "children": []
+            },
+            {
+              "id": "R90",
+              "label": "Wood Science and Pulp/Paper Technology",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "R91",
+          "label": "Nutrition",
+          "children": [
+            {
+              "id": "R92",
+              "label": "Comparative Nutrition",
+              "children": []
+            },
+            {
+              "id": "R93",
+              "label": "Human and Clinical Nutrition",
+              "children": []
+            },
+            {
+              "id": "R94",
+              "label": "International and Community Nutrition",
+              "children": []
+            },
+            {
+              "id": "R95",
+              "label": "Molecular, Genetic, and Biochemical Nutrition",
+              "children": []
+            },
+            {
+              "id": "R96",
+              "label": "Nutritional Epidemiology",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "R194",
+      "label": "Engineering",
+      "children": [
+        {
+          "id": "R137546",
+          "label": "Plastics Engineering",
+          "children": []
+        },
+        {
+          "id": "R137550",
+          "label": "Energy Process Engineering",
+          "children": []
+        },
+        {
+          "id": "R137556",
+          "label": "Electrical Engineering and Information Technology",
+          "children": [
+            {
+              "id": "R137557",
+              "label": "Communications, High-Frequency and Network Technology, Theoretical Electrical Engineering",
+              "children": []
+            },
+            {
+              "id": "R137674",
+              "label": "Electronic Semiconductors, Components, Circuits, Systems",
+              "children": []
+            },
+            {
+              "id": "R137675",
+              "label": "Electrical Energy Generation, Distribution, Application",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "R137646",
+          "label": "Production Technology",
+          "children": [
+            {
+              "id": "R137546",
+              "label": "Plastics Engineering",
+              "children": []
+            },
+            {
+              "id": "R137547",
+              "label": "Primary Shaping and Reshaping Technology, Additive Manufacturing",
+              "children": []
+            },
+            {
+              "id": "R137548",
+              "label": "Metal-Cutting and Abrasive Manufacturing Engineering",
+              "children": []
+            },
+            {
+              "id": "R137647",
+              "label": "Joining and Separation Technology",
+              "children": []
+            },
+            {
+              "id": "R137648",
+              "label": "Production Systems, Operations Management, Quality Management and Factory  Planning",
+              "children": []
+            },
+            {
+              "id": "R137649",
+              "label": "Production Automation",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "R137662",
+          "label": "Materials Engineering",
+          "children": [
+            {
+              "id": "R137663",
+              "label": "Materials in Sintering Processes and Generative Manufacturing Processes",
+              "children": []
+            },
+            {
+              "id": "R137664",
+              "label": "Metallurgical, Thermal and Thermomechanical Treatment of Materials",
+              "children": []
+            },
+            {
+              "id": "R137665",
+              "label": "Coating and Surface Technology",
+              "children": []
+            },
+            {
+              "id": "R137666",
+              "label": "Mechanical Properties of Metallic Materials and their Microstructural Origins",
+              "children": []
+            },
+            {
+              "id": "R137667",
+              "label": "Glass, Ceramics and Derived Composites",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "R195",
+          "label": "Aerospace Engineering",
+          "children": [
+            {
+              "id": "R196",
+              "label": "Aeronautical Vehicles",
+              "children": []
+            },
+            {
+              "id": "R197",
+              "label": "Space Vehicles",
+              "children": []
+            },
+            {
+              "id": "R198",
+              "label": "Systems Engineering and Multidisciplinary Design Optimization",
+              "children": []
+            },
+            {
+              "id": "R199",
+              "label": "Aerodynamics and Fluid Mechanics",
+              "children": []
+            },
+            {
+              "id": "R200",
+              "label": "Astrodynamics",
+              "children": []
+            },
+            {
+              "id": "R201",
+              "label": "Structures and Materials",
+              "children": []
+            },
+            {
+              "id": "R202",
+              "label": "Propulsion and Power",
+              "children": []
+            },
+            {
+              "id": "R203",
+              "label": "Navigation, Guidance, Control and Dynamics",
+              "children": []
+            },
+            {
+              "id": "R204",
+              "label": "Multi-Vehicle Systems and Air Traffic Control",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "R205",
+          "label": "Biomedical Engineering and Bioengineering",
+          "children": [
+            {
+              "id": "R206",
+              "label": "Biological Engineering",
+              "children": []
+            },
+            {
+              "id": "R207",
+              "label": "Bioelectrical and neuroengineering",
+              "children": []
+            },
+            {
+              "id": "R208",
+              "label": "Bioimaging and biomedical optics",
+              "children": []
+            },
+            {
+              "id": "R209",
+              "label": "Biomaterials",
+              "children": []
+            },
+            {
+              "id": "R210",
+              "label": "Biomechanics and biotransport",
+              "children": []
+            },
+            {
+              "id": "R211",
+              "label": "Biomedical devices and instrumentation",
+              "children": []
+            },
+            {
+              "id": "R212",
+              "label": "Molecular, cellular, and tissue engineering",
+              "children": [
+                {
+                  "id": "R114148",
+                  "label": "Subcellular Processes",
+                  "children": []
+                },
+                {
+                  "id": "R114149",
+                  "label": "Tissues and Organs",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "R213",
+              "label": "Systems and integrative engineering",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "R214",
+          "label": "Chemical Engineering",
+          "children": [
+            {
+              "id": "R215",
+              "label": "Biochemical and Biomolecular Engineering",
+              "children": []
+            },
+            {
+              "id": "R216",
+              "label": "Catalysis and Reaction Engineering",
+              "children": []
+            },
+            {
+              "id": "R217",
+              "label": "Complex Fluids",
+              "children": []
+            },
+            {
+              "id": "R218",
+              "label": "Membrane Science",
+              "children": []
+            },
+            {
+              "id": "R219",
+              "label": "Petroleum Engineering",
+              "children": []
+            },
+            {
+              "id": "R220",
+              "label": "Polymer Science",
+              "children": []
+            },
+            {
+              "id": "R221",
+              "label": "Process Control and Systems",
+              "children": []
+            },
+            {
+              "id": "R222",
+              "label": "Thermodynamics",
+              "children": [
+                {
+                  "id": "R137549",
+                  "label": "Fluid Mechanics, Technical Thermodynamics and Thermal Energy Engineering",
+                  "children": [
+                    {
+                      "id": "R137550",
+                      "label": "Energy Process Engineering",
+                      "children": []
+                    },
+                    {
+                      "id": "R137659",
+                      "label": "Technical Thermodynamics",
+                      "children": []
+                    },
+                    {
+                      "id": "R137660",
+                      "label": "Fluid Mechanics",
+                      "children": []
+                    },
+                    {
+                      "id": "R137661",
+                      "label": "Hydraulic and Turbo Engines and Piston Engines",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "R223",
+              "label": "Transport Phenomena",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "R224",
+          "label": "Civil and Environmental Engineering",
+          "children": [
+            {
+              "id": "R137684",
+              "label": "Architecture, Building and Construction History, Construction Research, Sustainable Building Technology",
+              "children": []
+            },
+            {
+              "id": "R137685",
+              "label": "Urbanism, Spatial Planning, Transportation and Infrastructure Planning, Landscape Planning",
+              "children": []
+            },
+            {
+              "id": "R137686",
+              "label": "Construction Material Sciences, Chemistry, Building Physics",
+              "children": []
+            },
+            {
+              "id": "R137687",
+              "label": "Structural Engineering, Building Informatics and Construction Operation",
+              "children": []
+            },
+            {
+              "id": "R137688",
+              "label": "Applied Mechanics, Statics and Dynamics",
+              "children": []
+            },
+            {
+              "id": "R137689",
+              "label": "Geotechnics, Hydraulic Engineering",
+              "children": []
+            },
+            {
+              "id": "R225",
+              "label": "Civil Engineering",
+              "children": []
+            },
+            {
+              "id": "R226",
+              "label": "Construction Engineering/management",
+              "children": []
+            },
+            {
+              "id": "R227",
+              "label": "Environmental Engineering",
+              "children": []
+            },
+            {
+              "id": "R228",
+              "label": "Geotechnical Engineering",
+              "children": []
+            },
+            {
+              "id": "R229",
+              "label": "Structural Engineering",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "R230",
+          "label": "Computer Engineering",
+          "children": [
+            {
+              "id": "R231",
+              "label": "Computer and Systems Architecture",
+              "children": []
+            },
+            {
+              "id": "R232",
+              "label": "Digital Circuits",
+              "children": []
+            },
+            {
+              "id": "R233",
+              "label": "Data Storage Systems",
+              "children": []
+            },
+            {
+              "id": "R234",
+              "label": "Digital Communications and Networking",
+              "children": []
+            },
+            {
+              "id": "R235",
+              "label": "Hardware Systems",
+              "children": []
+            },
+            {
+              "id": "R236",
+              "label": "Robotics",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "R237",
+          "label": "Electrical and Computer Engineering",
+          "children": [
+            {
+              "id": "R238",
+              "label": "Biomedical",
+              "children": []
+            },
+            {
+              "id": "R239",
+              "label": "Computer Engineering",
+              "children": []
+            },
+            {
+              "id": "R240",
+              "label": "Controls and Control Theory",
+              "children": []
+            },
+            {
+              "id": "R241",
+              "label": "Electrical and Electronics",
+              "children": []
+            },
+            {
+              "id": "R242",
+              "label": "Electromagnetics and photonics",
+              "children": []
+            },
+            {
+              "id": "R243",
+              "label": "Electronic Devices and Semiconductor Manufacturing",
+              "children": []
+            },
+            {
+              "id": "R244",
+              "label": "Nanotechnology fabrication",
+              "children": []
+            },
+            {
+              "id": "R245",
+              "label": "Power and Energy",
+              "children": []
+            },
+            {
+              "id": "R246",
+              "label": "Signal Processing",
+              "children": []
+            },
+            {
+              "id": "R247",
+              "label": "Systems and Communications",
+              "children": []
+            },
+            {
+              "id": "R248",
+              "label": "VLSI and circuits: Embedded/Hardware Systems",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "R249",
+          "label": "Engineering Science and Materials (not elsewhere classified)",
+          "children": [
+            {
+              "id": "R250",
+              "label": "Engineering Mechanics",
+              "children": []
+            },
+            {
+              "id": "R252",
+              "label": "Non-linear Dynamics",
+              "children": []
+            },
+            {
+              "id": "R253",
+              "label": "Mechanics of Materials",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "R254",
+          "label": "Materials Science and Engineering",
+          "children": [
+            {
+              "id": "R137553",
+              "label": "Thermodynamics and Kinetics as well as Properties of Phases and Microstructure of Materials",
+              "children": []
+            },
+            {
+              "id": "R137668",
+              "label": "Synthesis and Properties of Functional Materials",
+              "children": []
+            },
+            {
+              "id": "R137669",
+              "label": "Computer-Aided Design of Materials and Simulation of Materials Behaviour from  Atomic to Microscopic Scale",
+              "children": []
+            },
+            {
+              "id": "R209",
+              "label": "Biomaterials",
+              "children": []
+            },
+            {
+              "id": "R255",
+              "label": "Biology and Biomimetic Materials",
+              "children": []
+            },
+            {
+              "id": "R256",
+              "label": "Ceramic Materials",
+              "children": []
+            },
+            {
+              "id": "R257",
+              "label": "Metallurgy",
+              "children": []
+            },
+            {
+              "id": "R258",
+              "label": "Polymer and Organic Materials",
+              "children": []
+            },
+            {
+              "id": "R259",
+              "label": "Semiconductor and Optical Materials",
+              "children": []
+            },
+            {
+              "id": "R260",
+              "label": "Structural Materials",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "R261",
+          "label": "Mechanical Engineering",
+          "children": [
+            {
+              "id": "R137650",
+              "label": "Lightweight Construction, Textile Technology",
+              "children": []
+            },
+            {
+              "id": "R137656",
+              "label": "Mechanics and Constructive Mechanical Engineering",
+              "children": []
+            },
+            {
+              "id": "R137657",
+              "label": "Engineering Design, Machine Elements, Product Development",
+              "children": []
+            },
+            {
+              "id": "R137658",
+              "label": "Mechanics",
+              "children": []
+            },
+            {
+              "id": "R262",
+              "label": "Acoustics, Dynamics, and Controls",
+              "children": []
+            },
+            {
+              "id": "R263",
+              "label": "Applied Mechanics",
+              "children": []
+            },
+            {
+              "id": "R264",
+              "label": "Biomechanical Engineering",
+              "children": []
+            },
+            {
+              "id": "R265",
+              "label": "Computer-Aided Engineering and Design",
+              "children": []
+            },
+            {
+              "id": "R266",
+              "label": "Electro-Mechanical Systems",
+              "children": []
+            },
+            {
+              "id": "R267",
+              "label": "Energy Systems",
+              "children": []
+            },
+            {
+              "id": "R268",
+              "label": "Heat Transfer, Combustion",
+              "children": []
+            },
+            {
+              "id": "R269",
+              "label": "Manufacturing",
+              "children": []
+            },
+            {
+              "id": "R270",
+              "label": "Ocean Engineering",
+              "children": []
+            },
+            {
+              "id": "R271",
+              "label": "Tribology",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "R272",
+          "label": "Operations Research, Systems Engineering and Industrial Engineering",
+          "children": [
+            {
+              "id": "R273",
+              "label": "Ergonomics",
+              "children": []
+            },
+            {
+              "id": "R274",
+              "label": "Industrial Engineering",
+              "children": []
+            },
+            {
+              "id": "R275",
+              "label": "Operational Research",
+              "children": []
+            },
+            {
+              "id": "R276",
+              "label": "Systems Engineering",
+              "children": [
+                {
+                  "id": "R137554",
+                  "label": "Human Factors, Ergonomics, Human-Machine Systems",
+                  "children": []
+                },
+                {
+                  "id": "R137555",
+                  "label": "Biomedical Systems Technology",
+                  "children": []
+                },
+                {
+                  "id": "R137670",
+                  "label": "Automation, Control Systems, Robotics, Mechatronics, Cyber Physical Systems",
+                  "children": []
+                },
+                {
+                  "id": "R137671",
+                  "label": "Measurement Systems",
+                  "children": []
+                },
+                {
+                  "id": "R137672",
+                  "label": "Microsystems",
+                  "children": []
+                },
+                {
+                  "id": "R137673",
+                  "label": "Traffic and Transport Systems, Intelligent and Automated Traffic",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "R277",
+          "label": "Computational Engineering",
+          "children": []
+        },
+        {
+          "id": "R278",
+          "label": "Information Science",
+          "children": []
+        },
+        {
+          "id": "R279",
+          "label": "Nanoscience and Nanotechnology",
+          "children": []
+        },
+        {
+          "id": "R280",
+          "label": "Nuclear Engineering",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "R281",
+      "label": "Social and Behavioral Sciences",
+      "children": [
+        {
+          "id": "R136115",
+          "label": "Jurisprudence",
+          "children": [
+            {
+              "id": "R136116",
+              "label": "Principles of Law and Jurisprudence",
+              "children": []
+            },
+            {
+              "id": "R136117",
+              "label": "Private Law",
+              "children": []
+            },
+            {
+              "id": "R136118",
+              "label": "Public Law",
+              "children": []
+            },
+            {
+              "id": "R136119",
+              "label": "Criminal Law",
+              "children": []
+            },
+            {
+              "id": "R136120",
+              "label": "Criminology",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "R136187",
+          "label": "Social Sciences",
+          "children": [
+            {
+              "id": "R136188",
+              "label": "Sociological Theory",
+              "children": []
+            },
+            {
+              "id": "R136189",
+              "label": "Empirical Social Research",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "R282",
+          "label": "Agricultural and Resource Economics",
+          "children": []
+        },
+        {
+          "id": "R283",
+          "label": "Social and Cultural Anthropology and Ethnology",
+          "children": [
+            {
+              "id": "R136090",
+              "label": "Asian Studies",
+              "children": []
+            },
+            {
+              "id": "R136091",
+              "label": "African Studies",
+              "children": []
+            },
+            {
+              "id": "R136092",
+              "label": "American Studies",
+              "children": []
+            },
+            {
+              "id": "R136093",
+              "label": "Oceania Studies",
+              "children": []
+            },
+            {
+              "id": "R136181",
+              "label": "Islamic Studies, Arabian Studies, Semitic Studies",
+              "children": []
+            },
+            {
+              "id": "R136182",
+              "label": "Religious Studies and Jewish Studies",
+              "children": []
+            },
+            {
+              "id": "R284",
+              "label": "Archaeological",
+              "children": []
+            },
+            {
+              "id": "R285",
+              "label": "Biological and Physical",
+              "children": []
+            },
+            {
+              "id": "R286",
+              "label": "Linguistic Anthrolpology",
+              "children": []
+            },
+            {
+              "id": "R287",
+              "label": "Social and Cultural",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "R288",
+          "label": "Communication Sciences",
+          "children": [
+            {
+              "id": "R111778",
+              "label": "Communication Neuroscience",
+              "children": []
+            },
+            {
+              "id": "R289",
+              "label": "Broadcast/Video Studies",
+              "children": []
+            },
+            {
+              "id": "R290",
+              "label": "Communication Technology and New Media",
+              "children": []
+            },
+            {
+              "id": "R291",
+              "label": "Critical and Cultural Studies",
+              "children": []
+            },
+            {
+              "id": "R292",
+              "label": "Gender, Race, Sexuality, and Ethnicity in Communication",
+              "children": []
+            },
+            {
+              "id": "R293",
+              "label": "Health Communication",
+              "children": []
+            },
+            {
+              "id": "R294",
+              "label": "International and Intercultural Communication",
+              "children": []
+            },
+            {
+              "id": "R295",
+              "label": "Interpersonal/Small Group Communication",
+              "children": []
+            },
+            {
+              "id": "R296",
+              "label": "Journalism Studies",
+              "children": []
+            },
+            {
+              "id": "R297",
+              "label": "Mass Communication",
+              "children": []
+            },
+            {
+              "id": "R298",
+              "label": "Organizational Communication",
+              "children": []
+            },
+            {
+              "id": "R299",
+              "label": "Public Relations/Advertising",
+              "children": []
+            },
+            {
+              "id": "R300",
+              "label": "Social Influence and Political Communication",
+              "children": []
+            },
+            {
+              "id": "R301",
+              "label": "Speech and Rhetorical Studies",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "R302",
+          "label": "Economics",
+          "children": [
+            {
+              "id": "R114150",
+              "label": "Quantitative Finance",
+              "children": []
+            },
+            {
+              "id": "R136111",
+              "label": "Economic Policy, Applied Economics",
+              "children": []
+            },
+            {
+              "id": "R136190",
+              "label": "Business Administration",
+              "children": []
+            },
+            {
+              "id": "R303",
+              "label": "Behavioral Economics",
+              "children": []
+            },
+            {
+              "id": "R304",
+              "label": "Econometrics",
+              "children": []
+            },
+            {
+              "id": "R305",
+              "label": "Economic History",
+              "children": []
+            },
+            {
+              "id": "R306",
+              "label": "Economic Theory",
+              "children": []
+            },
+            {
+              "id": "R307",
+              "label": "Growth and Development",
+              "children": []
+            },
+            {
+              "id": "R308",
+              "label": "Industrial Organization",
+              "children": []
+            },
+            {
+              "id": "R309",
+              "label": "International Economics",
+              "children": []
+            },
+            {
+              "id": "R310",
+              "label": "Labor Economics",
+              "children": []
+            },
+            {
+              "id": "R311",
+              "label": "Macroeconomics",
+              "children": []
+            },
+            {
+              "id": "R312",
+              "label": "Public Economics",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "R313",
+          "label": "Geography",
+          "children": [
+            {
+              "id": "R314",
+              "label": "Physical and Environmental Geography",
+              "children": []
+            },
+            {
+              "id": "R315",
+              "label": "Human Geography",
+              "children": []
+            },
+            {
+              "id": "R316",
+              "label": "Nature and Society Relations",
+              "children": []
+            },
+            {
+              "id": "R317",
+              "label": "Geographic Information Sciences",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "R318",
+          "label": "Linguistics",
+          "children": [
+            {
+              "id": "R136066",
+              "label": "Individual Linguistics",
+              "children": []
+            },
+            {
+              "id": "R319",
+              "label": "Anthropological Linguistics/Sociolinguistics",
+              "children": []
+            },
+            {
+              "id": "R320",
+              "label": "Applied Linguistics",
+              "children": []
+            },
+            {
+              "id": "R321",
+              "label": "Comparative and Historical Linguistics",
+              "children": []
+            },
+            {
+              "id": "R322",
+              "label": "Computational Linguistics",
+              "children": []
+            },
+            {
+              "id": "R323",
+              "label": "Discourse/Text Linguistics",
+              "children": []
+            },
+            {
+              "id": "R324",
+              "label": "First/Second Language Acquisition",
+              "children": []
+            },
+            {
+              "id": "R325",
+              "label": "Typological Linguistics and Linguistic Diversity",
+              "children": []
+            },
+            {
+              "id": "R326",
+              "label": "Language Description/Documentation",
+              "children": []
+            },
+            {
+              "id": "R327",
+              "label": "Morphology",
+              "children": []
+            },
+            {
+              "id": "R328",
+              "label": "Phonetics/Phonology",
+              "children": []
+            },
+            {
+              "id": "R329",
+              "label": "Psycholinguistics/Neurolinguistics",
+              "children": []
+            },
+            {
+              "id": "R330",
+              "label": "Semantics/Pragmatics",
+              "children": []
+            },
+            {
+              "id": "R331",
+              "label": "Syntax",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "R332",
+          "label": "Political Science",
+          "children": [
+            {
+              "id": "R333",
+              "label": "American Politics",
+              "children": []
+            },
+            {
+              "id": "R334",
+              "label": "Comparative Politics",
+              "children": []
+            },
+            {
+              "id": "R335",
+              "label": "International Relations",
+              "children": []
+            },
+            {
+              "id": "R336",
+              "label": "Models and Methods",
+              "children": []
+            },
+            {
+              "id": "R337",
+              "label": "Political Theory",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "R338",
+          "label": "Public Affairs, Public Policy and Public Administration",
+          "children": [
+            {
+              "id": "R339",
+              "label": "Public Administration",
+              "children": []
+            },
+            {
+              "id": "R340",
+              "label": "Public Affairs",
+              "children": []
+            },
+            {
+              "id": "R341",
+              "label": "Public Policy",
+              "children": []
+            },
+            {
+              "id": "R342",
+              "label": "Urban Studies",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "R343",
+          "label": "Psychology",
+          "children": [
+            {
+              "id": "R136185",
+              "label": "General, Cognitive and Mathematical Psychology",
+              "children": []
+            },
+            {
+              "id": "R136186",
+              "label": "Developmental and Educational Psychology",
+              "children": []
+            },
+            {
+              "id": "R344",
+              "label": "Biological Psychology",
+              "children": []
+            },
+            {
+              "id": "R345",
+              "label": "Differential, Clinical and Medical Psychology, Methodology",
+              "children": []
+            },
+            {
+              "id": "R346",
+              "label": "Cognition and Perception",
+              "children": []
+            },
+            {
+              "id": "R347",
+              "label": "Cognitive Psychology",
+              "children": []
+            },
+            {
+              "id": "R348",
+              "label": "Community Psychology",
+              "children": []
+            },
+            {
+              "id": "R349",
+              "label": "Developmental Psychology",
+              "children": []
+            },
+            {
+              "id": "R350",
+              "label": "Health Psychology",
+              "children": []
+            },
+            {
+              "id": "R351",
+              "label": "Industrial and Organizational Psychology",
+              "children": []
+            },
+            {
+              "id": "R352",
+              "label": "Personality and Social Contexts",
+              "children": []
+            },
+            {
+              "id": "R353",
+              "label": "Social Psychology",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "R354",
+          "label": "Sociology",
+          "children": [
+            {
+              "id": "R114140",
+              "label": "Physics and Society",
+              "children": []
+            },
+            {
+              "id": "R355",
+              "label": "Demography, Population, and Ecology",
+              "children": []
+            },
+            {
+              "id": "R356",
+              "label": "Family, Life Course, and Society",
+              "children": []
+            },
+            {
+              "id": "R357",
+              "label": "Gender and Sexuality",
+              "children": []
+            },
+            {
+              "id": "R358",
+              "label": "Inequality and Stratification",
+              "children": []
+            },
+            {
+              "id": "R359",
+              "label": "Medicine and Health",
+              "children": []
+            },
+            {
+              "id": "R360",
+              "label": "Methodologies : Quantitative, Qualitative, Comparative, and Historical",
+              "children": []
+            },
+            {
+              "id": "R361",
+              "label": "Place and Environment",
+              "children": []
+            },
+            {
+              "id": "R362",
+              "label": "Politics and Social Change",
+              "children": []
+            },
+            {
+              "id": "R363",
+              "label": "Race and Ethnicity",
+              "children": []
+            },
+            {
+              "id": "R364",
+              "label": "Regional Sociology",
+              "children": []
+            },
+            {
+              "id": "R365",
+              "label": "Rural sociology",
+              "children": []
+            },
+            {
+              "id": "R366",
+              "label": "Social Control, Law, Crime, and Deviance",
+              "children": []
+            },
+            {
+              "id": "R367",
+              "label": "Social Psychology and Interaction",
+              "children": []
+            },
+            {
+              "id": "R368",
+              "label": "Sociology of Culture",
+              "children": []
+            },
+            {
+              "id": "R369",
+              "label": "Theory, Knowledge and Science",
+              "children": []
+            },
+            {
+              "id": "R370",
+              "label": "Work, Economy and Organizations",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "R373",
+          "label": "Science and Technology Studies",
+          "children": []
+        },
+        {
+          "id": "R374",
+          "label": "Urban Studies and Planning",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "R375",
+      "label": "Arts and Humanities",
+      "children": [
+        {
+          "id": "R136096",
+          "label": "Educational Research",
+          "children": [
+            {
+              "id": "R136097",
+              "label": "General Education and History of Education",
+              "children": []
+            },
+            {
+              "id": "R136112",
+              "label": "General and Domain-Specific Teaching and Learning",
+              "children": []
+            },
+            {
+              "id": "R136113",
+              "label": "Education Systems and Educational Institutions",
+              "children": []
+            },
+            {
+              "id": "R136114",
+              "label": "Educational Research on Socialization, Welfare and Professionalism Research",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "R136180",
+          "label": "Literary Studies",
+          "children": [
+            {
+              "id": "R136088",
+              "label": "European Literature",
+              "children": []
+            },
+            {
+              "id": "R136089",
+              "label": "American Literature",
+              "children": []
+            },
+            {
+              "id": "R396",
+              "label": "French and Francophone Language and Literature",
+              "children": [
+                {
+                  "id": "R397",
+                  "label": "French Linguistics",
+                  "children": []
+                },
+                {
+                  "id": "R398",
+                  "label": "French and Francophone Literature",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "R399",
+              "label": "German Language and Literature",
+              "children": [
+                {
+                  "id": "R400",
+                  "label": "German Linguistics",
+                  "children": []
+                },
+                {
+                  "id": "R401",
+                  "label": "German Literature",
+                  "children": [
+                    {
+                      "id": "R136080",
+                      "label": "Medieval German Literature",
+                      "children": []
+                    },
+                    {
+                      "id": "R136081",
+                      "label": "Modern German Literature",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "R460",
+              "label": "Spanish and Portuguese Language and Literature",
+              "children": [
+                {
+                  "id": "R461",
+                  "label": "Latin American Literature",
+                  "children": []
+                },
+                {
+                  "id": "R462",
+                  "label": "Portuguese Literature",
+                  "children": []
+                },
+                {
+                  "id": "R463",
+                  "label": "Spanish Linguistics",
+                  "children": []
+                },
+                {
+                  "id": "R464",
+                  "label": "Spanish Literature",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "R376",
+          "label": "American Studies",
+          "children": [
+            {
+              "id": "R377",
+              "label": "American Film Studies",
+              "children": []
+            },
+            {
+              "id": "R378",
+              "label": "American Material Culture",
+              "children": []
+            },
+            {
+              "id": "R379",
+              "label": "American Popular Culture",
+              "children": []
+            },
+            {
+              "id": "R380",
+              "label": "Ethnic Studies",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "R381",
+          "label": "Classics",
+          "children": [
+            {
+              "id": "R382",
+              "label": "Ancient History (Greek and Roman through Late Antiquity)",
+              "children": []
+            },
+            {
+              "id": "R383",
+              "label": "Ancient Philosophy",
+              "children": []
+            },
+            {
+              "id": "R384",
+              "label": "Byzantine and Modern Greek",
+              "children": []
+            },
+            {
+              "id": "R385",
+              "label": "Classical Archaeology and Art History",
+              "children": []
+            },
+            {
+              "id": "R386",
+              "label": "Classical Literature and Philology",
+              "children": []
+            },
+            {
+              "id": "R387",
+              "label": "Indo-European Linguistics and Philology",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "R388",
+          "label": "Comparative Literature",
+          "children": []
+        },
+        {
+          "id": "R389",
+          "label": "English Language and Literature",
+          "children": [
+            {
+              "id": "R390",
+              "label": "Literature in English, British Isles",
+              "children": []
+            },
+            {
+              "id": "R391",
+              "label": "Literature in English, Anglophone (other than British Isles and North America)",
+              "children": []
+            },
+            {
+              "id": "R392",
+              "label": "Literature in English, North America (other than ethnic and minority)",
+              "children": []
+            },
+            {
+              "id": "R393",
+              "label": "Literature in English, North America, ethnic and minority",
+              "children": []
+            },
+            {
+              "id": "R394",
+              "label": "Feminist, Gender and Sexuality Studies",
+              "children": []
+            },
+            {
+              "id": "R395",
+              "label": "Rhetoric and Composition",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "R402",
+          "label": "Language, Societies, and Cultures",
+          "children": [
+            {
+              "id": "R136179",
+              "label": "Egyptology and Ancient Near Eastern Studies",
+              "children": []
+            },
+            {
+              "id": "R403",
+              "label": "African Languages and Societies",
+              "children": []
+            },
+            {
+              "id": "R404",
+              "label": "East Asian Languages and Societies",
+              "children": []
+            },
+            {
+              "id": "R405",
+              "label": "European Languages and Societies (not elsewhere classified)",
+              "children": []
+            },
+            {
+              "id": "R406",
+              "label": "Latin American Languages and Societies (not elsewhere classified",
+              "children": []
+            },
+            {
+              "id": "R407",
+              "label": "Near Eastern Languages and Societies",
+              "children": []
+            },
+            {
+              "id": "R408",
+              "label": "Slavic Languages and Societies",
+              "children": []
+            },
+            {
+              "id": "R409",
+              "label": "South and Southeast Asian Languages and Societies",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "R410",
+          "label": "History",
+          "children": [
+            {
+              "id": "R136064",
+              "label": "Early Modern History",
+              "children": []
+            },
+            {
+              "id": "R136065",
+              "label": "Modern and Current History",
+              "children": []
+            },
+            {
+              "id": "R411",
+              "label": "African",
+              "children": []
+            },
+            {
+              "id": "R412",
+              "label": "Asian",
+              "children": []
+            },
+            {
+              "id": "R413",
+              "label": "European",
+              "children": []
+            },
+            {
+              "id": "R414",
+              "label": "Islamic World/Near East",
+              "children": []
+            },
+            {
+              "id": "R415",
+              "label": "Latin American",
+              "children": []
+            },
+            {
+              "id": "R416",
+              "label": "United States",
+              "children": []
+            },
+            {
+              "id": "R417",
+              "label": "Cultural History",
+              "children": []
+            },
+            {
+              "id": "R418",
+              "label": "Diplomatic History",
+              "children": []
+            },
+            {
+              "id": "R419",
+              "label": "Gender",
+              "children": []
+            },
+            {
+              "id": "R420",
+              "label": "History of Religion",
+              "children": []
+            },
+            {
+              "id": "R421",
+              "label": "History of Science, Technology, and Medicine",
+              "children": []
+            },
+            {
+              "id": "R422",
+              "label": "Intellectual History",
+              "children": []
+            },
+            {
+              "id": "R423",
+              "label": "Legal",
+              "children": []
+            },
+            {
+              "id": "R424",
+              "label": "Medieval History",
+              "children": []
+            },
+            {
+              "id": "R425",
+              "label": "Military History",
+              "children": []
+            },
+            {
+              "id": "R426",
+              "label": "Political History",
+              "children": []
+            },
+            {
+              "id": "R427",
+              "label": "Social History",
+              "children": []
+            },
+            {
+              "id": "R428",
+              "label": "Women’s History",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "R429",
+          "label": "History of Art, Architecture and Archaeology",
+          "children": [
+            {
+              "id": "R430",
+              "label": "American Art and Architecture",
+              "children": []
+            },
+            {
+              "id": "R431",
+              "label": "Ancient, Medieval, Renaissance and Baroque Art and Architecture",
+              "children": []
+            },
+            {
+              "id": "R432",
+              "label": "Asian Art and Architecture",
+              "children": []
+            },
+            {
+              "id": "R433",
+              "label": "Contemporary Art",
+              "children": []
+            },
+            {
+              "id": "R434",
+              "label": "Modern Art and Architecture",
+              "children": []
+            },
+            {
+              "id": "R435",
+              "label": "Theory and Criticism",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "R436",
+          "label": "Musicology",
+          "children": [
+            {
+              "id": "R136062",
+              "label": "Theatre and Media Studies",
+              "children": []
+            },
+            {
+              "id": "R136063",
+              "label": "Art History",
+              "children": []
+            },
+            {
+              "id": "R437",
+              "label": "Composition",
+              "children": []
+            },
+            {
+              "id": "R438",
+              "label": "Ethnomusicology",
+              "children": []
+            },
+            {
+              "id": "R439",
+              "label": "Musicology",
+              "children": []
+            },
+            {
+              "id": "R440",
+              "label": "Music Theory",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "R441",
+          "label": "Philosophy",
+          "children": [
+            {
+              "id": "R136094",
+              "label": "Theoretical Philosophy",
+              "children": []
+            },
+            {
+              "id": "R136095",
+              "label": "Practical Philosophy",
+              "children": []
+            },
+            {
+              "id": "R442",
+              "label": "Continental Philosophy",
+              "children": []
+            },
+            {
+              "id": "R443",
+              "label": "Epistemology",
+              "children": []
+            },
+            {
+              "id": "R444",
+              "label": "Esthetics",
+              "children": []
+            },
+            {
+              "id": "R445",
+              "label": "Ethics and Political Philosophy",
+              "children": []
+            },
+            {
+              "id": "R446",
+              "label": "Feminist Philosophy",
+              "children": []
+            },
+            {
+              "id": "R447",
+              "label": "History of Philosophy",
+              "children": []
+            },
+            {
+              "id": "R448",
+              "label": "Logic and foundations of mathematics",
+              "children": []
+            },
+            {
+              "id": "R449",
+              "label": "Metaphysics",
+              "children": []
+            },
+            {
+              "id": "R450",
+              "label": "Philosophy of Language",
+              "children": []
+            },
+            {
+              "id": "R451",
+              "label": "Philosophy of Mind",
+              "children": []
+            },
+            {
+              "id": "R452",
+              "label": "Philosophy of Science",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "R453",
+          "label": "Religion",
+          "children": [
+            {
+              "id": "R454",
+              "label": "Biblical Studies",
+              "children": []
+            },
+            {
+              "id": "R455",
+              "label": "Comparative Methodologies and Theories",
+              "children": []
+            },
+            {
+              "id": "R456",
+              "label": "Ethics",
+              "children": []
+            },
+            {
+              "id": "R457",
+              "label": "History of Religions of Western Origin",
+              "children": []
+            },
+            {
+              "id": "R458",
+              "label": "History of Religions of Eastern Origins",
+              "children": []
+            },
+            {
+              "id": "R459",
+              "label": "Religious Thought/Theology/Philosophy of Religion",
+              "children": [
+                {
+                  "id": "R136183",
+                  "label": "Protestant Theology",
+                  "children": []
+                },
+                {
+                  "id": "R136184",
+                  "label": "Roman Catholic Theology",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "R465",
+          "label": "Theatre and Performance Studies",
+          "children": [
+            {
+              "id": "R466",
+              "label": "Theatre History",
+              "children": []
+            },
+            {
+              "id": "R467",
+              "label": "Dramatic Literature, Criticism and Theory",
+              "children": []
+            },
+            {
+              "id": "R468",
+              "label": "Performance Studies",
+              "children": []
+            },
+            {
+              "id": "R469",
+              "label": "Playwriting",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "R470",
+          "label": "Feminist, Gender, and Sexuality Studies",
+          "children": []
+        },
+        {
+          "id": "R471",
+          "label": "Film Studies",
+          "children": []
+        },
+        {
+          "id": "R472",
+          "label": "Race, Ethnicity and post-Colonial Studies",
+          "children": []
+        },
+        {
+          "id": "R473",
+          "label": "Rhetoric and Composition",
+          "children": []
+        }
+      ]
+    }
+  ]
+}

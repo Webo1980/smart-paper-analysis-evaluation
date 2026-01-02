@@ -1,0 +1,4214 @@
+{
+  "timestamp": "2025-11-20T15:55:21.288Z",
+  "token": "eval_1763652820412_f5143tj7g",
+  "userInfo": {
+    "firstName": "Hotel",
+    "lastName": "Eight",
+    "email": "hotel.eight@testmail.local",
+    "role": "Research Assistant",
+    "domainExpertise": "Basic",
+    "evaluationExperience": "Limited",
+    "orkgExperience": "never",
+    "expertiseWeight": 2,
+    "weightComponents": {
+      "roleWeight": 2.5,
+      "domainMultiplier": 0.8,
+      "experienceMultiplier": 1,
+      "orkgBonus": 0,
+      "finalWeight": 2
+    },
+    "expertiseMultiplier": 1
+  },
+  "evaluationMetrics": {
+    "accuracy": {
+      "metadata": {
+        "Title Extraction": {
+          "similarityData": {
+            "levenshtein": {
+              "score": 1,
+              "distance": 0,
+              "maxLength": 72,
+              "weightedScore": 0.5
+            },
+            "tokenMatching": {
+              "originalTokens": [
+                "From",
+                "language",
+                "models",
+                "to",
+                "large-scale",
+                "food",
+                "and",
+                "biomedical",
+                "knowledge",
+                "graphs"
+              ],
+              "extractedTokens": [
+                "From",
+                "language",
+                "models",
+                "to",
+                "large-scale",
+                "food",
+                "and",
+                "biomedical",
+                "knowledge",
+                "graphs"
+              ],
+              "originalSet": {},
+              "tokenMatchCount": 10,
+              "score": 1,
+              "weightedScore": 0.3
+            },
+            "specialChar": {
+              "originalSpecial": [
+                "-"
+              ],
+              "extractedSpecial": [
+                "-"
+              ],
+              "originalSpecialSet": {},
+              "specialMatchCount": 1,
+              "score": 1,
+              "weightedScore": 0.2
+            },
+            "overallScore": 1,
+            "precisionScore": 1,
+            "recallScore": 1,
+            "f1Score": 1,
+            "automatedOverallScore": 1
+          },
+          "rating": 5,
+          "expertiseMultiplier": 1,
+          "scoreDetails": {
+            "automatedScore": 1,
+            "normalizedRating": 1,
+            "automaticWeight": 0.14286,
+            "userWeight": 0.85714,
+            "automaticConfidence": 0,
+            "agreement": 1,
+            "agreementBonus": 0.1,
+            "importanceFactor": 1,
+            "finalScore": 1,
+            "weightedAutomatedScore": 1,
+            "combinedScore": 1,
+            "rawCalculation": {
+              "normalizedRating": 1,
+              "automaticConfidence": 0,
+              "automaticWeight": 0.14286,
+              "userWeight": 0.85714,
+              "agreement": 1,
+              "agreementBonus": 0.1,
+              "combinedScore": 1,
+              "finalScore": 1,
+              "rawAutomaticWeight": 0.1,
+              "rawUserWeight": 0.6,
+              "isCapped": true
+            }
+          }
+        },
+        "Authors Extraction": {
+          "similarityData": {
+            "levenshtein": {
+              "score": 1,
+              "distance": 0,
+              "maxLength": 102,
+              "weightedScore": 0.5
+            },
+            "tokenMatching": {
+              "originalTokens": [
+                "Gjorgjina",
+                "Cenikj,",
+                "Lidija",
+                "Strojnik,",
+                "Risto",
+                "Angelski,",
+                "Nives",
+                "Ogrinc,",
+                "Barbara",
+                "Koroušić",
+                "Seljak,",
+                "Tome",
+                "Eftimov"
+              ],
+              "extractedTokens": [
+                "Gjorgjina",
+                "Cenikj,",
+                "Lidija",
+                "Strojnik,",
+                "Risto",
+                "Angelski,",
+                "Nives",
+                "Ogrinc,",
+                "Barbara",
+                "Koroušić",
+                "Seljak,",
+                "Tome",
+                "Eftimov"
+              ],
+              "originalSet": {},
+              "tokenMatchCount": 13,
+              "score": 1,
+              "weightedScore": 0.3
+            },
+            "specialChar": {
+              "originalSpecial": [
+                ",",
+                ",",
+                ",",
+                ",",
+                "š",
+                "ć",
+                ","
+              ],
+              "extractedSpecial": [
+                ",",
+                ",",
+                ",",
+                ",",
+                "š",
+                "ć",
+                ","
+              ],
+              "originalSpecialSet": {},
+              "specialMatchCount": 7,
+              "score": 1,
+              "weightedScore": 0.2
+            },
+            "overallScore": 1,
+            "precisionScore": 1,
+            "recallScore": 1,
+            "f1Score": 1,
+            "automatedOverallScore": 1
+          },
+          "rating": 5,
+          "expertiseMultiplier": 1,
+          "scoreDetails": {
+            "automatedScore": 1,
+            "normalizedRating": 1,
+            "automaticWeight": 0.14286,
+            "userWeight": 0.85714,
+            "automaticConfidence": 0,
+            "agreement": 1,
+            "agreementBonus": 0.1,
+            "importanceFactor": 1,
+            "finalScore": 1,
+            "weightedAutomatedScore": 1,
+            "combinedScore": 1,
+            "rawCalculation": {
+              "normalizedRating": 1,
+              "automaticConfidence": 0,
+              "automaticWeight": 0.14286,
+              "userWeight": 0.85714,
+              "agreement": 1,
+              "agreementBonus": 0.1,
+              "combinedScore": 1,
+              "finalScore": 1,
+              "rawAutomaticWeight": 0.1,
+              "rawUserWeight": 0.6,
+              "isCapped": true
+            }
+          }
+        },
+        "DOI Extraction": {
+          "similarityData": {
+            "levenshtein": {
+              "score": 1,
+              "distance": 0,
+              "maxLength": 26,
+              "weightedScore": 0.5
+            },
+            "tokenMatching": {
+              "originalTokens": [
+                "10.1038/s41598-023-34981-4"
+              ],
+              "extractedTokens": [
+                "10.1038/s41598-023-34981-4"
+              ],
+              "originalSet": {},
+              "tokenMatchCount": 1,
+              "score": 1,
+              "weightedScore": 0.3
+            },
+            "specialChar": {
+              "originalSpecial": [
+                ".",
+                "/",
+                "-",
+                "-",
+                "-"
+              ],
+              "extractedSpecial": [
+                ".",
+                "/",
+                "-",
+                "-",
+                "-"
+              ],
+              "originalSpecialSet": {},
+              "specialMatchCount": 5,
+              "score": 1,
+              "weightedScore": 0.2
+            },
+            "overallScore": 1,
+            "precisionScore": 1,
+            "recallScore": 1,
+            "f1Score": 1,
+            "automatedOverallScore": 1
+          },
+          "rating": 5,
+          "expertiseMultiplier": 1,
+          "scoreDetails": {
+            "automatedScore": 1,
+            "normalizedRating": 1,
+            "automaticWeight": 0.14286,
+            "userWeight": 0.85714,
+            "automaticConfidence": 0,
+            "agreement": 1,
+            "agreementBonus": 0.1,
+            "importanceFactor": 1,
+            "finalScore": 1,
+            "weightedAutomatedScore": 1,
+            "combinedScore": 1,
+            "rawCalculation": {
+              "normalizedRating": 1,
+              "automaticConfidence": 0,
+              "automaticWeight": 0.14286,
+              "userWeight": 0.85714,
+              "agreement": 1,
+              "agreementBonus": 0.1,
+              "combinedScore": 1,
+              "finalScore": 1,
+              "rawAutomaticWeight": 0.1,
+              "rawUserWeight": 0.6,
+              "isCapped": true
+            }
+          }
+        },
+        "Venue/Journal": {
+          "similarityData": {
+            "levenshtein": {
+              "score": 1,
+              "distance": 0,
+              "maxLength": 18,
+              "weightedScore": 0.5
+            },
+            "tokenMatching": {
+              "originalTokens": [
+                "Scientific",
+                "Reports"
+              ],
+              "extractedTokens": [
+                "Scientific",
+                "Reports"
+              ],
+              "originalSet": {},
+              "tokenMatchCount": 2,
+              "score": 1,
+              "weightedScore": 0.3
+            },
+            "specialChar": {
+              "originalSpecial": [],
+              "extractedSpecial": [],
+              "originalSpecialSet": {},
+              "specialMatchCount": 0,
+              "score": 1,
+              "weightedScore": 0.2
+            },
+            "overallScore": 1,
+            "precisionScore": 1,
+            "recallScore": 1,
+            "f1Score": 1,
+            "automatedOverallScore": 1
+          },
+          "rating": 5,
+          "expertiseMultiplier": 1,
+          "scoreDetails": {
+            "automatedScore": 1,
+            "normalizedRating": 1,
+            "automaticWeight": 0.14286,
+            "userWeight": 0.85714,
+            "automaticConfidence": 0,
+            "agreement": 1,
+            "agreementBonus": 0.1,
+            "importanceFactor": 1,
+            "finalScore": 1,
+            "weightedAutomatedScore": 1,
+            "combinedScore": 1,
+            "rawCalculation": {
+              "normalizedRating": 1,
+              "automaticConfidence": 0,
+              "automaticWeight": 0.14286,
+              "userWeight": 0.85714,
+              "agreement": 1,
+              "agreementBonus": 0.1,
+              "combinedScore": 1,
+              "finalScore": 1,
+              "rawAutomaticWeight": 0.1,
+              "rawUserWeight": 0.6,
+              "isCapped": true
+            }
+          }
+        }
+      },
+      "researchField": {
+        "similarityData": {
+          "exactMatch": 0,
+          "recall": 0,
+          "topN": 0,
+          "positionScore": 0,
+          "foundPosition": null,
+          "f1Score": 0,
+          "automatedOverallScore": 0,
+          "overallScore": 0,
+          "totalPredictions": 5,
+          "precision": 0
+        },
+        "scoreDetails": {
+          "normalizedRating": 0.8,
+          "automaticConfidence": 0,
+          "automaticWeight": 0.14286,
+          "userWeight": 0.85714,
+          "agreement": 0.2,
+          "agreementBonus": 0.02,
+          "combinedScore": 0.68571,
+          "finalScore": 0.69943,
+          "rawAutomaticWeight": 0.1,
+          "rawUserWeight": 0.6,
+          "isCapped": false
+        },
+        "rating": 4,
+        "expertiseMultiplier": 1
+      },
+      "researchProblem": {
+        "similarityData": {
+          "titleAlignment": 0,
+          "contentCoverage": 0,
+          "specificity": 0,
+          "titleTokenMetrics": {
+            "tokens": {
+              "reference": [],
+              "generated": [],
+              "matched": []
+            },
+            "precision": 0,
+            "recall": 0,
+            "f1Score": 0,
+            "tokenAccuracy": 0
+          },
+          "descriptionTokenMetrics": {
+            "tokens": {
+              "reference": [],
+              "generated": [],
+              "matched": []
+            },
+            "precision": 0,
+            "recall": 0,
+            "f1Score": 0,
+            "tokenAccuracy": 0
+          },
+          "keyConceptsPreserved": 0,
+          "structuralQuality": 0,
+          "groundTruth": {
+            "text": "AbstractKnowledge about the interactions between dietary and biomedical factors is scattered throughout uncountable research articles in an unstructured form (e.g., text, images, etc.) and requires automatic structuring so that it can be provided to medical professionals in a suitable format. Various biomedical knowledge graphs exist, however, they require further extension with relations between food and biomedical entities. In this study, we evaluate the performance of three state-of-the-art relation-mining pipelines (FooDis, FoodChem and ChemDis) which extract relations between food, chemical and disease entities from textual data. We perform two case studies, where relations were automatically extracted by the pipelines and validated by domain experts. The results show that the pipelines can extract relations with an average precision around 70%, making new discoveries available to domain experts with reduced human effort, since the domain experts should only evaluate the results, instead of finding, and reading all new scientific papers.",
+            "title": "AbstractKnowledge about the interactions between dietary and biomedical factors is scattered throughout uncountable research articles in an unstructured form (e.g., text, images, etc.) and requires automatic structuring so that it can be provided to medical professionals in a suitable format. Various biomedical knowledge graphs exist, however, they require further extension with relations between food and biomedical entities. In this study, we evaluate the performance of three state-of-the-art relation-mining pipelines (FooDis, FoodChem and ChemDis) which extract relations between food, chemical and disease entities from textual data. We perform two case studies, where relations were automatically extracted by the pipelines and validated by domain experts. The results show that the pipelines can extract relations with an average precision around 70%, making new discoveries available to domain experts with reduced human effort, since the domain experts should only evaluate the results, instead of finding, and reading all new scientific papers.",
+            "description": ""
+          },
+          "problem": {
+            "title": "",
+            "description": ""
+          },
+          "precision": 0,
+          "recall": 0,
+          "f1Score": 0,
+          "automatedOverallScore": 0,
+          "overallScore": 0,
+          "finalScore": 0.85714
+        },
+        "scoreDetails": {
+          "normalizedRating": 1,
+          "automaticConfidence": 0,
+          "automaticWeight": 0.14286,
+          "userWeight": 0.85714,
+          "agreement": 0,
+          "agreementBonus": 0,
+          "combinedScore": 0.85714,
+          "finalScore": 0.85714,
+          "rawAutomaticWeight": 0.1,
+          "rawUserWeight": 0.6,
+          "isCapped": false
+        },
+        "rating": 5,
+        "expertiseMultiplier": 1
+      },
+      "template": {
+        "template": {
+          "similarityData": {
+            "titleMatch": 1,
+            "propertyMatch": 0,
+            "typeAccuracy": 0,
+            "precision": 0,
+            "recall": 0,
+            "f1Score": 0,
+            "exactMatches": 0,
+            "semanticMatches": 0,
+            "typeMatches": 0,
+            "totalTemplateProps": 0,
+            "totalReferenceProps": 0,
+            "automatedOverallScore": 0.2,
+            "overallScore": 0.2
+          },
+          "scoreDetails": {
+            "normalizedRating": 1,
+            "automaticConfidence": 0.64,
+            "automaticWeight": 0.29907,
+            "userWeight": 0.70093,
+            "agreement": 0.2,
+            "agreementBonus": 0.02,
+            "combinedScore": 0.76075,
+            "finalScore": 0.77596,
+            "rawAutomaticWeight": 0.256,
+            "rawUserWeight": 0.6,
+            "isCapped": false
+          }
+        }
+      },
+      "content": {
+        "research_problem": {
+          "precision": 0,
+          "recall": 0,
+          "f1Score": 0,
+          "similarity": 0,
+          "confusionMatrix": {
+            "TP": 0,
+            "TN": 0,
+            "FP": 0,
+            "FN": 1
+          },
+          "details": {
+            "hasData": false,
+            "valueCount": 0,
+            "propertyName": "research problem"
+          }
+        },
+        "material": {
+          "precision": 0,
+          "recall": 0,
+          "f1Score": 0,
+          "similarity": 0,
+          "confusionMatrix": {
+            "TP": 0,
+            "TN": 0,
+            "FP": 0,
+            "FN": 1
+          },
+          "details": {
+            "hasData": false,
+            "valueCount": 0,
+            "propertyName": "material"
+          }
+        },
+        "method": {
+          "precision": 0,
+          "recall": 0,
+          "f1Score": 0,
+          "similarity": 0,
+          "confusionMatrix": {
+            "TP": 0,
+            "TN": 0,
+            "FP": 0,
+            "FN": 1
+          },
+          "details": {
+            "hasData": false,
+            "valueCount": 0,
+            "propertyName": "method"
+          }
+        },
+        "result": {
+          "precision": 0,
+          "recall": 0,
+          "f1Score": 0,
+          "similarity": 0,
+          "confusionMatrix": {
+            "TP": 0,
+            "TN": 0,
+            "FP": 0,
+            "FN": 1
+          },
+          "details": {
+            "hasData": false,
+            "valueCount": 0,
+            "propertyName": "result"
+          }
+        }
+      }
+    },
+    "quality": {
+      "metadata": {
+        "Title Extraction": {
+          "qualityData": {
+            "fieldSpecificMetrics": {
+              "completeness": {
+                "score": 1,
+                "issues": []
+              },
+              "consistency": {
+                "score": 1,
+                "issues": []
+              },
+              "validity": {
+                "score": 1,
+                "issues": []
+              }
+            },
+            "weights": {
+              "completeness": 0.4,
+              "consistency": 0.3,
+              "validity": 0.3
+            },
+            "overallScore": 1,
+            "automatedOverallScore": 1,
+            "explanation": {
+              "completeness": "Good completeness",
+              "consistency": "Good consistency",
+              "validity": "Good validity"
+            }
+          },
+          "rating": 5,
+          "expertiseMultiplier": 1,
+          "metricDetails": {
+            "automatedOverallScore": 1,
+            "normalizedRating": 1,
+            "automaticConfidence": 0,
+            "automaticWeight": 0.14286,
+            "userWeight": 0.85714,
+            "agreement": 1,
+            "agreementBonus": 0.1,
+            "combinedScore": 1,
+            "finalScore": 1,
+            "rawAutomaticWeight": 0.1,
+            "rawUserWeight": 0.6,
+            "isCapped": true
+          }
+        },
+        "Authors Extraction": {
+          "qualityData": {
+            "fieldSpecificMetrics": {
+              "completeness": {
+                "score": 1,
+                "issues": []
+              },
+              "consistency": {
+                "score": 1,
+                "issues": []
+              },
+              "validity": {
+                "score": 1,
+                "issues": []
+              }
+            },
+            "weights": {
+              "completeness": 0.4,
+              "consistency": 0.3,
+              "validity": 0.3
+            },
+            "overallScore": 1,
+            "automatedOverallScore": 1,
+            "explanation": {
+              "completeness": "Good completeness",
+              "consistency": "Good consistency",
+              "validity": "Good validity"
+            }
+          },
+          "rating": 5,
+          "expertiseMultiplier": 1,
+          "metricDetails": {
+            "automatedOverallScore": 1,
+            "normalizedRating": 1,
+            "automaticConfidence": 0,
+            "automaticWeight": 0.14286,
+            "userWeight": 0.85714,
+            "agreement": 1,
+            "agreementBonus": 0.1,
+            "combinedScore": 1,
+            "finalScore": 1,
+            "rawAutomaticWeight": 0.1,
+            "rawUserWeight": 0.6,
+            "isCapped": true
+          }
+        },
+        "DOI Extraction": {
+          "qualityData": {
+            "fieldSpecificMetrics": {
+              "completeness": {
+                "score": 1,
+                "issues": []
+              },
+              "consistency": {
+                "score": 1,
+                "issues": []
+              },
+              "validity": {
+                "score": 1,
+                "issues": []
+              }
+            },
+            "weights": {
+              "completeness": 0.4,
+              "consistency": 0.3,
+              "validity": 0.3
+            },
+            "overallScore": 1,
+            "automatedOverallScore": 1,
+            "explanation": {
+              "completeness": "Good completeness",
+              "consistency": "Good consistency",
+              "validity": "Good validity"
+            }
+          },
+          "rating": 5,
+          "expertiseMultiplier": 1,
+          "metricDetails": {
+            "automatedOverallScore": 1,
+            "normalizedRating": 1,
+            "automaticConfidence": 0,
+            "automaticWeight": 0.14286,
+            "userWeight": 0.85714,
+            "agreement": 1,
+            "agreementBonus": 0.1,
+            "combinedScore": 1,
+            "finalScore": 1,
+            "rawAutomaticWeight": 0.1,
+            "rawUserWeight": 0.6,
+            "isCapped": true
+          }
+        },
+        "Publication Year": {
+          "qualityData": {
+            "fieldSpecificMetrics": {
+              "completeness": {
+                "score": 0.1,
+                "issues": [
+                  "Content may be incomplete"
+                ]
+              },
+              "consistency": {
+                "score": 0.5,
+                "issues": [
+                  "Format inconsistencies detected"
+                ]
+              },
+              "validity": {
+                "score": 0.3,
+                "issues": [
+                  "Value may not be valid"
+                ]
+              }
+            },
+            "weights": {
+              "completeness": 0.4,
+              "consistency": 0.3,
+              "validity": 0.3
+            },
+            "overallScore": 0.76921,
+            "automatedOverallScore": 0.28,
+            "explanation": {
+              "completeness": "Content may be incomplete",
+              "consistency": "Format inconsistencies detected",
+              "validity": "Value may not be valid"
+            }
+          },
+          "rating": 5,
+          "expertiseMultiplier": 1,
+          "metricDetails": {
+            "automatedOverallScore": 0.28,
+            "normalizedRating": 1,
+            "automaticConfidence": 0.8064,
+            "automaticWeight": 0.34964,
+            "userWeight": 0.65036,
+            "agreement": 0.28,
+            "agreementBonus": 0.028,
+            "combinedScore": 0.74826,
+            "finalScore": 0.76921,
+            "rawAutomaticWeight": 0.32256,
+            "rawUserWeight": 0.6,
+            "isCapped": false
+          }
+        },
+        "Venue/Journal": {
+          "qualityData": {
+            "fieldSpecificMetrics": {
+              "completeness": {
+                "score": 1,
+                "issues": []
+              },
+              "consistency": {
+                "score": 1,
+                "issues": []
+              },
+              "validity": {
+                "score": 1,
+                "issues": []
+              }
+            },
+            "weights": {
+              "completeness": 0.4,
+              "consistency": 0.3,
+              "validity": 0.3
+            },
+            "overallScore": 1,
+            "automatedOverallScore": 1,
+            "explanation": {
+              "completeness": "Good completeness",
+              "consistency": "Good consistency",
+              "validity": "Good validity"
+            }
+          },
+          "rating": 5,
+          "expertiseMultiplier": 1,
+          "metricDetails": {
+            "automatedOverallScore": 1,
+            "normalizedRating": 1,
+            "automaticConfidence": 0,
+            "automaticWeight": 0.14286,
+            "userWeight": 0.85714,
+            "agreement": 1,
+            "agreementBonus": 0.1,
+            "combinedScore": 1,
+            "finalScore": 1,
+            "rawAutomaticWeight": 0.1,
+            "rawUserWeight": 0.6,
+            "isCapped": true
+          }
+        }
+      },
+      "researchField": {
+        "qualityData": {
+          "fieldSpecificMetrics": {
+            "confidence": {
+              "score": 0.009293766021728517
+            },
+            "relevance": {
+              "score": 0.5
+            },
+            "consistency": {
+              "score": 0.9907062339782715
+            }
+          },
+          "weights": {
+            "confidence": 0.4,
+            "relevance": 0.3,
+            "consistency": 0.3
+          },
+          "overallScore": 0.4509293766021728,
+          "automatedOverallScore": 0.4509293766021728,
+          "details": {
+            "topPredictions": [
+              {
+                "name": "Natural Language Processing",
+                "score": 6.276980400085449,
+                "confidence": 0.0627698040008545
+              },
+              {
+                "name": "Computational Linguistics",
+                "score": 6.1555657386779785,
+                "confidence": 0.06155565738677979
+              },
+              {
+                "name": "Computer Sciences",
+                "score": 5.347603797912598,
+                "confidence": 0.05347603797912598
+              }
+            ],
+            "orkgPosition": null,
+            "totalPredictions": 5
+          }
+        },
+        "qualityAnalysis": {
+          "confidence": 0.009293766021728517,
+          "relevance": 0.5,
+          "consistency": 0.9907062339782715,
+          "details": {
+            "topPredictions": [
+              {
+                "name": "Natural Language Processing",
+                "score": 6.276980400085449,
+                "confidence": 0.0627698040008545
+              },
+              {
+                "name": "Computational Linguistics",
+                "score": 6.1555657386779785,
+                "confidence": 0.06155565738677979
+              },
+              {
+                "name": "Computer Sciences",
+                "score": 5.347603797912598,
+                "confidence": 0.05347603797912598
+              }
+            ],
+            "orkgPosition": null,
+            "totalPredictions": 5
+          }
+        },
+        "weights": {
+          "confidence": 0.4,
+          "relevance": 0.3,
+          "consistency": 0.3
+        },
+        "rating": 5,
+        "expertiseMultiplier": 1,
+        "scoreDetails": {
+          "normalizedRating": 1,
+          "automaticConfidence": 0.99037,
+          "automaticWeight": 0.39768,
+          "userWeight": 0.60232,
+          "agreement": 0.45093,
+          "agreementBonus": 0.04509,
+          "combinedScore": 0.78165,
+          "finalScore": 0.81689,
+          "rawAutomaticWeight": 0.39615,
+          "rawUserWeight": 0.6,
+          "isCapped": false
+        }
+      },
+      "researchProblem": {
+        "qualityData": {
+          "fieldSpecificMetrics": {
+            "problemTitle": {
+              "score": 0,
+              "issues": [
+                "Could improve title formulation"
+              ]
+            },
+            "problemDescription": {
+              "score": 0,
+              "issues": [
+                "Description could be more comprehensive"
+              ]
+            },
+            "relevance": {
+              "score": 0,
+              "issues": [
+                "Could better align with paper content"
+              ]
+            },
+            "evidenceQuality": {
+              "score": 0,
+              "issues": [
+                "Could include more supporting evidence"
+              ]
+            }
+          },
+          "weights": 1,
+          "overallScore": null,
+          "automatedOverallScore": null,
+          "finalScore": null,
+          "details": {}
+        },
+        "qualityAnalysis": {
+          "0": "A",
+          "1": "b",
+          "2": "s",
+          "3": "t",
+          "4": "r",
+          "5": "a",
+          "6": "c",
+          "7": "t",
+          "8": "K",
+          "9": "n",
+          "10": "o",
+          "11": "w",
+          "12": "l",
+          "13": "e",
+          "14": "d",
+          "15": "g",
+          "16": "e",
+          "17": " ",
+          "18": "a",
+          "19": "b",
+          "20": "o",
+          "21": "u",
+          "22": "t",
+          "23": " ",
+          "24": "t",
+          "25": "h",
+          "26": "e",
+          "27": " ",
+          "28": "i",
+          "29": "n",
+          "30": "t",
+          "31": "e",
+          "32": "r",
+          "33": "a",
+          "34": "c",
+          "35": "t",
+          "36": "i",
+          "37": "o",
+          "38": "n",
+          "39": "s",
+          "40": " ",
+          "41": "b",
+          "42": "e",
+          "43": "t",
+          "44": "w",
+          "45": "e",
+          "46": "e",
+          "47": "n",
+          "48": " ",
+          "49": "d",
+          "50": "i",
+          "51": "e",
+          "52": "t",
+          "53": "a",
+          "54": "r",
+          "55": "y",
+          "56": " ",
+          "57": "a",
+          "58": "n",
+          "59": "d",
+          "60": " ",
+          "61": "b",
+          "62": "i",
+          "63": "o",
+          "64": "m",
+          "65": "e",
+          "66": "d",
+          "67": "i",
+          "68": "c",
+          "69": "a",
+          "70": "l",
+          "71": " ",
+          "72": "f",
+          "73": "a",
+          "74": "c",
+          "75": "t",
+          "76": "o",
+          "77": "r",
+          "78": "s",
+          "79": " ",
+          "80": "i",
+          "81": "s",
+          "82": " ",
+          "83": "s",
+          "84": "c",
+          "85": "a",
+          "86": "t",
+          "87": "t",
+          "88": "e",
+          "89": "r",
+          "90": "e",
+          "91": "d",
+          "92": " ",
+          "93": "t",
+          "94": "h",
+          "95": "r",
+          "96": "o",
+          "97": "u",
+          "98": "g",
+          "99": "h",
+          "100": "o",
+          "101": "u",
+          "102": "t",
+          "103": " ",
+          "104": "u",
+          "105": "n",
+          "106": "c",
+          "107": "o",
+          "108": "u",
+          "109": "n",
+          "110": "t",
+          "111": "a",
+          "112": "b",
+          "113": "l",
+          "114": "e",
+          "115": " ",
+          "116": "r",
+          "117": "e",
+          "118": "s",
+          "119": "e",
+          "120": "a",
+          "121": "r",
+          "122": "c",
+          "123": "h",
+          "124": " ",
+          "125": "a",
+          "126": "r",
+          "127": "t",
+          "128": "i",
+          "129": "c",
+          "130": "l",
+          "131": "e",
+          "132": "s",
+          "133": " ",
+          "134": "i",
+          "135": "n",
+          "136": " ",
+          "137": "a",
+          "138": "n",
+          "139": " ",
+          "140": "u",
+          "141": "n",
+          "142": "s",
+          "143": "t",
+          "144": "r",
+          "145": "u",
+          "146": "c",
+          "147": "t",
+          "148": "u",
+          "149": "r",
+          "150": "e",
+          "151": "d",
+          "152": " ",
+          "153": "f",
+          "154": "o",
+          "155": "r",
+          "156": "m",
+          "157": " ",
+          "158": "(",
+          "159": "e",
+          "160": ".",
+          "161": "g",
+          "162": ".",
+          "163": ",",
+          "164": " ",
+          "165": "t",
+          "166": "e",
+          "167": "x",
+          "168": "t",
+          "169": ",",
+          "170": " ",
+          "171": "i",
+          "172": "m",
+          "173": "a",
+          "174": "g",
+          "175": "e",
+          "176": "s",
+          "177": ",",
+          "178": " ",
+          "179": "e",
+          "180": "t",
+          "181": "c",
+          "182": ".",
+          "183": ")",
+          "184": " ",
+          "185": "a",
+          "186": "n",
+          "187": "d",
+          "188": " ",
+          "189": "r",
+          "190": "e",
+          "191": "q",
+          "192": "u",
+          "193": "i",
+          "194": "r",
+          "195": "e",
+          "196": "s",
+          "197": " ",
+          "198": "a",
+          "199": "u",
+          "200": "t",
+          "201": "o",
+          "202": "m",
+          "203": "a",
+          "204": "t",
+          "205": "i",
+          "206": "c",
+          "207": " ",
+          "208": "s",
+          "209": "t",
+          "210": "r",
+          "211": "u",
+          "212": "c",
+          "213": "t",
+          "214": "u",
+          "215": "r",
+          "216": "i",
+          "217": "n",
+          "218": "g",
+          "219": " ",
+          "220": "s",
+          "221": "o",
+          "222": " ",
+          "223": "t",
+          "224": "h",
+          "225": "a",
+          "226": "t",
+          "227": " ",
+          "228": "i",
+          "229": "t",
+          "230": " ",
+          "231": "c",
+          "232": "a",
+          "233": "n",
+          "234": " ",
+          "235": "b",
+          "236": "e",
+          "237": " ",
+          "238": "p",
+          "239": "r",
+          "240": "o",
+          "241": "v",
+          "242": "i",
+          "243": "d",
+          "244": "e",
+          "245": "d",
+          "246": " ",
+          "247": "t",
+          "248": "o",
+          "249": " ",
+          "250": "m",
+          "251": "e",
+          "252": "d",
+          "253": "i",
+          "254": "c",
+          "255": "a",
+          "256": "l",
+          "257": " ",
+          "258": "p",
+          "259": "r",
+          "260": "o",
+          "261": "f",
+          "262": "e",
+          "263": "s",
+          "264": "s",
+          "265": "i",
+          "266": "o",
+          "267": "n",
+          "268": "a",
+          "269": "l",
+          "270": "s",
+          "271": " ",
+          "272": "i",
+          "273": "n",
+          "274": " ",
+          "275": "a",
+          "276": " ",
+          "277": "s",
+          "278": "u",
+          "279": "i",
+          "280": "t",
+          "281": "a",
+          "282": "b",
+          "283": "l",
+          "284": "e",
+          "285": " ",
+          "286": "f",
+          "287": "o",
+          "288": "r",
+          "289": "m",
+          "290": "a",
+          "291": "t",
+          "292": ".",
+          "293": " ",
+          "294": "V",
+          "295": "a",
+          "296": "r",
+          "297": "i",
+          "298": "o",
+          "299": "u",
+          "300": "s",
+          "301": " ",
+          "302": "b",
+          "303": "i",
+          "304": "o",
+          "305": "m",
+          "306": "e",
+          "307": "d",
+          "308": "i",
+          "309": "c",
+          "310": "a",
+          "311": "l",
+          "312": " ",
+          "313": "k",
+          "314": "n",
+          "315": "o",
+          "316": "w",
+          "317": "l",
+          "318": "e",
+          "319": "d",
+          "320": "g",
+          "321": "e",
+          "322": " ",
+          "323": "g",
+          "324": "r",
+          "325": "a",
+          "326": "p",
+          "327": "h",
+          "328": "s",
+          "329": " ",
+          "330": "e",
+          "331": "x",
+          "332": "i",
+          "333": "s",
+          "334": "t",
+          "335": ",",
+          "336": " ",
+          "337": "h",
+          "338": "o",
+          "339": "w",
+          "340": "e",
+          "341": "v",
+          "342": "e",
+          "343": "r",
+          "344": ",",
+          "345": " ",
+          "346": "t",
+          "347": "h",
+          "348": "e",
+          "349": "y",
+          "350": " ",
+          "351": "r",
+          "352": "e",
+          "353": "q",
+          "354": "u",
+          "355": "i",
+          "356": "r",
+          "357": "e",
+          "358": " ",
+          "359": "f",
+          "360": "u",
+          "361": "r",
+          "362": "t",
+          "363": "h",
+          "364": "e",
+          "365": "r",
+          "366": " ",
+          "367": "e",
+          "368": "x",
+          "369": "t",
+          "370": "e",
+          "371": "n",
+          "372": "s",
+          "373": "i",
+          "374": "o",
+          "375": "n",
+          "376": " ",
+          "377": "w",
+          "378": "i",
+          "379": "t",
+          "380": "h",
+          "381": " ",
+          "382": "r",
+          "383": "e",
+          "384": "l",
+          "385": "a",
+          "386": "t",
+          "387": "i",
+          "388": "o",
+          "389": "n",
+          "390": "s",
+          "391": " ",
+          "392": "b",
+          "393": "e",
+          "394": "t",
+          "395": "w",
+          "396": "e",
+          "397": "e",
+          "398": "n",
+          "399": " ",
+          "400": "f",
+          "401": "o",
+          "402": "o",
+          "403": "d",
+          "404": " ",
+          "405": "a",
+          "406": "n",
+          "407": "d",
+          "408": " ",
+          "409": "b",
+          "410": "i",
+          "411": "o",
+          "412": "m",
+          "413": "e",
+          "414": "d",
+          "415": "i",
+          "416": "c",
+          "417": "a",
+          "418": "l",
+          "419": " ",
+          "420": "e",
+          "421": "n",
+          "422": "t",
+          "423": "i",
+          "424": "t",
+          "425": "i",
+          "426": "e",
+          "427": "s",
+          "428": ".",
+          "429": " ",
+          "430": "I",
+          "431": "n",
+          "432": " ",
+          "433": "t",
+          "434": "h",
+          "435": "i",
+          "436": "s",
+          "437": " ",
+          "438": "s",
+          "439": "t",
+          "440": "u",
+          "441": "d",
+          "442": "y",
+          "443": ",",
+          "444": " ",
+          "445": "w",
+          "446": "e",
+          "447": " ",
+          "448": "e",
+          "449": "v",
+          "450": "a",
+          "451": "l",
+          "452": "u",
+          "453": "a",
+          "454": "t",
+          "455": "e",
+          "456": " ",
+          "457": "t",
+          "458": "h",
+          "459": "e",
+          "460": " ",
+          "461": "p",
+          "462": "e",
+          "463": "r",
+          "464": "f",
+          "465": "o",
+          "466": "r",
+          "467": "m",
+          "468": "a",
+          "469": "n",
+          "470": "c",
+          "471": "e",
+          "472": " ",
+          "473": "o",
+          "474": "f",
+          "475": " ",
+          "476": "t",
+          "477": "h",
+          "478": "r",
+          "479": "e",
+          "480": "e",
+          "481": " ",
+          "482": "s",
+          "483": "t",
+          "484": "a",
+          "485": "t",
+          "486": "e",
+          "487": "-",
+          "488": "o",
+          "489": "f",
+          "490": "-",
+          "491": "t",
+          "492": "h",
+          "493": "e",
+          "494": "-",
+          "495": "a",
+          "496": "r",
+          "497": "t",
+          "498": " ",
+          "499": "r",
+          "500": "e",
+          "501": "l",
+          "502": "a",
+          "503": "t",
+          "504": "i",
+          "505": "o",
+          "506": "n",
+          "507": "-",
+          "508": "m",
+          "509": "i",
+          "510": "n",
+          "511": "i",
+          "512": "n",
+          "513": "g",
+          "514": " ",
+          "515": "p",
+          "516": "i",
+          "517": "p",
+          "518": "e",
+          "519": "l",
+          "520": "i",
+          "521": "n",
+          "522": "e",
+          "523": "s",
+          "524": " ",
+          "525": "(",
+          "526": "F",
+          "527": "o",
+          "528": "o",
+          "529": "D",
+          "530": "i",
+          "531": "s",
+          "532": ",",
+          "533": " ",
+          "534": "F",
+          "535": "o",
+          "536": "o",
+          "537": "d",
+          "538": "C",
+          "539": "h",
+          "540": "e",
+          "541": "m",
+          "542": " ",
+          "543": "a",
+          "544": "n",
+          "545": "d",
+          "546": " ",
+          "547": "C",
+          "548": "h",
+          "549": "e",
+          "550": "m",
+          "551": "D",
+          "552": "i",
+          "553": "s",
+          "554": ")",
+          "555": " ",
+          "556": "w",
+          "557": "h",
+          "558": "i",
+          "559": "c",
+          "560": "h",
+          "561": " ",
+          "562": "e",
+          "563": "x",
+          "564": "t",
+          "565": "r",
+          "566": "a",
+          "567": "c",
+          "568": "t",
+          "569": " ",
+          "570": "r",
+          "571": "e",
+          "572": "l",
+          "573": "a",
+          "574": "t",
+          "575": "i",
+          "576": "o",
+          "577": "n",
+          "578": "s",
+          "579": " ",
+          "580": "b",
+          "581": "e",
+          "582": "t",
+          "583": "w",
+          "584": "e",
+          "585": "e",
+          "586": "n",
+          "587": " ",
+          "588": "f",
+          "589": "o",
+          "590": "o",
+          "591": "d",
+          "592": ",",
+          "593": " ",
+          "594": "c",
+          "595": "h",
+          "596": "e",
+          "597": "m",
+          "598": "i",
+          "599": "c",
+          "600": "a",
+          "601": "l",
+          "602": " ",
+          "603": "a",
+          "604": "n",
+          "605": "d",
+          "606": " ",
+          "607": "d",
+          "608": "i",
+          "609": "s",
+          "610": "e",
+          "611": "a",
+          "612": "s",
+          "613": "e",
+          "614": " ",
+          "615": "e",
+          "616": "n",
+          "617": "t",
+          "618": "i",
+          "619": "t",
+          "620": "i",
+          "621": "e",
+          "622": "s",
+          "623": " ",
+          "624": "f",
+          "625": "r",
+          "626": "o",
+          "627": "m",
+          "628": " ",
+          "629": "t",
+          "630": "e",
+          "631": "x",
+          "632": "t",
+          "633": "u",
+          "634": "a",
+          "635": "l",
+          "636": " ",
+          "637": "d",
+          "638": "a",
+          "639": "t",
+          "640": "a",
+          "641": ".",
+          "642": " ",
+          "643": "W",
+          "644": "e",
+          "645": " ",
+          "646": "p",
+          "647": "e",
+          "648": "r",
+          "649": "f",
+          "650": "o",
+          "651": "r",
+          "652": "m",
+          "653": " ",
+          "654": "t",
+          "655": "w",
+          "656": "o",
+          "657": " ",
+          "658": "c",
+          "659": "a",
+          "660": "s",
+          "661": "e",
+          "662": " ",
+          "663": "s",
+          "664": "t",
+          "665": "u",
+          "666": "d",
+          "667": "i",
+          "668": "e",
+          "669": "s",
+          "670": ",",
+          "671": " ",
+          "672": "w",
+          "673": "h",
+          "674": "e",
+          "675": "r",
+          "676": "e",
+          "677": " ",
+          "678": "r",
+          "679": "e",
+          "680": "l",
+          "681": "a",
+          "682": "t",
+          "683": "i",
+          "684": "o",
+          "685": "n",
+          "686": "s",
+          "687": " ",
+          "688": "w",
+          "689": "e",
+          "690": "r",
+          "691": "e",
+          "692": " ",
+          "693": "a",
+          "694": "u",
+          "695": "t",
+          "696": "o",
+          "697": "m",
+          "698": "a",
+          "699": "t",
+          "700": "i",
+          "701": "c",
+          "702": "a",
+          "703": "l",
+          "704": "l",
+          "705": "y",
+          "706": " ",
+          "707": "e",
+          "708": "x",
+          "709": "t",
+          "710": "r",
+          "711": "a",
+          "712": "c",
+          "713": "t",
+          "714": "e",
+          "715": "d",
+          "716": " ",
+          "717": "b",
+          "718": "y",
+          "719": " ",
+          "720": "t",
+          "721": "h",
+          "722": "e",
+          "723": " ",
+          "724": "p",
+          "725": "i",
+          "726": "p",
+          "727": "e",
+          "728": "l",
+          "729": "i",
+          "730": "n",
+          "731": "e",
+          "732": "s",
+          "733": " ",
+          "734": "a",
+          "735": "n",
+          "736": "d",
+          "737": " ",
+          "738": "v",
+          "739": "a",
+          "740": "l",
+          "741": "i",
+          "742": "d",
+          "743": "a",
+          "744": "t",
+          "745": "e",
+          "746": "d",
+          "747": " ",
+          "748": "b",
+          "749": "y",
+          "750": " ",
+          "751": "d",
+          "752": "o",
+          "753": "m",
+          "754": "a",
+          "755": "i",
+          "756": "n",
+          "757": " ",
+          "758": "e",
+          "759": "x",
+          "760": "p",
+          "761": "e",
+          "762": "r",
+          "763": "t",
+          "764": "s",
+          "765": ".",
+          "766": " ",
+          "767": "T",
+          "768": "h",
+          "769": "e",
+          "770": " ",
+          "771": "r",
+          "772": "e",
+          "773": "s",
+          "774": "u",
+          "775": "l",
+          "776": "t",
+          "777": "s",
+          "778": " ",
+          "779": "s",
+          "780": "h",
+          "781": "o",
+          "782": "w",
+          "783": " ",
+          "784": "t",
+          "785": "h",
+          "786": "a",
+          "787": "t",
+          "788": " ",
+          "789": "t",
+          "790": "h",
+          "791": "e",
+          "792": " ",
+          "793": "p",
+          "794": "i",
+          "795": "p",
+          "796": "e",
+          "797": "l",
+          "798": "i",
+          "799": "n",
+          "800": "e",
+          "801": "s",
+          "802": " ",
+          "803": "c",
+          "804": "a",
+          "805": "n",
+          "806": " ",
+          "807": "e",
+          "808": "x",
+          "809": "t",
+          "810": "r",
+          "811": "a",
+          "812": "c",
+          "813": "t",
+          "814": " ",
+          "815": "r",
+          "816": "e",
+          "817": "l",
+          "818": "a",
+          "819": "t",
+          "820": "i",
+          "821": "o",
+          "822": "n",
+          "823": "s",
+          "824": " ",
+          "825": "w",
+          "826": "i",
+          "827": "t",
+          "828": "h",
+          "829": " ",
+          "830": "a",
+          "831": "n",
+          "832": " ",
+          "833": "a",
+          "834": "v",
+          "835": "e",
+          "836": "r",
+          "837": "a",
+          "838": "g",
+          "839": "e",
+          "840": " ",
+          "841": "p",
+          "842": "r",
+          "843": "e",
+          "844": "c",
+          "845": "i",
+          "846": "s",
+          "847": "i",
+          "848": "o",
+          "849": "n",
+          "850": " ",
+          "851": "a",
+          "852": "r",
+          "853": "o",
+          "854": "u",
+          "855": "n",
+          "856": "d",
+          "857": " ",
+          "858": "7",
+          "859": "0",
+          "860": "%",
+          "861": ",",
+          "862": " ",
+          "863": "m",
+          "864": "a",
+          "865": "k",
+          "866": "i",
+          "867": "n",
+          "868": "g",
+          "869": " ",
+          "870": "n",
+          "871": "e",
+          "872": "w",
+          "873": " ",
+          "874": "d",
+          "875": "i",
+          "876": "s",
+          "877": "c",
+          "878": "o",
+          "879": "v",
+          "880": "e",
+          "881": "r",
+          "882": "i",
+          "883": "e",
+          "884": "s",
+          "885": " ",
+          "886": "a",
+          "887": "v",
+          "888": "a",
+          "889": "i",
+          "890": "l",
+          "891": "a",
+          "892": "b",
+          "893": "l",
+          "894": "e",
+          "895": " ",
+          "896": "t",
+          "897": "o",
+          "898": " ",
+          "899": "d",
+          "900": "o",
+          "901": "m",
+          "902": "a",
+          "903": "i",
+          "904": "n",
+          "905": " ",
+          "906": "e",
+          "907": "x",
+          "908": "p",
+          "909": "e",
+          "910": "r",
+          "911": "t",
+          "912": "s",
+          "913": " ",
+          "914": "w",
+          "915": "i",
+          "916": "t",
+          "917": "h",
+          "918": " ",
+          "919": "r",
+          "920": "e",
+          "921": "d",
+          "922": "u",
+          "923": "c",
+          "924": "e",
+          "925": "d",
+          "926": " ",
+          "927": "h",
+          "928": "u",
+          "929": "m",
+          "930": "a",
+          "931": "n",
+          "932": " ",
+          "933": "e",
+          "934": "f",
+          "935": "f",
+          "936": "o",
+          "937": "r",
+          "938": "t",
+          "939": ",",
+          "940": " ",
+          "941": "s",
+          "942": "i",
+          "943": "n",
+          "944": "c",
+          "945": "e",
+          "946": " ",
+          "947": "t",
+          "948": "h",
+          "949": "e",
+          "950": " ",
+          "951": "d",
+          "952": "o",
+          "953": "m",
+          "954": "a",
+          "955": "i",
+          "956": "n",
+          "957": " ",
+          "958": "e",
+          "959": "x",
+          "960": "p",
+          "961": "e",
+          "962": "r",
+          "963": "t",
+          "964": "s",
+          "965": " ",
+          "966": "s",
+          "967": "h",
+          "968": "o",
+          "969": "u",
+          "970": "l",
+          "971": "d",
+          "972": " ",
+          "973": "o",
+          "974": "n",
+          "975": "l",
+          "976": "y",
+          "977": " ",
+          "978": "e",
+          "979": "v",
+          "980": "a",
+          "981": "l",
+          "982": "u",
+          "983": "a",
+          "984": "t",
+          "985": "e",
+          "986": " ",
+          "987": "t",
+          "988": "h",
+          "989": "e",
+          "990": " ",
+          "991": "r",
+          "992": "e",
+          "993": "s",
+          "994": "u",
+          "995": "l",
+          "996": "t",
+          "997": "s",
+          "998": ",",
+          "999": " ",
+          "1000": "i",
+          "1001": "n",
+          "1002": "s",
+          "1003": "t",
+          "1004": "e",
+          "1005": "a",
+          "1006": "d",
+          "1007": " ",
+          "1008": "o",
+          "1009": "f",
+          "1010": " ",
+          "1011": "f",
+          "1012": "i",
+          "1013": "n",
+          "1014": "d",
+          "1015": "i",
+          "1016": "n",
+          "1017": "g",
+          "1018": ",",
+          "1019": " ",
+          "1020": "a",
+          "1021": "n",
+          "1022": "d",
+          "1023": " ",
+          "1024": "r",
+          "1025": "e",
+          "1026": "a",
+          "1027": "d",
+          "1028": "i",
+          "1029": "n",
+          "1030": "g",
+          "1031": " ",
+          "1032": "a",
+          "1033": "l",
+          "1034": "l",
+          "1035": " ",
+          "1036": "n",
+          "1037": "e",
+          "1038": "w",
+          "1039": " ",
+          "1040": "s",
+          "1041": "c",
+          "1042": "i",
+          "1043": "e",
+          "1044": "n",
+          "1045": "t",
+          "1046": "i",
+          "1047": "f",
+          "1048": "i",
+          "1049": "c",
+          "1050": " ",
+          "1051": "p",
+          "1052": "a",
+          "1053": "p",
+          "1054": "e",
+          "1055": "r",
+          "1056": "s",
+          "1057": ".",
+          "problemTitle": 0,
+          "problemDescription": 0,
+          "relevance": 0,
+          "evidenceQuality": 0
+        },
+        "weights": 1,
+        "rating": {
+          "title": "",
+          "description": ""
+        },
+        "expertiseMultiplier": 5,
+        "scoreDetails": {
+          "normalizedRating": null,
+          "automaticConfidence": null,
+          "automaticWeight": null,
+          "userWeight": null,
+          "agreement": null,
+          "agreementBonus": null,
+          "combinedScore": null,
+          "finalScore": null,
+          "rawAutomaticWeight": null,
+          "rawUserWeight": 3,
+          "isCapped": false
+        }
+      },
+      "template": {
+        "template": {
+          "qualityData": {
+            "fieldSpecificMetrics": {
+              "titleAccuracy": {
+                "score": 0,
+                "issues": [
+                  "No template data provided"
+                ]
+              },
+              "descriptionQuality": {
+                "score": 0,
+                "issues": [
+                  "No template data provided"
+                ]
+              },
+              "propertyCoverage": {
+                "score": 0,
+                "issues": [
+                  "No template data provided"
+                ]
+              },
+              "researchAlignment": {
+                "score": 0,
+                "issues": [
+                  "No template data provided"
+                ]
+              }
+            },
+            "weights": {
+              "titleQuality": 0.25,
+              "descriptionQuality": 0.25,
+              "propertyCoverage": 0.25,
+              "researchAlignment": 0.25
+            },
+            "overallScore": null,
+            "automatedOverallScore": null,
+            "details": {
+              "titleReason": "No template data provided",
+              "descriptionReason": "No template data provided",
+              "coverageReason": "No template data provided",
+              "alignmentReason": "No template data provided"
+            }
+          },
+          "qualityMetrics": {
+            "titleAccuracy": 0,
+            "descriptionQuality": 0,
+            "propertyCoverage": 0,
+            "researchAlignment": 0,
+            "details": {
+              "titleReason": "No template data provided",
+              "descriptionReason": "No template data provided",
+              "coverageReason": "No template data provided",
+              "alignmentReason": "No template data provided"
+            }
+          },
+          "weights": {
+            "titleQuality": 0.25,
+            "descriptionQuality": 0.25,
+            "propertyCoverage": 0.25,
+            "researchAlignment": 0.25
+          },
+          "scoreDetails": {
+            "normalizedRating": 1,
+            "automaticConfidence": null,
+            "automaticWeight": null,
+            "userWeight": null,
+            "agreement": null,
+            "agreementBonus": null,
+            "combinedScore": null,
+            "finalScore": null,
+            "rawAutomaticWeight": null,
+            "rawUserWeight": 0.6,
+            "isCapped": false
+          }
+        }
+      },
+      "content": {
+        "research_problem": {
+          "completeness": {
+            "score": 0,
+            "issues": [
+              "Property has no values"
+            ]
+          },
+          "consistency": {
+            "score": 0,
+            "issues": []
+          },
+          "validity": {
+            "score": 0,
+            "issues": []
+          },
+          "overallScore": 0,
+          "details": {
+            "hasData": false,
+            "valueCount": 0
+          }
+        },
+        "material": {
+          "completeness": {
+            "score": 0,
+            "issues": [
+              "Property has no values"
+            ]
+          },
+          "consistency": {
+            "score": 0,
+            "issues": []
+          },
+          "validity": {
+            "score": 0,
+            "issues": []
+          },
+          "overallScore": 0,
+          "details": {
+            "hasData": false,
+            "valueCount": 0
+          }
+        },
+        "method": {
+          "completeness": {
+            "score": 0,
+            "issues": [
+              "Property has no values"
+            ]
+          },
+          "consistency": {
+            "score": 0,
+            "issues": []
+          },
+          "validity": {
+            "score": 0,
+            "issues": []
+          },
+          "overallScore": 0,
+          "details": {
+            "hasData": false,
+            "valueCount": 0
+          }
+        },
+        "result": {
+          "completeness": {
+            "score": 0,
+            "issues": [
+              "Property has no values"
+            ]
+          },
+          "consistency": {
+            "score": 0,
+            "issues": []
+          },
+          "validity": {
+            "score": 0,
+            "issues": []
+          },
+          "overallScore": 0,
+          "details": {
+            "hasData": false,
+            "valueCount": 0
+          }
+        }
+      }
+    },
+    "overall": {
+      "metadata": {
+        "title": {
+          "field": "title",
+          "rating": 5,
+          "comments": "",
+          "referenceValue": "From language models to large-scale food and biomedical knowledge graphs",
+          "extractedValue": "From language models to large-scale food and biomedical knowledge graphs",
+          "accuracyScore": 1,
+          "qualityScore": 1,
+          "overallScore": 0,
+          "accuracyResults": {
+            "similarityData": {
+              "levenshtein": {
+                "score": 1,
+                "distance": 0,
+                "maxLength": 72,
+                "weightedScore": 0.5
+              },
+              "tokenMatching": {
+                "originalTokens": [
+                  "From",
+                  "language",
+                  "models",
+                  "to",
+                  "large-scale",
+                  "food",
+                  "and",
+                  "biomedical",
+                  "knowledge",
+                  "graphs"
+                ],
+                "extractedTokens": [
+                  "From",
+                  "language",
+                  "models",
+                  "to",
+                  "large-scale",
+                  "food",
+                  "and",
+                  "biomedical",
+                  "knowledge",
+                  "graphs"
+                ],
+                "originalSet": {},
+                "tokenMatchCount": 10,
+                "score": 1,
+                "weightedScore": 0.3
+              },
+              "specialChar": {
+                "originalSpecial": [
+                  "-"
+                ],
+                "extractedSpecial": [
+                  "-"
+                ],
+                "originalSpecialSet": {},
+                "specialMatchCount": 1,
+                "score": 1,
+                "weightedScore": 0.2
+              },
+              "overallScore": 1,
+              "precisionScore": 1,
+              "recallScore": 1,
+              "f1Score": 1,
+              "automatedOverallScore": 1
+            },
+            "scoreDetails": {
+              "automatedScore": 1,
+              "normalizedRating": 1,
+              "automaticWeight": 0.14286,
+              "userWeight": 0.85714,
+              "automaticConfidence": 0,
+              "agreement": 1,
+              "agreementBonus": 0.1,
+              "importanceFactor": 1,
+              "finalScore": 1,
+              "weightedAutomatedScore": 1,
+              "combinedScore": 1,
+              "rawCalculation": {
+                "normalizedRating": 1,
+                "automaticConfidence": 0,
+                "automaticWeight": 0.14286,
+                "userWeight": 0.85714,
+                "agreement": 1,
+                "agreementBonus": 0.1,
+                "combinedScore": 1,
+                "finalScore": 1,
+                "rawAutomaticWeight": 0.1,
+                "rawUserWeight": 0.6,
+                "isCapped": true
+              }
+            }
+          },
+          "qualityResults": {
+            "qualityData": {
+              "fieldSpecificMetrics": {
+                "completeness": {
+                  "score": 1,
+                  "issues": []
+                },
+                "consistency": {
+                  "score": 1,
+                  "issues": []
+                },
+                "validity": {
+                  "score": 1,
+                  "issues": []
+                }
+              },
+              "weights": {
+                "completeness": 0.4,
+                "consistency": 0.3,
+                "validity": 0.3
+              },
+              "overallScore": 1,
+              "automatedOverallScore": 1,
+              "explanation": {
+                "completeness": "Good completeness",
+                "consistency": "Good consistency",
+                "validity": "Good validity"
+              }
+            },
+            "metricDetails": {
+              "automatedOverallScore": 1,
+              "normalizedRating": 1,
+              "automaticConfidence": 0,
+              "automaticWeight": 0.14286,
+              "userWeight": 0.85714,
+              "agreement": 1,
+              "agreementBonus": 0.1,
+              "combinedScore": 1,
+              "finalScore": 1,
+              "rawAutomaticWeight": 0.1,
+              "rawUserWeight": 0.6,
+              "isCapped": true
+            }
+          }
+        },
+        "authors": {
+          "field": "authors",
+          "rating": 5,
+          "comments": "",
+          "referenceValue": [
+            "Gjorgjina Cenikj",
+            "Lidija Strojnik",
+            "Risto Angelski",
+            "Nives Ogrinc",
+            "Barbara Koroušić Seljak",
+            "Tome Eftimov"
+          ],
+          "extractedValue": [
+            "Gjorgjina Cenikj",
+            "Lidija Strojnik",
+            "Risto Angelski",
+            "Nives Ogrinc",
+            "Barbara Koroušić Seljak",
+            "Tome Eftimov"
+          ],
+          "accuracyScore": 1,
+          "qualityScore": 1,
+          "overallScore": 0,
+          "accuracyResults": {
+            "similarityData": {
+              "levenshtein": {
+                "score": 1,
+                "distance": 0,
+                "maxLength": 102,
+                "weightedScore": 0.5
+              },
+              "tokenMatching": {
+                "originalTokens": [
+                  "Gjorgjina",
+                  "Cenikj,",
+                  "Lidija",
+                  "Strojnik,",
+                  "Risto",
+                  "Angelski,",
+                  "Nives",
+                  "Ogrinc,",
+                  "Barbara",
+                  "Koroušić",
+                  "Seljak,",
+                  "Tome",
+                  "Eftimov"
+                ],
+                "extractedTokens": [
+                  "Gjorgjina",
+                  "Cenikj,",
+                  "Lidija",
+                  "Strojnik,",
+                  "Risto",
+                  "Angelski,",
+                  "Nives",
+                  "Ogrinc,",
+                  "Barbara",
+                  "Koroušić",
+                  "Seljak,",
+                  "Tome",
+                  "Eftimov"
+                ],
+                "originalSet": {},
+                "tokenMatchCount": 13,
+                "score": 1,
+                "weightedScore": 0.3
+              },
+              "specialChar": {
+                "originalSpecial": [
+                  ",",
+                  ",",
+                  ",",
+                  ",",
+                  "š",
+                  "ć",
+                  ","
+                ],
+                "extractedSpecial": [
+                  ",",
+                  ",",
+                  ",",
+                  ",",
+                  "š",
+                  "ć",
+                  ","
+                ],
+                "originalSpecialSet": {},
+                "specialMatchCount": 7,
+                "score": 1,
+                "weightedScore": 0.2
+              },
+              "overallScore": 1,
+              "precisionScore": 1,
+              "recallScore": 1,
+              "f1Score": 1,
+              "automatedOverallScore": 1
+            },
+            "scoreDetails": {
+              "automatedScore": 1,
+              "normalizedRating": 1,
+              "automaticWeight": 0.14286,
+              "userWeight": 0.85714,
+              "automaticConfidence": 0,
+              "agreement": 1,
+              "agreementBonus": 0.1,
+              "importanceFactor": 1,
+              "finalScore": 1,
+              "weightedAutomatedScore": 1,
+              "combinedScore": 1,
+              "rawCalculation": {
+                "normalizedRating": 1,
+                "automaticConfidence": 0,
+                "automaticWeight": 0.14286,
+                "userWeight": 0.85714,
+                "agreement": 1,
+                "agreementBonus": 0.1,
+                "combinedScore": 1,
+                "finalScore": 1,
+                "rawAutomaticWeight": 0.1,
+                "rawUserWeight": 0.6,
+                "isCapped": true
+              }
+            }
+          },
+          "qualityResults": {
+            "qualityData": {
+              "fieldSpecificMetrics": {
+                "completeness": {
+                  "score": 1,
+                  "issues": []
+                },
+                "consistency": {
+                  "score": 1,
+                  "issues": []
+                },
+                "validity": {
+                  "score": 1,
+                  "issues": []
+                }
+              },
+              "weights": {
+                "completeness": 0.4,
+                "consistency": 0.3,
+                "validity": 0.3
+              },
+              "overallScore": 1,
+              "automatedOverallScore": 1,
+              "explanation": {
+                "completeness": "Good completeness",
+                "consistency": "Good consistency",
+                "validity": "Good validity"
+              }
+            },
+            "metricDetails": {
+              "automatedOverallScore": 1,
+              "normalizedRating": 1,
+              "automaticConfidence": 0,
+              "automaticWeight": 0.14286,
+              "userWeight": 0.85714,
+              "agreement": 1,
+              "agreementBonus": 0.1,
+              "combinedScore": 1,
+              "finalScore": 1,
+              "rawAutomaticWeight": 0.1,
+              "rawUserWeight": 0.6,
+              "isCapped": true
+            }
+          }
+        },
+        "doi": {
+          "field": "doi",
+          "rating": 5,
+          "comments": "",
+          "referenceValue": "10.1038/s41598-023-34981-4",
+          "extractedValue": "10.1038/s41598-023-34981-4",
+          "accuracyScore": 1,
+          "qualityScore": 1,
+          "overallScore": 0,
+          "accuracyResults": {
+            "similarityData": {
+              "levenshtein": {
+                "score": 1,
+                "distance": 0,
+                "maxLength": 26,
+                "weightedScore": 0.5
+              },
+              "tokenMatching": {
+                "originalTokens": [
+                  "10.1038/s41598-023-34981-4"
+                ],
+                "extractedTokens": [
+                  "10.1038/s41598-023-34981-4"
+                ],
+                "originalSet": {},
+                "tokenMatchCount": 1,
+                "score": 1,
+                "weightedScore": 0.3
+              },
+              "specialChar": {
+                "originalSpecial": [
+                  ".",
+                  "/",
+                  "-",
+                  "-",
+                  "-"
+                ],
+                "extractedSpecial": [
+                  ".",
+                  "/",
+                  "-",
+                  "-",
+                  "-"
+                ],
+                "originalSpecialSet": {},
+                "specialMatchCount": 5,
+                "score": 1,
+                "weightedScore": 0.2
+              },
+              "overallScore": 1,
+              "precisionScore": 1,
+              "recallScore": 1,
+              "f1Score": 1,
+              "automatedOverallScore": 1
+            },
+            "scoreDetails": {
+              "automatedScore": 1,
+              "normalizedRating": 1,
+              "automaticWeight": 0.14286,
+              "userWeight": 0.85714,
+              "automaticConfidence": 0,
+              "agreement": 1,
+              "agreementBonus": 0.1,
+              "importanceFactor": 1,
+              "finalScore": 1,
+              "weightedAutomatedScore": 1,
+              "combinedScore": 1,
+              "rawCalculation": {
+                "normalizedRating": 1,
+                "automaticConfidence": 0,
+                "automaticWeight": 0.14286,
+                "userWeight": 0.85714,
+                "agreement": 1,
+                "agreementBonus": 0.1,
+                "combinedScore": 1,
+                "finalScore": 1,
+                "rawAutomaticWeight": 0.1,
+                "rawUserWeight": 0.6,
+                "isCapped": true
+              }
+            }
+          },
+          "qualityResults": {
+            "qualityData": {
+              "fieldSpecificMetrics": {
+                "completeness": {
+                  "score": 1,
+                  "issues": []
+                },
+                "consistency": {
+                  "score": 1,
+                  "issues": []
+                },
+                "validity": {
+                  "score": 1,
+                  "issues": []
+                }
+              },
+              "weights": {
+                "completeness": 0.4,
+                "consistency": 0.3,
+                "validity": 0.3
+              },
+              "overallScore": 1,
+              "automatedOverallScore": 1,
+              "explanation": {
+                "completeness": "Good completeness",
+                "consistency": "Good consistency",
+                "validity": "Good validity"
+              }
+            },
+            "metricDetails": {
+              "automatedOverallScore": 1,
+              "normalizedRating": 1,
+              "automaticConfidence": 0,
+              "automaticWeight": 0.14286,
+              "userWeight": 0.85714,
+              "agreement": 1,
+              "agreementBonus": 0.1,
+              "combinedScore": 1,
+              "finalScore": 1,
+              "rawAutomaticWeight": 0.1,
+              "rawUserWeight": 0.6,
+              "isCapped": true
+            }
+          }
+        },
+        "publication_year": {
+          "field": "publication_year",
+          "rating": 5,
+          "comments": "",
+          "referenceValue": "2023",
+          "extractedValue": null,
+          "accuracyScore": 0.5,
+          "qualityScore": 0.76921,
+          "overallScore": 0,
+          "accuracyResults": {
+            "similarityData": {
+              "levenshtein": {
+                "score": 0.5,
+                "distance": 0,
+                "maxLength": 1,
+                "weightedScore": 0.25
+              },
+              "tokenMatching": {
+                "originalTokens": [],
+                "extractedTokens": [],
+                "tokenMatchCount": 0,
+                "score": 0.5,
+                "weightedScore": 0.15
+              },
+              "specialChar": {
+                "originalSpecial": [],
+                "extractedSpecial": [],
+                "specialMatchCount": 0,
+                "score": 0.5,
+                "weightedScore": 0.1
+              },
+              "overallScore": 0.5,
+              "precisionScore": 0.5,
+              "recallScore": 0.5,
+              "f1Score": 0.5,
+              "automatedOverallScore": 0.5
+            },
+            "scoreDetails": {
+              "automatedScore": 0.5,
+              "finalScore": 0.5,
+              "agreement": 0.5
+            }
+          },
+          "qualityResults": {
+            "qualityData": {
+              "fieldSpecificMetrics": {
+                "completeness": {
+                  "score": 0.1,
+                  "issues": [
+                    "Content may be incomplete"
+                  ]
+                },
+                "consistency": {
+                  "score": 0.5,
+                  "issues": [
+                    "Format inconsistencies detected"
+                  ]
+                },
+                "validity": {
+                  "score": 0.3,
+                  "issues": [
+                    "Value may not be valid"
+                  ]
+                }
+              },
+              "weights": {
+                "completeness": 0.4,
+                "consistency": 0.3,
+                "validity": 0.3
+              },
+              "overallScore": 0.76921,
+              "automatedOverallScore": 0.28,
+              "explanation": {
+                "completeness": "Content may be incomplete",
+                "consistency": "Format inconsistencies detected",
+                "validity": "Value may not be valid"
+              }
+            },
+            "metricDetails": {
+              "automatedOverallScore": 0.28,
+              "normalizedRating": 1,
+              "automaticConfidence": 0.8064,
+              "automaticWeight": 0.34964,
+              "userWeight": 0.65036,
+              "agreement": 0.28,
+              "agreementBonus": 0.028,
+              "combinedScore": 0.74826,
+              "finalScore": 0.76921,
+              "rawAutomaticWeight": 0.32256,
+              "rawUserWeight": 0.6,
+              "isCapped": false
+            }
+          }
+        },
+        "venue": {
+          "field": "venue",
+          "rating": 5,
+          "comments": "",
+          "referenceValue": "Scientific Reports",
+          "extractedValue": "Scientific Reports",
+          "accuracyScore": 1,
+          "qualityScore": 1,
+          "overallScore": 0,
+          "accuracyResults": {
+            "similarityData": {
+              "levenshtein": {
+                "score": 1,
+                "distance": 0,
+                "maxLength": 18,
+                "weightedScore": 0.5
+              },
+              "tokenMatching": {
+                "originalTokens": [
+                  "Scientific",
+                  "Reports"
+                ],
+                "extractedTokens": [
+                  "Scientific",
+                  "Reports"
+                ],
+                "originalSet": {},
+                "tokenMatchCount": 2,
+                "score": 1,
+                "weightedScore": 0.3
+              },
+              "specialChar": {
+                "originalSpecial": [],
+                "extractedSpecial": [],
+                "originalSpecialSet": {},
+                "specialMatchCount": 0,
+                "score": 1,
+                "weightedScore": 0.2
+              },
+              "overallScore": 1,
+              "precisionScore": 1,
+              "recallScore": 1,
+              "f1Score": 1,
+              "automatedOverallScore": 1
+            },
+            "scoreDetails": {
+              "automatedScore": 1,
+              "normalizedRating": 1,
+              "automaticWeight": 0.14286,
+              "userWeight": 0.85714,
+              "automaticConfidence": 0,
+              "agreement": 1,
+              "agreementBonus": 0.1,
+              "importanceFactor": 1,
+              "finalScore": 1,
+              "weightedAutomatedScore": 1,
+              "combinedScore": 1,
+              "rawCalculation": {
+                "normalizedRating": 1,
+                "automaticConfidence": 0,
+                "automaticWeight": 0.14286,
+                "userWeight": 0.85714,
+                "agreement": 1,
+                "agreementBonus": 0.1,
+                "combinedScore": 1,
+                "finalScore": 1,
+                "rawAutomaticWeight": 0.1,
+                "rawUserWeight": 0.6,
+                "isCapped": true
+              }
+            }
+          },
+          "qualityResults": {
+            "qualityData": {
+              "fieldSpecificMetrics": {
+                "completeness": {
+                  "score": 1,
+                  "issues": []
+                },
+                "consistency": {
+                  "score": 1,
+                  "issues": []
+                },
+                "validity": {
+                  "score": 1,
+                  "issues": []
+                }
+              },
+              "weights": {
+                "completeness": 0.4,
+                "consistency": 0.3,
+                "validity": 0.3
+              },
+              "overallScore": 1,
+              "automatedOverallScore": 1,
+              "explanation": {
+                "completeness": "Good completeness",
+                "consistency": "Good consistency",
+                "validity": "Good validity"
+              }
+            },
+            "metricDetails": {
+              "automatedOverallScore": 1,
+              "normalizedRating": 1,
+              "automaticConfidence": 0,
+              "automaticWeight": 0.14286,
+              "userWeight": 0.85714,
+              "agreement": 1,
+              "agreementBonus": 0.1,
+              "combinedScore": 1,
+              "finalScore": 1,
+              "rawAutomaticWeight": 0.1,
+              "rawUserWeight": 0.6,
+              "isCapped": true
+            }
+          }
+        },
+        "overall": {
+          "accuracyScore": 0.9,
+          "qualityScore": 0.9538420000000001,
+          "overallScore": 0.9215368000000002,
+          "fields": 5
+        }
+      },
+      "research_field": {
+        "primaryField": {
+          "rating": 4,
+          "comments": ""
+        },
+        "confidence": {
+          "rating": 4,
+          "comments": ""
+        },
+        "consistency": {
+          "rating": 4,
+          "comments": ""
+        },
+        "relevance": {
+          "rating": 5,
+          "comments": ""
+        },
+        "comments": "",
+        "accuracyMetrics": {
+          "exactMatch": {
+            "value": 0
+          },
+          "recall": {
+            "value": 0
+          },
+          "topN": {
+            "value": 0
+          },
+          "positionScore": {
+            "value": 0
+          },
+          "f1Score": {
+            "value": 0
+          },
+          "precision": {
+            "value": 0
+          },
+          "foundPosition": null,
+          "automatedScore": {
+            "value": 0
+          },
+          "overallAccuracy": {
+            "value": 0.69943
+          },
+          "scoreDetails": {
+            "normalizedRating": 0.8,
+            "automaticConfidence": 0,
+            "automaticWeight": 0.14286,
+            "userWeight": 0.85714,
+            "agreement": 0.2,
+            "agreementBonus": 0.02,
+            "combinedScore": 0.68571,
+            "finalScore": 0.69943,
+            "rawAutomaticWeight": 0.1,
+            "rawUserWeight": 0.6,
+            "isCapped": false
+          },
+          "similarityData": {
+            "exactMatch": 0,
+            "recall": 0,
+            "topN": 0,
+            "positionScore": 0,
+            "foundPosition": null,
+            "f1Score": 0,
+            "automatedOverallScore": 0,
+            "overallScore": 0,
+            "totalPredictions": 5,
+            "precision": 0
+          }
+        },
+        "qualityMetrics": {
+          "confidence": {
+            "value": 0.009293766021728517,
+            "details": {
+              "topPredictions": [
+                {
+                  "name": "Natural Language Processing",
+                  "score": 6.276980400085449,
+                  "confidence": 0.0627698040008545
+                },
+                {
+                  "name": "Computational Linguistics",
+                  "score": 6.1555657386779785,
+                  "confidence": 0.06155565738677979
+                },
+                {
+                  "name": "Computer Sciences",
+                  "score": 5.347603797912598,
+                  "confidence": 0.05347603797912598
+                }
+              ],
+              "orkgPosition": null,
+              "totalPredictions": 5
+            }
+          },
+          "relevance": {
+            "value": 0.5
+          },
+          "consistency": {
+            "value": 0.9907062339782715
+          },
+          "automatedScore": {
+            "value": 0.4509293766021728
+          },
+          "overallQuality": {
+            "value": 0.81689
+          },
+          "scoreDetails": {
+            "normalizedRating": 1,
+            "automaticConfidence": 0.99037,
+            "automaticWeight": 0.39768,
+            "userWeight": 0.60232,
+            "agreement": 0.45093,
+            "agreementBonus": 0.04509,
+            "combinedScore": 0.78165,
+            "finalScore": 0.81689,
+            "rawAutomaticWeight": 0.39615,
+            "rawUserWeight": 0.6,
+            "isCapped": false
+          },
+          "qualityData": {
+            "fieldSpecificMetrics": {
+              "confidence": {
+                "score": 0.009293766021728517
+              },
+              "relevance": {
+                "score": 0.5
+              },
+              "consistency": {
+                "score": 0.9907062339782715
+              }
+            },
+            "weights": {
+              "confidence": 0.4,
+              "relevance": 0.3,
+              "consistency": 0.3
+            },
+            "overallScore": 0.4509293766021728,
+            "automatedOverallScore": 0.4509293766021728,
+            "details": {
+              "topPredictions": [
+                {
+                  "name": "Natural Language Processing",
+                  "score": 6.276980400085449,
+                  "confidence": 0.0627698040008545
+                },
+                {
+                  "name": "Computational Linguistics",
+                  "score": 6.1555657386779785,
+                  "confidence": 0.06155565738677979
+                },
+                {
+                  "name": "Computer Sciences",
+                  "score": 5.347603797912598,
+                  "confidence": 0.05347603797912598
+                }
+              ],
+              "orkgPosition": null,
+              "totalPredictions": 5
+            }
+          },
+          "qualityAnalysis": {
+            "confidence": 0.009293766021728517,
+            "relevance": 0.5,
+            "consistency": 0.9907062339782715,
+            "details": {
+              "topPredictions": [
+                {
+                  "name": "Natural Language Processing",
+                  "score": 6.276980400085449,
+                  "confidence": 0.0627698040008545
+                },
+                {
+                  "name": "Computational Linguistics",
+                  "score": 6.1555657386779785,
+                  "confidence": 0.06155565738677979
+                },
+                {
+                  "name": "Computer Sciences",
+                  "score": 5.347603797912598,
+                  "confidence": 0.05347603797912598
+                }
+              ],
+              "orkgPosition": null,
+              "totalPredictions": 5
+            }
+          },
+          "weights": {
+            "confidence": 0.4,
+            "relevance": 0.3,
+            "consistency": 0.3
+          }
+        },
+        "predictions": [
+          {
+            "name": "Natural Language Processing",
+            "score": 6.276980400085449,
+            "position": 1,
+            "confidence": 0.0627698040008545,
+            "isOrkg": false,
+            "isSelected": true
+          },
+          {
+            "name": "Computational Linguistics",
+            "score": 6.1555657386779785,
+            "position": 2,
+            "confidence": 0.06155565738677979,
+            "isOrkg": false,
+            "isSelected": false
+          },
+          {
+            "name": "Computer Sciences",
+            "score": 5.347603797912598,
+            "position": 3,
+            "confidence": 0.05347603797912598,
+            "isOrkg": false,
+            "isSelected": false
+          },
+          {
+            "name": "Computer Engineering",
+            "score": 4.8399338722229,
+            "position": 4,
+            "confidence": 0.048399338722229006,
+            "isOrkg": false,
+            "isSelected": false
+          },
+          {
+            "name": "Semantic Web",
+            "score": 4.709836959838867,
+            "position": 5,
+            "confidence": 0.04709836959838867,
+            "isOrkg": false,
+            "isSelected": false
+          }
+        ],
+        "groundTruth": "Public Health",
+        "selectedField": "Natural Language Processing",
+        "orkgPosition": null,
+        "overallScore": 0.746414,
+        "timestamp": "2025-11-20T15:38:57.109Z",
+        "expertiseWeight": 1,
+        "config": {
+          "accuracyWeights": {
+            "exactMatch": 0,
+            "recall": 0,
+            "topN": 0,
+            "positionScore": 0,
+            "foundPosition": null,
+            "f1Score": 0,
+            "automatedOverallScore": 0,
+            "overallScore": 0,
+            "totalPredictions": 5,
+            "precision": 0
+          },
+          "qualityWeights": {
+            "confidence": 0.4,
+            "relevance": 0.3,
+            "consistency": 0.3
+          },
+          "overallWeights": {
+            "accuracy": 0.6,
+            "quality": 0.4
+          }
+        }
+      },
+      "research_problem": {
+        "overall": {
+          "research_problem": {
+            "userRatings": {
+              "problemTitle": {
+                "rating": 5,
+                "comments": ""
+              },
+              "problemDescription": {
+                "rating": 5,
+                "comments": ""
+              },
+              "relevance": {
+                "rating": 5,
+                "comments": ""
+              },
+              "completeness": {
+                "rating": 4,
+                "comments": ""
+              },
+              "evidenceQuality": {
+                "rating": 5,
+                "comments": ""
+              },
+              "overallRating": 5,
+              "overallComments": "",
+              "expertiseWeight": 2,
+              "expertiseMultiplier": 1
+            },
+            "accuracy": {
+              "overallAccuracy": {
+                "value": null,
+                "automated": 0.85714,
+                "finalScore": 0.85714
+              },
+              "semanticSimilarity": {},
+              "conceptOverlap": {},
+              "contextualRelevance": {},
+              "structuralAlignment": {},
+              "specificity": {
+                "value": 0,
+                "weight": 0.2
+              },
+              "precision": {
+                "value": 0.7
+              },
+              "recall": {
+                "value": 0.65
+              },
+              "f1Score": {
+                "value": 0.675
+              },
+              "similarityData": {
+                "titleAlignment": 0,
+                "contentCoverage": 0,
+                "specificity": 0,
+                "titleTokenMetrics": {
+                  "tokens": {
+                    "reference": [],
+                    "generated": [],
+                    "matched": []
+                  },
+                  "precision": 0,
+                  "recall": 0,
+                  "f1Score": 0,
+                  "tokenAccuracy": 0
+                },
+                "descriptionTokenMetrics": {
+                  "tokens": {
+                    "reference": [],
+                    "generated": [],
+                    "matched": []
+                  },
+                  "precision": 0,
+                  "recall": 0,
+                  "f1Score": 0,
+                  "tokenAccuracy": 0
+                },
+                "keyConceptsPreserved": 0,
+                "structuralQuality": 0,
+                "groundTruth": {
+                  "text": "AbstractKnowledge about the interactions between dietary and biomedical factors is scattered throughout uncountable research articles in an unstructured form (e.g., text, images, etc.) and requires automatic structuring so that it can be provided to medical professionals in a suitable format. Various biomedical knowledge graphs exist, however, they require further extension with relations between food and biomedical entities. In this study, we evaluate the performance of three state-of-the-art relation-mining pipelines (FooDis, FoodChem and ChemDis) which extract relations between food, chemical and disease entities from textual data. We perform two case studies, where relations were automatically extracted by the pipelines and validated by domain experts. The results show that the pipelines can extract relations with an average precision around 70%, making new discoveries available to domain experts with reduced human effort, since the domain experts should only evaluate the results, instead of finding, and reading all new scientific papers.",
+                  "title": "AbstractKnowledge about the interactions between dietary and biomedical factors is scattered throughout uncountable research articles in an unstructured form (e.g., text, images, etc.) and requires automatic structuring so that it can be provided to medical professionals in a suitable format. Various biomedical knowledge graphs exist, however, they require further extension with relations between food and biomedical entities. In this study, we evaluate the performance of three state-of-the-art relation-mining pipelines (FooDis, FoodChem and ChemDis) which extract relations between food, chemical and disease entities from textual data. We perform two case studies, where relations were automatically extracted by the pipelines and validated by domain experts. The results show that the pipelines can extract relations with an average precision around 70%, making new discoveries available to domain experts with reduced human effort, since the domain experts should only evaluate the results, instead of finding, and reading all new scientific papers.",
+                  "description": ""
+                },
+                "problem": {
+                  "title": "",
+                  "description": ""
+                },
+                "precision": 0,
+                "recall": 0,
+                "f1Score": 0,
+                "automatedOverallScore": 0,
+                "overallScore": 0,
+                "finalScore": 0.85714
+              },
+              "scoreDetails": {
+                "normalizedRating": 1,
+                "automaticConfidence": 0,
+                "automaticWeight": 0.14286,
+                "userWeight": 0.85714,
+                "agreement": 0,
+                "agreementBonus": 0,
+                "combinedScore": 0.85714,
+                "finalScore": 0.85714,
+                "rawAutomaticWeight": 0.1,
+                "rawUserWeight": 0.6,
+                "isCapped": false
+              }
+            },
+            "quality": {
+              "overallQuality": {
+                "value": null,
+                "automated": null,
+                "finalScore": null
+              },
+              "problemTitle": {
+                "value": {
+                  "score": 0,
+                  "reason": "No title provided",
+                  "details": {}
+                },
+                "weight": 0.3,
+                "reason": "Title length: 0 chars",
+                "details": ""
+              },
+              "problemDescription": {
+                "value": {
+                  "score": 0,
+                  "reason": "No description provided",
+                  "details": {}
+                },
+                "weight": 0.3,
+                "reason": "Description length: 0 chars",
+                "details": ""
+              },
+              "relevance": {
+                "value": {
+                  "score": 0,
+                  "reason": "The problem has low relevance to the source material, with minimal content alignment.",
+                  "details": {
+                    "matchedWords": 0,
+                    "totalGroundTruthWords": 108,
+                    "totalProblemWords": 0,
+                    "jaccardSimilarity": 0,
+                    "wordRecall": 0
+                  }
+                },
+                "weight": 0.2,
+                "reason": "Based on semantic overlap with ground truth",
+                "details": "AbstractKnowledge about the interactions between dietary and biomedical factors is scattered throughout uncountable research articles in an unstructured form (e.g., text, images, etc.) and requires automatic structuring so that it can be provided to medical professionals in a suitable format. Various biomedical knowledge graphs exist, however, they require further extension with relations between food and biomedical entities. In this study, we evaluate the performance of three state-of-the-art relation-mining pipelines (FooDis, FoodChem and ChemDis) which extract relations between food, chemical and disease entities from textual data. We perform two case studies, where relations were automatically extracted by the pipelines and validated by domain experts. The results show that the pipelines can extract relations with an average precision around 70%, making new discoveries available to domain experts with reduced human effort, since the domain experts should only evaluate the results, instead of finding, and reading all new scientific papers."
+              },
+              "evidenceQuality": {
+                "value": {
+                  "score": 0,
+                  "reason": "No description provided to assess evidence",
+                  "details": {}
+                },
+                "weight": 0.2,
+                "reason": "Based on available evidence and citations",
+                "details": ""
+              },
+              "qualityData": {
+                "fieldSpecificMetrics": {
+                  "problemTitle": {
+                    "score": 0,
+                    "issues": [
+                      "Could improve title formulation"
+                    ]
+                  },
+                  "problemDescription": {
+                    "score": 0,
+                    "issues": [
+                      "Description could be more comprehensive"
+                    ]
+                  },
+                  "relevance": {
+                    "score": 0,
+                    "issues": [
+                      "Could better align with paper content"
+                    ]
+                  },
+                  "evidenceQuality": {
+                    "score": 0,
+                    "issues": [
+                      "Could include more supporting evidence"
+                    ]
+                  }
+                },
+                "weights": 1,
+                "overallScore": null,
+                "automatedOverallScore": null,
+                "finalScore": null,
+                "details": {}
+              },
+              "qualityAnalysis": {
+                "problemTitle": {
+                  "score": 0,
+                  "reason": "No title provided",
+                  "details": {}
+                },
+                "problemDescription": {
+                  "score": 0,
+                  "reason": "No description provided",
+                  "details": {}
+                },
+                "relevance": {
+                  "score": 0,
+                  "reason": "The problem has low relevance to the source material, with minimal content alignment.",
+                  "details": {
+                    "matchedWords": 0,
+                    "totalGroundTruthWords": 108,
+                    "totalProblemWords": 0,
+                    "jaccardSimilarity": 0,
+                    "wordRecall": 0
+                  }
+                },
+                "evidenceQuality": {
+                  "score": 0,
+                  "reason": "No description provided to assess evidence",
+                  "details": {}
+                },
+                "details": {
+                  "problemTitleReason": "Title length: 0 chars",
+                  "problemTitleDetails": "",
+                  "problemDescriptionReason": "Description length: 0 chars",
+                  "problemDescriptionDetails": "",
+                  "relevanceReason": "Based on semantic overlap with ground truth",
+                  "relevanceDetails": "AbstractKnowledge about the interactions between dietary and biomedical factors is scattered throughout uncountable research articles in an unstructured form (e.g., text, images, etc.) and requires automatic structuring so that it can be provided to medical professionals in a suitable format. Various biomedical knowledge graphs exist, however, they require further extension with relations between food and biomedical entities. In this study, we evaluate the performance of three state-of-the-art relation-mining pipelines (FooDis, FoodChem and ChemDis) which extract relations between food, chemical and disease entities from textual data. We perform two case studies, where relations were automatically extracted by the pipelines and validated by domain experts. The results show that the pipelines can extract relations with an average precision around 70%, making new discoveries available to domain experts with reduced human effort, since the domain experts should only evaluate the results, instead of finding, and reading all new scientific papers.",
+                  "evidenceQualityReason": "Based on available evidence and citations",
+                  "evidenceQualityDetails": ""
+                }
+              },
+              "scoreDetails": {
+                "normalizedRating": null,
+                "automaticConfidence": null,
+                "automaticWeight": null,
+                "userWeight": null,
+                "agreement": null,
+                "agreementBonus": null,
+                "combinedScore": null,
+                "finalScore": null,
+                "rawAutomaticWeight": null,
+                "rawUserWeight": 3,
+                "isCapped": false
+              }
+            },
+            "scores": {
+              "accuracyScore": null,
+              "qualityScore": null,
+              "overallScore": null,
+              "weights": {
+                "accuracy": 0.6,
+                "quality": 0.4
+              }
+            },
+            "comparisonData": {
+              "title": {
+                "title": {
+                  "original": "AbstractKnowledge about the interactions between dietary and biomedical factors is scattered throughout uncountable research articles in an unstructured form (e.g., text, images, etc.) and requires automatic structuring so that it can be provided to medical professionals in a suitable format. Various biomedical knowledge graphs exist, however, they require further extension with relations between food and biomedical entities. In this study, we evaluate the performance of three state-of-the-art relation-mining pipelines (FooDis, FoodChem and ChemDis) which extract relations between food, chemical and disease entities from textual data. We perform two case studies, where relations were automatically extracted by the pipelines and validated by domain experts. The results show that the pipelines can extract relations with an average precision around 70%, making new discoveries available to domain experts with reduced human effort, since the domain experts should only evaluate the results, instead of finding, and reading all new scientific papers.",
+                  "edited": "",
+                  "levenshtein": {
+                    "distance": 1058,
+                    "normalizedDistance": 1,
+                    "similarityScore": 0
+                  },
+                  "tokenMatching": {
+                    "originalTokens": [],
+                    "modifiedTokens": [],
+                    "matchedTokens": [],
+                    "precision": 0,
+                    "recall": 0,
+                    "f1Score": 0
+                  },
+                  "specialCharacters": {
+                    "count": 0,
+                    "ratio": 0,
+                    "characters": []
+                  },
+                  "edits": {
+                    "insertions": 0,
+                    "deletions": 0,
+                    "modifications": 0,
+                    "totalEdits": 0,
+                    "editPercentage": 0,
+                    "levenshteinData": {
+                      "distance": 0,
+                      "normalizedDistance": 0,
+                      "similarityScore": 0
+                    }
+                  }
+                },
+                "description": {
+                  "original": "",
+                  "edited": "",
+                  "levenshtein": {
+                    "distance": 0,
+                    "normalizedDistance": 0,
+                    "similarityScore": 1
+                  },
+                  "tokenMatching": {
+                    "originalTokens": [],
+                    "modifiedTokens": [],
+                    "matchedTokens": [],
+                    "precision": 0,
+                    "recall": 0,
+                    "f1Score": 0
+                  },
+                  "specialCharacters": {
+                    "count": 0,
+                    "ratio": 0,
+                    "characters": []
+                  },
+                  "edits": {
+                    "insertions": 0,
+                    "deletions": 0,
+                    "modifications": 0,
+                    "totalEdits": 0,
+                    "editPercentage": 0,
+                    "levenshteinData": {
+                      "distance": 0,
+                      "normalizedDistance": 0,
+                      "similarityScore": 0
+                    }
+                  }
+                },
+                "overall": {
+                  "levenshtein": {
+                    "distance": 1058,
+                    "normalizedDistance": 0.9990557129367328,
+                    "similarityScore": 0.0009442870632672129
+                  },
+                  "tokenMatching": {
+                    "originalTokens": [
+                      "AbstractKnowledge",
+                      "about",
+                      "the",
+                      "interactions",
+                      "between",
+                      "dietary",
+                      "and",
+                      "biomedical",
+                      "factors",
+                      "is",
+                      "scattered",
+                      "throughout",
+                      "uncountable",
+                      "research",
+                      "articles",
+                      "in",
+                      "an",
+                      "unstructured",
+                      "form",
+                      "(e.g.,",
+                      "text,",
+                      "images,",
+                      "etc.)",
+                      "and",
+                      "requires",
+                      "automatic",
+                      "structuring",
+                      "so",
+                      "that",
+                      "it",
+                      "can",
+                      "be",
+                      "provided",
+                      "to",
+                      "medical",
+                      "professionals",
+                      "in",
+                      "a",
+                      "suitable",
+                      "format.",
+                      "Various",
+                      "biomedical",
+                      "knowledge",
+                      "graphs",
+                      "exist,",
+                      "however,",
+                      "they",
+                      "require",
+                      "further",
+                      "extension",
+                      "with",
+                      "relations",
+                      "between",
+                      "food",
+                      "and",
+                      "biomedical",
+                      "entities.",
+                      "In",
+                      "this",
+                      "study,",
+                      "we",
+                      "evaluate",
+                      "the",
+                      "performance",
+                      "of",
+                      "three",
+                      "state-of-the-art",
+                      "relation-mining",
+                      "pipelines",
+                      "(FooDis,",
+                      "FoodChem",
+                      "and",
+                      "ChemDis)",
+                      "which",
+                      "extract",
+                      "relations",
+                      "between",
+                      "food,",
+                      "chemical",
+                      "and",
+                      "disease",
+                      "entities",
+                      "from",
+                      "textual",
+                      "data.",
+                      "We",
+                      "perform",
+                      "two",
+                      "case",
+                      "studies,",
+                      "where",
+                      "relations",
+                      "were",
+                      "automatically",
+                      "extracted",
+                      "by",
+                      "the",
+                      "pipelines",
+                      "and",
+                      "validated",
+                      "by",
+                      "domain",
+                      "experts.",
+                      "The",
+                      "results",
+                      "show",
+                      "that",
+                      "the",
+                      "pipelines",
+                      "can",
+                      "extract",
+                      "relations",
+                      "with",
+                      "an",
+                      "average",
+                      "precision",
+                      "around",
+                      "70%,",
+                      "making",
+                      "new",
+                      "discoveries",
+                      "available",
+                      "to",
+                      "domain",
+                      "experts",
+                      "with",
+                      "reduced",
+                      "human",
+                      "effort,",
+                      "since",
+                      "the",
+                      "domain",
+                      "experts",
+                      "should",
+                      "only",
+                      "evaluate",
+                      "the",
+                      "results,",
+                      "instead",
+                      "of",
+                      "finding,",
+                      "and",
+                      "reading",
+                      "all",
+                      "new",
+                      "scientific",
+                      "papers."
+                    ],
+                    "modifiedTokens": [],
+                    "matchedTokens": [],
+                    "precision": 0,
+                    "recall": 0,
+                    "f1Score": 0
+                  },
+                  "edits": {
+                    "insertions": 0,
+                    "deletions": 1058,
+                    "modifications": 0,
+                    "totalEdits": 1058,
+                    "editPercentage": 0.9990557129367328,
+                    "levenshteinData": {
+                      "distance": 1058,
+                      "normalizedDistance": 0.9990557129367328,
+                      "similarityScore": 0.0009442870632672129
+                    }
+                  },
+                  "satisfactionEstimate": 0.0009442870632672129
+                }
+              },
+              "description": {
+                "title": {
+                  "original": "",
+                  "edited": "",
+                  "levenshtein": {
+                    "distance": 0,
+                    "normalizedDistance": 0,
+                    "similarityScore": 1
+                  },
+                  "tokenMatching": {
+                    "originalTokens": [],
+                    "modifiedTokens": [],
+                    "matchedTokens": [],
+                    "precision": 0,
+                    "recall": 0,
+                    "f1Score": 0
+                  },
+                  "specialCharacters": {
+                    "count": 0,
+                    "ratio": 0,
+                    "characters": []
+                  },
+                  "edits": {
+                    "insertions": 0,
+                    "deletions": 0,
+                    "modifications": 0,
+                    "totalEdits": 0,
+                    "editPercentage": 0,
+                    "levenshteinData": {
+                      "distance": 0,
+                      "normalizedDistance": 0,
+                      "similarityScore": 0
+                    }
+                  }
+                },
+                "description": {
+                  "original": "AbstractKnowledge about the interactions between dietary and biomedical factors is scattered throughout uncountable research articles in an unstructured form (e.g., text, images, etc.) and requires automatic structuring so that it can be provided to medical professionals in a suitable format. Various biomedical knowledge graphs exist, however, they require further extension with relations between food and biomedical entities. In this study, we evaluate the performance of three state-of-the-art relation-mining pipelines (FooDis, FoodChem and ChemDis) which extract relations between food, chemical and disease entities from textual data. We perform two case studies, where relations were automatically extracted by the pipelines and validated by domain experts. The results show that the pipelines can extract relations with an average precision around 70%, making new discoveries available to domain experts with reduced human effort, since the domain experts should only evaluate the results, instead of finding, and reading all new scientific papers.",
+                  "edited": "",
+                  "levenshtein": {
+                    "distance": 1058,
+                    "normalizedDistance": 1,
+                    "similarityScore": 0
+                  },
+                  "tokenMatching": {
+                    "originalTokens": [],
+                    "modifiedTokens": [],
+                    "matchedTokens": [],
+                    "precision": 0,
+                    "recall": 0,
+                    "f1Score": 0
+                  },
+                  "specialCharacters": {
+                    "count": 0,
+                    "ratio": 0,
+                    "characters": []
+                  },
+                  "edits": {
+                    "insertions": 0,
+                    "deletions": 0,
+                    "modifications": 0,
+                    "totalEdits": 0,
+                    "editPercentage": 0,
+                    "levenshteinData": {
+                      "distance": 0,
+                      "normalizedDistance": 0,
+                      "similarityScore": 0
+                    }
+                  }
+                },
+                "overall": {
+                  "levenshtein": {
+                    "distance": 1058,
+                    "normalizedDistance": 0.9990557129367328,
+                    "similarityScore": 0.0009442870632672129
+                  },
+                  "tokenMatching": {
+                    "originalTokens": [
+                      "AbstractKnowledge",
+                      "about",
+                      "the",
+                      "interactions",
+                      "between",
+                      "dietary",
+                      "and",
+                      "biomedical",
+                      "factors",
+                      "is",
+                      "scattered",
+                      "throughout",
+                      "uncountable",
+                      "research",
+                      "articles",
+                      "in",
+                      "an",
+                      "unstructured",
+                      "form",
+                      "(e.g.,",
+                      "text,",
+                      "images,",
+                      "etc.)",
+                      "and",
+                      "requires",
+                      "automatic",
+                      "structuring",
+                      "so",
+                      "that",
+                      "it",
+                      "can",
+                      "be",
+                      "provided",
+                      "to",
+                      "medical",
+                      "professionals",
+                      "in",
+                      "a",
+                      "suitable",
+                      "format.",
+                      "Various",
+                      "biomedical",
+                      "knowledge",
+                      "graphs",
+                      "exist,",
+                      "however,",
+                      "they",
+                      "require",
+                      "further",
+                      "extension",
+                      "with",
+                      "relations",
+                      "between",
+                      "food",
+                      "and",
+                      "biomedical",
+                      "entities.",
+                      "In",
+                      "this",
+                      "study,",
+                      "we",
+                      "evaluate",
+                      "the",
+                      "performance",
+                      "of",
+                      "three",
+                      "state-of-the-art",
+                      "relation-mining",
+                      "pipelines",
+                      "(FooDis,",
+                      "FoodChem",
+                      "and",
+                      "ChemDis)",
+                      "which",
+                      "extract",
+                      "relations",
+                      "between",
+                      "food,",
+                      "chemical",
+                      "and",
+                      "disease",
+                      "entities",
+                      "from",
+                      "textual",
+                      "data.",
+                      "We",
+                      "perform",
+                      "two",
+                      "case",
+                      "studies,",
+                      "where",
+                      "relations",
+                      "were",
+                      "automatically",
+                      "extracted",
+                      "by",
+                      "the",
+                      "pipelines",
+                      "and",
+                      "validated",
+                      "by",
+                      "domain",
+                      "experts.",
+                      "The",
+                      "results",
+                      "show",
+                      "that",
+                      "the",
+                      "pipelines",
+                      "can",
+                      "extract",
+                      "relations",
+                      "with",
+                      "an",
+                      "average",
+                      "precision",
+                      "around",
+                      "70%,",
+                      "making",
+                      "new",
+                      "discoveries",
+                      "available",
+                      "to",
+                      "domain",
+                      "experts",
+                      "with",
+                      "reduced",
+                      "human",
+                      "effort,",
+                      "since",
+                      "the",
+                      "domain",
+                      "experts",
+                      "should",
+                      "only",
+                      "evaluate",
+                      "the",
+                      "results,",
+                      "instead",
+                      "of",
+                      "finding,",
+                      "and",
+                      "reading",
+                      "all",
+                      "new",
+                      "scientific",
+                      "papers."
+                    ],
+                    "modifiedTokens": [],
+                    "matchedTokens": [],
+                    "precision": 0,
+                    "recall": 0,
+                    "f1Score": 0
+                  },
+                  "edits": {
+                    "insertions": 0,
+                    "deletions": 1058,
+                    "modifications": 0,
+                    "totalEdits": 1058,
+                    "editPercentage": 0.9990557129367328,
+                    "levenshteinData": {
+                      "distance": 1058,
+                      "normalizedDistance": 0.9990557129367328,
+                      "similarityScore": 0.0009442870632672129
+                    }
+                  },
+                  "satisfactionEstimate": 0.0009442870632672129
+                }
+              }
+            },
+            "groundTruth": {
+              "text": "AbstractKnowledge about the interactions between dietary and biomedical factors is scattered throughout uncountable research articles in an unstructured form (e.g., text, images, etc.) and requires automatic structuring so that it can be provided to medical professionals in a suitable format. Various biomedical knowledge graphs exist, however, they require further extension with relations between food and biomedical entities. In this study, we evaluate the performance of three state-of-the-art relation-mining pipelines (FooDis, FoodChem and ChemDis) which extract relations between food, chemical and disease entities from textual data. We perform two case studies, where relations were automatically extracted by the pipelines and validated by domain experts. The results show that the pipelines can extract relations with an average precision around 70%, making new discoveries available to domain experts with reduced human effort, since the domain experts should only evaluate the results, instead of finding, and reading all new scientific papers.",
+              "source": "abstract"
+            },
+            "problemData": {
+              "title": "",
+              "description": ""
+            },
+            "config": {
+              "useAbstract": true,
+              "accuracyWeights": {
+                "titleAlignment": 0.4,
+                "contentCoverage": 0.4,
+                "specificity": 0.2
+              },
+              "qualityWeights": {
+                "problemTitle": 0.3,
+                "problemDescription": 0.3,
+                "relevance": 0.2,
+                "evidenceQuality": 0.2
+              }
+            },
+            "timestamp": "2025-11-20T15:41:10.368Z"
+          }
+        }
+      },
+      "template": {
+        "titleAccuracy": 5,
+        "descriptionQuality": 5,
+        "propertyCoverage": 4,
+        "researchAlignment": 5,
+        "titleAccuracyComments": "",
+        "descriptionQualityComments": "",
+        "propertyCoverageComments": "",
+        "researchAlignmentComments": "",
+        "overallComments": "",
+        "accuracyResults": {
+          "similarityData": {
+            "titleMatch": 1,
+            "propertyMatch": 0,
+            "typeAccuracy": 0,
+            "precision": 0,
+            "recall": 0,
+            "f1Score": 0,
+            "exactMatches": 0,
+            "semanticMatches": 0,
+            "typeMatches": 0,
+            "totalTemplateProps": 0,
+            "totalReferenceProps": 0,
+            "automatedOverallScore": 0.2,
+            "overallScore": 0.2
+          },
+          "scoreDetails": {
+            "normalizedRating": 1,
+            "automaticConfidence": 0.64,
+            "automaticWeight": 0.29907,
+            "userWeight": 0.70093,
+            "agreement": 0.2,
+            "agreementBonus": 0.02,
+            "combinedScore": 0.76075,
+            "finalScore": 0.77596,
+            "rawAutomaticWeight": 0.256,
+            "rawUserWeight": 0.6,
+            "isCapped": false
+          }
+        },
+        "qualityResults": {
+          "qualityData": {
+            "fieldSpecificMetrics": {
+              "titleAccuracy": {
+                "score": 0,
+                "issues": [
+                  "No template data provided"
+                ]
+              },
+              "descriptionQuality": {
+                "score": 0,
+                "issues": [
+                  "No template data provided"
+                ]
+              },
+              "propertyCoverage": {
+                "score": 0,
+                "issues": [
+                  "No template data provided"
+                ]
+              },
+              "researchAlignment": {
+                "score": 0,
+                "issues": [
+                  "No template data provided"
+                ]
+              }
+            },
+            "weights": {
+              "titleQuality": 0.25,
+              "descriptionQuality": 0.25,
+              "propertyCoverage": 0.25,
+              "researchAlignment": 0.25
+            },
+            "overallScore": null,
+            "automatedOverallScore": null,
+            "details": {
+              "titleReason": "No template data provided",
+              "descriptionReason": "No template data provided",
+              "coverageReason": "No template data provided",
+              "alignmentReason": "No template data provided"
+            }
+          },
+          "scoreDetails": {
+            "normalizedRating": 1,
+            "automaticConfidence": null,
+            "automaticWeight": null,
+            "userWeight": null,
+            "agreement": null,
+            "agreementBonus": null,
+            "combinedScore": null,
+            "finalScore": null,
+            "rawAutomaticWeight": null,
+            "rawUserWeight": 0.6,
+            "isCapped": false
+          }
+        },
+        "accuracyScore": 0.77596,
+        "qualityScore": 0,
+        "overallScore": 0.38798,
+        "timestamp": "2025-11-20T15:41:56.673Z",
+        "expertiseWeight": 1,
+        "templateData": {
+          "title": "",
+          "description": "",
+          "propertiesCount": 0
+        },
+        "referenceType": "research_problem",
+        "isOrkgScenario": false
+      },
+      "content": {
+        "research_problem": {
+          "score": 0,
+          "accuracyScore": 0,
+          "qualityScore": 0,
+          "details": {
+            "accuracyWeight": 0.6,
+            "qualityWeight": 0.4
+          },
+          "metadata": {
+            "originalPropertyName": "research problem",
+            "safeKey": "research_problem",
+            "propertyIndex": 0,
+            "timestamp": "2025-11-20T15:42:30.115Z",
+            "evaluationDate": "11/20/2025",
+            "evaluationTime": "4:42:30 PM",
+            "propertyData": {
+              "value": null,
+              "confidence": null,
+              "evidence": null,
+              "source": null
+            },
+            "templateProperty": {
+              "label": "research problem",
+              "dataType": null,
+              "description": null,
+              "required": false
+            },
+            "evaluationContext": {
+              "paperContentAvailable": true,
+              "evaluationDataAvailable": true,
+              "userRatingsProvided": true,
+              "expertiseMultiplierApplied": 1
+            }
+          }
+        },
+        "material": {
+          "score": 0,
+          "accuracyScore": 0,
+          "qualityScore": 0,
+          "details": {
+            "accuracyWeight": 0.6,
+            "qualityWeight": 0.4
+          },
+          "metadata": {
+            "originalPropertyName": "material",
+            "safeKey": "material",
+            "propertyIndex": 1,
+            "timestamp": "2025-11-20T15:42:30.123Z",
+            "evaluationDate": "11/20/2025",
+            "evaluationTime": "4:42:30 PM",
+            "propertyData": {
+              "value": null,
+              "confidence": null,
+              "evidence": null,
+              "source": null
+            },
+            "templateProperty": {
+              "label": "material",
+              "dataType": null,
+              "description": null,
+              "required": false
+            },
+            "evaluationContext": {
+              "paperContentAvailable": true,
+              "evaluationDataAvailable": true,
+              "userRatingsProvided": true,
+              "expertiseMultiplierApplied": 1
+            }
+          }
+        },
+        "method": {
+          "score": 0,
+          "accuracyScore": 0,
+          "qualityScore": 0,
+          "details": {
+            "accuracyWeight": 0.6,
+            "qualityWeight": 0.4
+          },
+          "metadata": {
+            "originalPropertyName": "method",
+            "safeKey": "method",
+            "propertyIndex": 2,
+            "timestamp": "2025-11-20T15:42:30.129Z",
+            "evaluationDate": "11/20/2025",
+            "evaluationTime": "4:42:30 PM",
+            "propertyData": {
+              "value": null,
+              "confidence": null,
+              "evidence": null,
+              "source": null
+            },
+            "templateProperty": {
+              "label": "method",
+              "dataType": null,
+              "description": null,
+              "required": false
+            },
+            "evaluationContext": {
+              "paperContentAvailable": true,
+              "evaluationDataAvailable": true,
+              "userRatingsProvided": true,
+              "expertiseMultiplierApplied": 1
+            }
+          }
+        },
+        "result": {
+          "score": 0,
+          "accuracyScore": 0,
+          "qualityScore": 0,
+          "details": {
+            "accuracyWeight": 0.6,
+            "qualityWeight": 0.4
+          },
+          "metadata": {
+            "originalPropertyName": "result",
+            "safeKey": "result",
+            "propertyIndex": 3,
+            "timestamp": "2025-11-20T15:42:30.139Z",
+            "evaluationDate": "11/20/2025",
+            "evaluationTime": "4:42:30 PM",
+            "propertyData": {
+              "value": null,
+              "confidence": null,
+              "evidence": null,
+              "source": null
+            },
+            "templateProperty": {
+              "label": "result",
+              "dataType": null,
+              "description": null,
+              "required": false
+            },
+            "evaluationContext": {
+              "paperContentAvailable": true,
+              "evaluationDataAvailable": true,
+              "userRatingsProvided": true,
+              "expertiseMultiplierApplied": 1
+            }
+          }
+        },
+        "userRatings": {
+          "propertyCoverage": 4,
+          "evidenceQuality": 5,
+          "valueAccuracy": 4,
+          "confidenceCalibration": 0,
+          "expertiseMultiplier": 1,
+          "timestamp": "2025-11-20T15:42:30.144Z",
+          "totalProperties": 4,
+          "successCount": 4,
+          "errorCount": 0,
+          "processedKeys": [
+            "research_problem",
+            "material",
+            "method",
+            "result"
+          ],
+          "version": "RESTRUCTURED_V1"
+        }
+      }
+    },
+    "systemPerformance": {
+      "systemPerformance": {
+        "responsiveness": {
+          "rating": 3,
+          "comments": ""
+        },
+        "errors": {
+          "rating": 4,
+          "comments": ""
+        },
+        "stability": {
+          "rating": 5,
+          "comments": ""
+        },
+        "overall": {
+          "rating": 4,
+          "comments": ""
+        }
+      }
+    },
+    "innovation": {
+      "innovation": {
+        "novelty": {
+          "rating": 5,
+          "comments": ""
+        },
+        "usability": {
+          "rating": 5,
+          "comments": ""
+        },
+        "impact": {
+          "rating": 5,
+          "comments": ""
+        },
+        "overall": {
+          "rating": 5,
+          "comments": ""
+        }
+      }
+    },
+    "comparativeAnalysis": {
+      "comparativeAnalysis": {
+        "efficiency": {
+          "rating": 4,
+          "comments": ""
+        },
+        "quality": {
+          "rating": 4,
+          "comments": ""
+        },
+        "completeness": {
+          "rating": 4,
+          "comments": ""
+        },
+        "overall": {
+          "rating": 4,
+          "comments": ""
+        }
+      }
+    },
+    "ragHighlight": {
+      "ragHighlight": {
+        "highlightAccuracy": {
+          "rating": 4,
+          "comments": ""
+        },
+        "navigationFunctionality": {
+          "rating": 5,
+          "comments": ""
+        },
+        "manualHighlight": {
+          "rating": 5,
+          "comments": ""
+        },
+        "contextPreservation": {
+          "rating": 5,
+          "comments": ""
+        },
+        "visualClarity": {
+          "rating": 5,
+          "comments": ""
+        },
+        "responseTime": {
+          "rating": 5,
+          "comments": ""
+        },
+        "overall": {
+          "comments": "Great!!"
+        }
+      }
+    }
+  }
+}

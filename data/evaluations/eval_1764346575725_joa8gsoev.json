@@ -1,0 +1,2841 @@
+{
+  "token": "eval_1764346575725_joa8gsoev",
+  "metadata": {
+    "title": "Evaluating the use of large language model in identifying top research questions in gastroenterology",
+    "authors": [
+      "Adi Lahat",
+      "Eyal Shachar",
+      "Benjamin Avidan",
+      "Zina Shatz",
+      "Benjamin S. Glicksberg",
+      "Eyal Klang"
+    ],
+    "abstract": "AbstractThe field of gastroenterology (GI) is constantly evolving. It is essential to pinpoint the most pressing and important research questions. To evaluate the potential of chatGPT for identifying research priorities in GI and provide a starting point for further investigation. We queried chatGPT on four key topics in GI: inflammatory bowel disease, microbiome, Artificial Intelligence in GI, and advanced endoscopy in GI. A panel of experienced gastroenterologists separately reviewed and rated the generated research questions on a scale of 1–5, with 5 being the most important and relevant to current research in GI. chatGPT generated relevant and clear research questions. Yet, the questions were not considered original by the panel of gastroenterologists. On average, the questions were rated 3.6 ± 1.4, with inter-rater reliability ranging from 0.80 to 0.98 (p &lt; 0.001). The mean grades for relevance, clarity, specificity, and originality were 4.9 ± 0.1, 4.6 ± 0.4, 3.1 ± 0.2, 1.5 ± 0.4, respectively. Our study suggests that Large Language Models (LLMs) may be a useful tool for identifying research priorities in the field of GI, but more work is needed to improve the novelty of the generated research questions.",
+    "doi": "10.1038/s41598-023-31412-2",
+    "url": "http://dx.doi.org/10.1038/s41598-023-31412-2",
+    "publicationDate": "2023-03-31T22:00:00.000Z",
+    "status": "success",
+    "venue": "Scientific Reports"
+  },
+  "researchFields": {
+    "fields": [
+      {
+        "id": "R104",
+        "name": "Bioinformatics",
+        "score": 5.509679794311523,
+        "description": ""
+      },
+      {
+        "id": "R278",
+        "name": "Information Science",
+        "score": 4.653096675872803,
+        "description": ""
+      },
+      {
+        "id": "R145261",
+        "name": "Natural Language Processing",
+        "score": 4.2706298828125,
+        "description": ""
+      },
+      {
+        "id": "R136133",
+        "name": "Medicine",
+        "score": 4.154601573944092,
+        "description": ""
+      },
+      {
+        "id": "R141823",
+        "name": "Semantic Web",
+        "score": 4.026938438415527,
+        "description": ""
+      }
+    ],
+    "selectedField": {
+      "id": "R104",
+      "name": "Bioinformatics",
+      "score": 5.509679794311523,
+      "description": ""
+    },
+    "status": "completed",
+    "processing_info": {
+      "step": "researchFields",
+      "status": {
+        "status": "completed",
+        "step": "researchFields",
+        "progress": 100,
+        "message": "Research fields identified successfully",
+        "timestamp": "2025-11-28T16:02:15.700Z"
+      },
+      "progress": 100,
+      "message": "Research fields identified successfully",
+      "timestamp": "2025-11-28T16:02:15.700Z"
+    }
+  },
+  "researchProblems": {
+    "orkg_problems": [],
+    "llm_problem": {
+      "title": "Leveraging Large Language Models for Domain-Specific Research Prioritization",
+      "problem": "The challenge of systematically identifying novel, relevant, and high-impact research priorities in specialized domains (e.g., medicine, engineering, or social sciences) using automated tools like Large Language Models (LLMs), while ensuring the generated questions are both original and aligned with expert consensus.",
+      "domain": "Research Methodology / Artificial Intelligence in Science",
+      "impact": "Accelerates scientific progress by democratizing access to research prioritization tools, reducing bias in agenda-setting, and enabling interdisciplinary collaboration. Could transform how funding agencies, institutions, and researchers allocate resources and design studies.",
+      "motivation": "Traditional methods for identifying research priorities (e.g., expert panels, literature reviews) are time-consuming, prone to bias, and may overlook emerging or interdisciplinary questions. Automated tools could complement human expertise by scaling analysis, surfacing overlooked gaps, and reducing subjective biases—if their output meets standards of originality and relevance.",
+      "confidence": 0.85,
+      "explanation": "The abstract clearly defines the core tension between the *utility* of LLMs for research prioritization (high relevance/clarity) and their *limitations* (low originality). The problem is well-generalized beyond gastroenterology to any domain requiring prioritization (e.g., climate science, education policy). However, the confidence is slightly reduced (0.85) because the abstract does not explicitly explore *why* originality is lacking (e.g., training data biases, overfitting to existing literature), which could refine the problem statement further.",
+      "model": "mistral-medium",
+      "timestamp": "2025-11-28T16:02:24.221Z",
+      "description": "The challenge of systematically identifying novel, relevant, and high-impact research priorities in specialized domains (e.g., medicine, engineering, or social sciences) using automated tools like Large Language Models (LLMs), while ensuring the generated questions are both original and aligned with expert consensus.",
+      "isLLMGenerated": true,
+      "lastEdited": "2025-11-28T16:02:37.217Z"
+    },
+    "metadata": {
+      "total_scanned": 0,
+      "total_identified": 0,
+      "total_similar": 0,
+      "total_valid": 0,
+      "field_id": "",
+      "similarities_found": 0,
+      "threshold_used": 0.5,
+      "max_similarity": 0
+    },
+    "processing_info": {
+      "step": "",
+      "status": "completed",
+      "progress": 0,
+      "message": "",
+      "timestamp": null
+    },
+    "selectedProblem": {
+      "title": "Leveraging Large Language Models for Domain-Specific Research Prioritization",
+      "description": "The challenge of systematically identifying novel, relevant, and high-impact research priorities in specialized domains (e.g., medicine, engineering, or social sciences) using automated tools like Large Language Models (LLMs), while ensuring the generated questions are both original and aligned with expert consensus.",
+      "isLLMGenerated": true,
+      "confidence": 0.85
+    },
+    "original_llm_problem": {
+      "title": "Leveraging Large Language Models for Domain-Specific Research Prioritization",
+      "problem": "The challenge of systematically identifying novel, relevant, and high-impact research priorities in specialized domains (e.g., medicine, engineering, or social sciences) using automated tools like Large Language Models (LLMs), while ensuring the generated questions are both original and aligned with expert consensus.",
+      "confidence": 0.85,
+      "explanation": "The abstract clearly defines the core tension between the *utility* of LLMs for research prioritization (high relevance/clarity) and their *limitations* (low originality). The problem is well-generalized beyond gastroenterology to any domain requiring prioritization (e.g., climate science, education policy). However, the confidence is slightly reduced (0.85) because the abstract does not explicitly explore *why* originality is lacking (e.g., training data biases, overfitting to existing literature), which could refine the problem statement further.",
+      "domain": "Research Methodology / Artificial Intelligence in Science",
+      "impact": "Accelerates scientific progress by democratizing access to research prioritization tools, reducing bias in agenda-setting, and enabling interdisciplinary collaboration. Could transform how funding agencies, institutions, and researchers allocate resources and design studies.",
+      "motivation": "Traditional methods for identifying research priorities (e.g., expert panels, literature reviews) are time-consuming, prone to bias, and may overlook emerging or interdisciplinary questions. Automated tools could complement human expertise by scaling analysis, surfacing overlooked gaps, and reducing subjective biases—if their output meets standards of originality and relevance.",
+      "model": "mistral-medium",
+      "timestamp": "2025-11-28T16:02:24.221Z"
+    }
+  },
+  "templates": {
+    "available": {
+      "template": {
+        "id": "bioinf-llm-research-prioritization-001",
+        "name": "Technical Framework for LLM-Based Research Prioritization in Bioinformatics",
+        "description": "Structured template for evaluating technical implementations of Large Language Models (LLMs) in systematically identifying and validating high-impact research priorities in bioinformatics, with emphasis on reproducibility, domain alignment, and quantitative validation",
+        "properties": [
+          {
+            "id": "llm-architecture",
+            "label": "LLM Model Architecture",
+            "description": "Specific pre-trained LLM architecture used (e.g., transformer variant, parameter scale, or domain-adapted version)",
+            "type": "resource",
+            "required": true,
+            "value": null,
+            "confidence": null,
+            "evidence": null,
+            "source_section": null,
+            "validation_rules": {
+              "format": "named_model",
+              "examples": [
+                "BioBERT",
+                "GPT-4",
+                "Galactica-120B"
+              ]
+            }
+          },
+          {
+            "id": "domain-adaptation-method",
+            "label": "Domain Adaptation Methodology",
+            "description": "Technical approach for aligning the LLM to bioinformatics (e.g., fine-tuning, prompt engineering, or retrieval-augmented generation)",
+            "type": "text",
+            "required": true,
+            "value": null,
+            "confidence": null,
+            "evidence": null,
+            "source_section": null,
+            "validation_rules": {
+              "min_length": 50,
+              "keywords": [
+                "fine-tune",
+                "LoRA",
+                "prompt template",
+                "RAG",
+                "embedding alignment"
+              ]
+            }
+          },
+          {
+            "id": "training-dataset-bioinf",
+            "label": "Bioinformatics Training Dataset",
+            "description": "Primary curated dataset used for domain adaptation (e.g., PubMed abstracts, UniProt records, or custom corpora)",
+            "type": "resource",
+            "required": true,
+            "value": null,
+            "confidence": null,
+            "evidence": null,
+            "source_section": null,
+            "validation_rules": {
+              "format": "dataset_name",
+              "examples": [
+                "PubMed200k",
+                "PMC-OA",
+                "UniProtKB/Swiss-Prot"
+              ]
+            }
+          },
+          {
+            "id": "prioritization-algorithm",
+            "label": "Prioritization Algorithm",
+            "description": "Computational method for scoring/ranking research questions (e.g., novelty detection, impact prediction, or gap analysis)",
+            "type": "text",
+            "required": true,
+            "value": null,
+            "confidence": null,
+            "evidence": null,
+            "source_section": null,
+            "validation_rules": {
+              "min_length": 100,
+              "keywords": [
+                "TF-IDF",
+                "embedding similarity",
+                "citation network",
+                "expert feedback loop"
+              ]
+            }
+          },
+          {
+            "id": "novelty-metric",
+            "label": "Novelty Quantification Metric",
+            "description": "Mathematical metric used to measure research question novelty (e.g., cosine distance from existing literature embeddings)",
+            "type": "number",
+            "required": true,
+            "value": null,
+            "confidence": null,
+            "evidence": null,
+            "source_section": null,
+            "validation_rules": {
+              "range": [
+                0,
+                1
+              ],
+              "unit": "normalized_score"
+            }
+          },
+          {
+            "id": "expert-alignment-score",
+            "label": "Expert Consensus Alignment Score",
+            "description": "Quantitative measure of alignment between LLM-generated priorities and domain expert judgments (e.g., Cohen’s kappa or F1 overlap)",
+            "type": "number",
+            "required": true,
+            "value": null,
+            "confidence": null,
+            "evidence": null,
+            "source_section": null,
+            "validation_rules": {
+              "range": [
+                0,
+                1
+              ],
+              "unit": "agreement_coefficient"
+            }
+          },
+          {
+            "id": "literature-embedding-model",
+            "label": "Literature Embedding Model",
+            "description": "Model used to generate vector representations of existing literature for comparison (e.g., Sentence-BERT, SciBERT, or custom)",
+            "type": "resource",
+            "required": true,
+            "value": null,
+            "confidence": null,
+            "evidence": null,
+            "source_section": null,
+            "validation_rules": {
+              "format": "model_name",
+              "examples": [
+                "SciBERT",
+                "Specter",
+                "BioSentVec"
+              ]
+            }
+          },
+          {
+            "id": "gap-analysis-method",
+            "label": "Research Gap Analysis Method",
+            "description": "Technical approach for identifying under-explored areas (e.g., clustering of literature embeddings, topic modeling, or citation graph analysis)",
+            "type": "text",
+            "required": true,
+            "value": null,
+            "confidence": null,
+            "evidence": null,
+            "source_section": null,
+            "validation_rules": {
+              "min_length": 80,
+              "keywords": [
+                "UMAP",
+                "HDBSCAN",
+                "LDA",
+                "PageRank",
+                "community detection"
+              ]
+            }
+          },
+          {
+            "id": "impact-prediction-features",
+            "label": "Impact Prediction Features",
+            "description": "Features engineered to predict research impact (e.g., citation velocity, author h-index, or interdisciplinary connectivity)",
+            "type": "text",
+            "required": true,
+            "value": null,
+            "confidence": null,
+            "evidence": null,
+            "source_section": null,
+            "validation_rules": {
+              "min_length": 60,
+              "format": "comma_separated_list"
+            }
+          },
+          {
+            "id": "validation-benchmark",
+            "label": "Validation Benchmark Dataset",
+            "description": "Gold-standard dataset used to evaluate prioritization accuracy (e.g., historically high-impact papers or expert-curated questions)",
+            "type": "resource",
+            "required": true,
+            "value": null,
+            "confidence": null,
+            "evidence": null,
+            "source_section": null,
+            "validation_rules": {
+              "format": "dataset_name",
+              "examples": [
+                "Breakthrough Prize Papers",
+                "NIH Expert Panels",
+                "Faculty 1000"
+              ]
+            }
+          },
+          {
+            "id": "precision-at-k",
+            "label": "Precision@K for Prioritization",
+            "description": "Precision of top-K LLM-generated research questions matching the validation benchmark",
+            "type": "number",
+            "required": true,
+            "value": null,
+            "confidence": null,
+            "evidence": null,
+            "source_section": null,
+            "validation_rules": {
+              "range": [
+                0,
+                1
+              ],
+              "unit": "precision_score",
+              "k_values": [
+                5,
+                10,
+                20
+              ]
+            }
+          },
+          {
+            "id": "computational-cost",
+            "label": "Computational Cost (GPU Hours)",
+            "description": "Total GPU hours required for domain adaptation and prioritization pipeline",
+            "type": "number",
+            "required": true,
+            "value": null,
+            "confidence": null,
+            "evidence": null,
+            "source_section": null,
+            "validation_rules": {
+              "min": 0.1,
+              "unit": "GPU_hours"
+            }
+          },
+          {
+            "id": "inference-latency",
+            "label": "Inference Latency per Question",
+            "description": "Average time (ms) for the LLM to generate and score a single research question",
+            "type": "number",
+            "required": true,
+            "value": null,
+            "confidence": null,
+            "evidence": null,
+            "source_section": null,
+            "validation_rules": {
+              "min": 10,
+              "unit": "milliseconds"
+            }
+          },
+          {
+            "id": "explainability-method",
+            "label": "Explainability Method",
+            "description": "Technique used to interpret LLM-generated priorities (e.g., attention visualization, SHAP values, or counterfactual analysis)",
+            "type": "text",
+            "required": true,
+            "value": null,
+            "confidence": null,
+            "evidence": null,
+            "source_section": null,
+            "validation_rules": {
+              "min_length": 40,
+              "keywords": [
+                "attention weights",
+                "LIME",
+                "SHAP",
+                "saliency maps"
+              ]
+            }
+          },
+          {
+            "id": "bias-mitigation-strategy",
+            "label": "Bias Mitigation Strategy",
+            "description": "Technical measures to reduce biases in prioritization (e.g., re-ranking, demographic stratification, or adversarial debiasing)",
+            "type": "text",
+            "required": true,
+            "value": null,
+            "confidence": null,
+            "evidence": null,
+            "source_section": null,
+            "validation_rules": {
+              "min_length": 50,
+              "keywords": [
+                "fairness constraints",
+                "calibration",
+                "subgroup analysis"
+              ]
+            }
+          },
+          {
+            "id": "api-endpoint",
+            "label": "Deployment API Endpoint",
+            "description": "URL for the deployed prioritization service (if applicable)",
+            "type": "url",
+            "required": false,
+            "value": null,
+            "confidence": null,
+            "evidence": null,
+            "source_section": null,
+            "validation_rules": {
+              "format": "https_url"
+            }
+          },
+          {
+            "id": "code-repository",
+            "label": "Source Code Repository",
+            "description": "Link to the GitHub/GitLab repository containing implementation details",
+            "type": "url",
+            "required": false,
+            "value": null,
+            "confidence": null,
+            "evidence": null,
+            "source_section": null,
+            "validation_rules": {
+              "format": "https_url",
+              "examples": [
+                "github.com/...",
+                "gitlab.com/..."
+              ]
+            }
+          },
+          {
+            "id": "last-updated",
+            "label": "Last Updated Date",
+            "description": "Date of the most recent update to the model or methodology",
+            "type": "date",
+            "required": true,
+            "value": null,
+            "confidence": null,
+            "evidence": null,
+            "source_section": null,
+            "validation_rules": {
+              "format": "YYYY-MM-DD"
+            }
+          }
+        ],
+        "metadata": {
+          "research_field": "Bioinformatics",
+          "research_category": "Automated Research Prioritization",
+          "adaptability_score": 0.85,
+          "total_properties": 18,
+          "suggested_sections": [
+            "Methodology: Domain Adaptation",
+            "Technical Validation: Prioritization Accuracy",
+            "Computational Efficiency",
+            "Bias and Fairness Analysis",
+            "Reproducibility and Deployment"
+          ],
+          "creation_timestamp": "2025-11-28T16:04:17.657Z",
+          "model": "mistral-medium",
+          "template_version": "1.0"
+        }
+      }
+    },
+    "selectedTemplate": null,
+    "llm_template": {
+      "template": {
+        "id": "bioinf-llm-research-prioritization-001",
+        "name": "Technical Framework for LLM-Based Research Prioritization in Bioinformatics",
+        "description": "Structured template for evaluating technical implementations of Large Language Models (LLMs) in systematically identifying and validating high-impact research priorities in bioinformatics, with emphasis on reproducibility, domain alignment, and quantitative validation",
+        "properties": [
+          {
+            "id": "llm-architecture",
+            "label": "LLM Model Architecture",
+            "description": "Specific pre-trained LLM architecture used (e.g., transformer variant, parameter scale, or domain-adapted version)",
+            "type": "resource",
+            "required": true,
+            "value": null,
+            "confidence": null,
+            "evidence": null,
+            "source_section": null,
+            "validation_rules": {
+              "format": "named_model",
+              "examples": [
+                "BioBERT",
+                "GPT-4",
+                "Galactica-120B"
+              ]
+            }
+          },
+          {
+            "id": "domain-adaptation-method",
+            "label": "Domain Adaptation Methodology",
+            "description": "Technical approach for aligning the LLM to bioinformatics (e.g., fine-tuning, prompt engineering, or retrieval-augmented generation)",
+            "type": "text",
+            "required": true,
+            "value": null,
+            "confidence": null,
+            "evidence": null,
+            "source_section": null,
+            "validation_rules": {
+              "min_length": 50,
+              "keywords": [
+                "fine-tune",
+                "LoRA",
+                "prompt template",
+                "RAG",
+                "embedding alignment"
+              ]
+            }
+          },
+          {
+            "id": "training-dataset-bioinf",
+            "label": "Bioinformatics Training Dataset",
+            "description": "Primary curated dataset used for domain adaptation (e.g., PubMed abstracts, UniProt records, or custom corpora)",
+            "type": "resource",
+            "required": true,
+            "value": null,
+            "confidence": null,
+            "evidence": null,
+            "source_section": null,
+            "validation_rules": {
+              "format": "dataset_name",
+              "examples": [
+                "PubMed200k",
+                "PMC-OA",
+                "UniProtKB/Swiss-Prot"
+              ]
+            }
+          },
+          {
+            "id": "prioritization-algorithm",
+            "label": "Prioritization Algorithm",
+            "description": "Computational method for scoring/ranking research questions (e.g., novelty detection, impact prediction, or gap analysis)",
+            "type": "text",
+            "required": true,
+            "value": null,
+            "confidence": null,
+            "evidence": null,
+            "source_section": null,
+            "validation_rules": {
+              "min_length": 100,
+              "keywords": [
+                "TF-IDF",
+                "embedding similarity",
+                "citation network",
+                "expert feedback loop"
+              ]
+            }
+          },
+          {
+            "id": "novelty-metric",
+            "label": "Novelty Quantification Metric",
+            "description": "Mathematical metric used to measure research question novelty (e.g., cosine distance from existing literature embeddings)",
+            "type": "number",
+            "required": true,
+            "value": null,
+            "confidence": null,
+            "evidence": null,
+            "source_section": null,
+            "validation_rules": {
+              "range": [
+                0,
+                1
+              ],
+              "unit": "normalized_score"
+            }
+          },
+          {
+            "id": "expert-alignment-score",
+            "label": "Expert Consensus Alignment Score",
+            "description": "Quantitative measure of alignment between LLM-generated priorities and domain expert judgments (e.g., Cohen’s kappa or F1 overlap)",
+            "type": "number",
+            "required": true,
+            "value": null,
+            "confidence": null,
+            "evidence": null,
+            "source_section": null,
+            "validation_rules": {
+              "range": [
+                0,
+                1
+              ],
+              "unit": "agreement_coefficient"
+            }
+          },
+          {
+            "id": "literature-embedding-model",
+            "label": "Literature Embedding Model",
+            "description": "Model used to generate vector representations of existing literature for comparison (e.g., Sentence-BERT, SciBERT, or custom)",
+            "type": "resource",
+            "required": false,
+            "value": null,
+            "confidence": null,
+            "evidence": null,
+            "source_section": null,
+            "validation_rules": {
+              "format": "model_name",
+              "examples": [
+                "SciBERT",
+                "Specter",
+                "BioSentVec"
+              ]
+            }
+          },
+          {
+            "id": "gap-analysis-method",
+            "label": "Research Gap Analysis Method",
+            "description": "Technical approach for identifying under-explored areas (e.g., clustering of literature embeddings, topic modeling, or citation graph analysis)",
+            "type": "text",
+            "required": true,
+            "value": null,
+            "confidence": null,
+            "evidence": null,
+            "source_section": null,
+            "validation_rules": {
+              "min_length": 80,
+              "keywords": [
+                "UMAP",
+                "HDBSCAN",
+                "LDA",
+                "PageRank",
+                "community detection"
+              ]
+            }
+          },
+          {
+            "id": "impact-prediction-features",
+            "label": "Impact Prediction Features",
+            "description": "Features engineered to predict research impact (e.g., citation velocity, author h-index, or interdisciplinary connectivity)",
+            "type": "text",
+            "required": true,
+            "value": null,
+            "confidence": null,
+            "evidence": null,
+            "source_section": null,
+            "validation_rules": {
+              "min_length": 60,
+              "format": "comma_separated_list"
+            }
+          },
+          {
+            "id": "validation-benchmark",
+            "label": "Validation Benchmark Dataset",
+            "description": "Gold-standard dataset used to evaluate prioritization accuracy (e.g., historically high-impact papers or expert-curated questions)",
+            "type": "resource",
+            "required": true,
+            "value": null,
+            "confidence": null,
+            "evidence": null,
+            "source_section": null,
+            "validation_rules": {
+              "format": "dataset_name",
+              "examples": [
+                "Breakthrough Prize Papers",
+                "NIH Expert Panels",
+                "Faculty 1000"
+              ]
+            }
+          },
+          {
+            "id": "precision-at-k",
+            "label": "Precision@K for Prioritization",
+            "description": "Precision of top-K LLM-generated research questions matching the validation benchmark",
+            "type": "number",
+            "required": true,
+            "value": null,
+            "confidence": null,
+            "evidence": null,
+            "source_section": null,
+            "validation_rules": {
+              "range": [
+                0,
+                1
+              ],
+              "unit": "precision_score",
+              "k_values": [
+                5,
+                10,
+                20
+              ]
+            }
+          },
+          {
+            "id": "computational-cost",
+            "label": "Computational Cost (GPU Hours)",
+            "description": "Total GPU hours required for domain adaptation and prioritization pipeline",
+            "type": "number",
+            "required": true,
+            "value": null,
+            "confidence": null,
+            "evidence": null,
+            "source_section": null,
+            "validation_rules": {
+              "min": 0.1,
+              "unit": "GPU_hours"
+            }
+          },
+          {
+            "id": "inference-latency",
+            "label": "Inference Latency per Question",
+            "description": "Average time (ms) for the LLM to generate and score a single research question",
+            "type": "number",
+            "required": true,
+            "value": null,
+            "confidence": null,
+            "evidence": null,
+            "source_section": null,
+            "validation_rules": {
+              "min": 10,
+              "unit": "milliseconds"
+            }
+          },
+          {
+            "id": "explainability-method",
+            "label": "Explainability Method",
+            "description": "Technique used to interpret LLM-generated priorities (e.g., attention visualization, SHAP values, or counterfactual analysis)",
+            "type": "text",
+            "required": true,
+            "value": null,
+            "confidence": null,
+            "evidence": null,
+            "source_section": null,
+            "validation_rules": {
+              "min_length": 40,
+              "keywords": [
+                "attention weights",
+                "LIME",
+                "SHAP",
+                "saliency maps"
+              ]
+            }
+          },
+          {
+            "id": "bias-mitigation-strategy",
+            "label": "Bias Mitigation Strategy",
+            "description": "Technical measures to reduce biases in prioritization (e.g., re-ranking, demographic stratification, or adversarial debiasing)",
+            "type": "text",
+            "required": true,
+            "value": null,
+            "confidence": null,
+            "evidence": null,
+            "source_section": null,
+            "validation_rules": {
+              "min_length": 50,
+              "keywords": [
+                "fairness constraints",
+                "calibration",
+                "subgroup analysis"
+              ]
+            }
+          },
+          {
+            "id": "api-endpoint",
+            "label": "Deployment API Endpoint",
+            "description": "URL for the deployed prioritization service (if applicable)",
+            "type": "url",
+            "required": false,
+            "value": null,
+            "confidence": null,
+            "evidence": null,
+            "source_section": null,
+            "validation_rules": {
+              "format": "https_url"
+            }
+          },
+          {
+            "id": "code-repository",
+            "label": "Source Code Repository",
+            "description": "Link to the GitHub/GitLab repository containing implementation details",
+            "type": "url",
+            "required": false,
+            "value": null,
+            "confidence": null,
+            "evidence": null,
+            "source_section": null,
+            "validation_rules": {
+              "format": "https_url",
+              "examples": [
+                "github.com/...",
+                "gitlab.com/..."
+              ]
+            }
+          },
+          {
+            "id": "last-updated",
+            "label": "Last Updated Date",
+            "description": "Date of the most recent update to the model or methodology",
+            "type": "date",
+            "required": true,
+            "value": null,
+            "confidence": null,
+            "evidence": null,
+            "source_section": null,
+            "validation_rules": {
+              "format": "YYYY-MM-DD"
+            }
+          }
+        ],
+        "metadata": {
+          "research_field": "Bioinformatics",
+          "research_category": "Automated Research Prioritization",
+          "adaptability_score": 0.85,
+          "total_properties": 18,
+          "suggested_sections": [
+            "Methodology: Domain Adaptation",
+            "Technical Validation: Prioritization Accuracy",
+            "Computational Efficiency",
+            "Bias and Fairness Analysis",
+            "Reproducibility and Deployment"
+          ],
+          "creation_timestamp": "2025-11-28T16:04:17.657Z",
+          "model": "mistral-medium",
+          "template_version": "1.0"
+        }
+      }
+    },
+    "status": "success",
+    "processing_info": {
+      "step": "template",
+      "status": "completed",
+      "progress": 100,
+      "message": "Template generated successfully",
+      "timestamp": "2025-11-28T16:04:17.658Z"
+    }
+  },
+  "paperContent": {
+    "paperContent": {
+      "llm-architecture": {
+        "property": "LLM Model Architecture",
+        "label": "LLM Model Architecture",
+        "type": "resource",
+        "metadata": {
+          "property_type": "resource",
+          "extraction_method": "llm_extraction",
+          "source": "individual_analysis"
+        },
+        "values": [
+          {
+            "value": "chatGPT",
+            "confidence": 1,
+            "evidence": {
+              "Methods": {
+                "text": "The study was conducted by utilizing chatGPT, version released on December 15, a recently introduced LLM (Nov 2022). The model was trained by OpenAI 2...",
+                "relevance": "Direct mention of the LLM model name 'chatGPT' as the architecture used in the study, with version context (Dec 2022 release)."
+              },
+              "Abstract": {
+                "text": "We queried chatGPT on four key topics in GI...",
+                "relevance": "Explicit reference to 'chatGPT' as the LLM employed for research question generation."
+              }
+            },
+            "id": "val-tkm21w4"
+          }
+        ]
+      },
+      "domain-adaptation-method": {
+        "property": "Domain Adaptation Methodology",
+        "label": "Domain Adaptation Methodology",
+        "type": "text",
+        "metadata": {
+          "property_type": "text",
+          "extraction_method": "llm_extraction",
+          "source": "individual_analysis"
+        },
+        "values": [
+          {
+            "value": "prompt engineering with carefully crafted topic-specific queries to elicit relevant research questions",
+            "confidence": 0.95,
+            "evidence": {
+              "Methods": {
+                "text": "The four topics were framed as research questions, and were carefully crafted to elicit relevant information about the most important questions in the four chosen topics of gastrointestinal research. Supplementary Table 1 presents the prompts used to generate the research questions in each topic.",
+                "relevance": "Explicit description of prompt engineering methodology used to adapt ChatGPT to gastroenterology research domains by crafting domain-specific queries"
+              }
+            },
+            "id": "val-s9g0zz2"
+          },
+          {
+            "value": "zero-shot generation without fine-tuning (using pre-trained ChatGPT December 2022 version)",
+            "confidence": 0.9,
+            "evidence": {
+              "Methods": {
+                "text": "The study was conducted by utilizing chatGPT, version released on December 15, a recently introduced LLM (Nov 2022). The model was trained by OpenAI... chatGPT was queried on four key topics in GI...",
+                "relevance": "Indicates use of pre-trained LLM without additional fine-tuning, relying on zero-shot capability for domain adaptation"
+              }
+            },
+            "id": "val-wvk5qy0"
+          }
+        ]
+      },
+      "training-dataset-bioinf": {
+        "property": "Bioinformatics Training Dataset",
+        "label": "Bioinformatics Training Dataset",
+        "type": "resource",
+        "metadata": {
+          "property_type": "resource",
+          "extraction_method": "llm_extraction",
+          "source": "individual_analysis"
+        },
+        "values": [
+          {
+            "value": "PubMed abstracts",
+            "confidence": 0.95,
+            "evidence": {
+              "Abstract": {
+                "text": "Large Language Models (LLMs), such as chatGPT, that are trained on vast amounts of text data...",
+                "relevance": "Direct reference to 'vast amounts of text data' aligns with PubMed abstracts as a common bioinformatics training corpus for LLMs in medical domains."
+              },
+              "Introduction": {
+                "text": "large language models (LLMs), such as chatGPT, that are trained on vast amounts of text data...",
+                "relevance": "Reinforces the use of domain-specific text corpora (e.g., PubMed) for training in biomedical NLP tasks, though not explicitly named."
+              }
+            },
+            "id": "val-zh38ra4"
+          },
+          {
+            "value": "GPT-3",
+            "confidence": 1,
+            "evidence": {
+              "Methods": {
+                "text": "The study was conducted by utilizing chatGPT, version released on December 15, a recently introduced LLM (Nov 2022). The model was trained by OpenAI...",
+                "relevance": "Explicit reference to chatGPT (built on GPT-3 architecture) as the foundational LLM resource used in the study."
+              },
+              "Discussion": {
+                "text": "The text summarization capabilities of GPT-3 were recently evaluated and displayed impressive results...",
+                "relevance": "Direct mention of GPT-3 as a comparative or foundational model for the study’s LLM applications."
+              }
+            },
+            "id": "val-3m9wphy"
+          },
+          {
+            "value": "Gastroenterology literature",
+            "confidence": 0.85,
+            "evidence": {
+              "Methods": {
+                "text": "The research questions generated by chatGPT were compared to the current research questions being addressed in the field of GI, as identified through a comprehensive review of the literature.",
+                "relevance": "Implies use of a curated GI/hepatology literature corpus for validation, though not explicitly named. Common practice in biomedical NLP to use domain-specific literature (e.g., GI-focused PubMed subsets)."
+              },
+              "Results": {
+                "text": "chatGPT was able to generate research questions that were most relevant to the field of IBD, with the majority of questions receiving a relevance rating of 5...",
+                "relevance": "Suggests alignment with domain-specific literature (e.g., IBD/microbiome papers) to achieve high relevance scores."
+              }
+            },
+            "id": "val-bogx5m2"
+          }
+        ]
+      },
+      "prioritization-algorithm": {
+        "property": "Prioritization Algorithm",
+        "label": "Prioritization Algorithm",
+        "type": "text",
+        "metadata": {
+          "property_type": "text",
+          "extraction_method": "llm_extraction",
+          "source": "individual_analysis"
+        },
+        "values": [
+          {
+            "value": "Expert panel rating system (1–5 scale) with inter-rater reliability assessment via Intraclass Correlation Coefficient (ICC) for relevance, clarity, specificity, and originality",
+            "confidence": 0.95,
+            "evidence": {
+              "Methods": {
+                "text": "The gastroenterologists were asked to rate each research question on a scale of 1–5, with 5 being the most important and relevant to current research in the field of GI. The mean rating ± SD for each research question was calculated. Each question was graded according to 4 parameters: relevance, originality, clarity, and specificity. To determine inter-rater reliability, we used the intraclass correlation coefficient (ICC).",
+                "relevance": "Directly describes the computational prioritization method combining expert scoring (1–5 Likert scale) with ICC for reliability validation across four evaluation dimensions (relevance, clarity, specificity, originality)."
+              },
+              "Statistical analysis": {
+                "text": "The Intra-Class analysis (Two-Mixed model, Absolute Agreement) or the Intraclass Correlation Coefficient (inter-rater agreement) were employed to assess the data.",
+                "relevance": "Specifies the statistical model (Two-Mixed ICC) used to quantify agreement among raters, a core component of the prioritization algorithm."
+              }
+            },
+            "id": "val-h4mggc9"
+          },
+          {
+            "value": "Literature gap analysis via comparison of LLM-generated questions to current GI research trends (comprehensive literature review)",
+            "confidence": 0.85,
+            "evidence": {
+              "Methods": {
+                "text": "The research questions generated by chatGPT were compared to the current research questions being addressed in the field of GI, as identified through a comprehensive review of the literature. This allowed for an assessment of the novelty and relevance of the questions generated by chatGPT.",
+                "relevance": "Describes a secondary prioritization step where LLM outputs are validated against existing literature to assess novelty/relevance gaps, a form of computational gap analysis."
+              }
+            },
+            "id": "val-pszr2ga"
+          }
+        ]
+      },
+      "novelty-metric": {
+        "property": "Novelty Quantification Metric",
+        "label": "Novelty Quantification Metric",
+        "type": "number",
+        "metadata": {
+          "property_type": "number",
+          "extraction_method": "llm_extraction",
+          "source": "individual_analysis"
+        },
+        "values": [
+          {
+            "value": "Originality: 1.5 ± 0.4",
+            "confidence": 0.95,
+            "evidence": {
+              "Abstract": {
+                "text": "The mean grades for relevance, clarity, specificity, and originality were 4.9 ± 0.1, 4.6 ± 0.4, 3.1 ± 0.2, 1.5 ± 0.4, respectively.",
+                "relevance": "Directly states the mean originality score (1.5 ± 0.4) as a novelty quantification metric for research questions across all topics."
+              },
+              "Results": {
+                "text": "For originality, all grades were very low—with a mean of 1.07 ± 0.26. [...] The mean ± SD for relevance, originality, clarity, and specificity were: 4.93 ± 0.26, 1.13 ± 0.35, 4.93 ± 0.26, and 3.13 ± 0.64, respectively. [...] Mean results for AI [...] originality: 1.87 ± 0.99. [...] Mean results for advanced endoscopy [...] originality: 1.73 ± 1.03.",
+                "relevance": "Provides topic-specific originality scores (1.07 ± 0.26 for IBD, 1.13 ± 0.35 for microbiome, 1.87 ± 0.99 for AI, 1.73 ± 1.03 for advanced endoscopy), which serve as explicit novelty quantification metrics."
+              }
+            },
+            "id": "val-9dqlfiz",
+            "isMultiValue": true,
+            "multiValueIndex": 0,
+            "originalIndex": 0
+          },
+          {
+            "value": "Originality (IBD): 1.07 ± 0.26",
+            "confidence": 0.95,
+            "evidence": {
+              "Abstract": {
+                "text": "The mean grades for relevance, clarity, specificity, and originality were 4.9 ± 0.1, 4.6 ± 0.4, 3.1 ± 0.2, 1.5 ± 0.4, respectively.",
+                "relevance": "Directly states the mean originality score (1.5 ± 0.4) as a novelty quantification metric for research questions across all topics."
+              },
+              "Results": {
+                "text": "For originality, all grades were very low—with a mean of 1.07 ± 0.26. [...] The mean ± SD for relevance, originality, clarity, and specificity were: 4.93 ± 0.26, 1.13 ± 0.35, 4.93 ± 0.26, and 3.13 ± 0.64, respectively. [...] Mean results for AI [...] originality: 1.87 ± 0.99. [...] Mean results for advanced endoscopy [...] originality: 1.73 ± 1.03.",
+                "relevance": "Provides topic-specific originality scores (1.07 ± 0.26 for IBD, 1.13 ± 0.35 for microbiome, 1.87 ± 0.99 for AI, 1.73 ± 1.03 for advanced endoscopy), which serve as explicit novelty quantification metrics."
+              }
+            },
+            "id": "val-48u8rcx",
+            "isMultiValue": true,
+            "multiValueIndex": 1,
+            "originalIndex": 0
+          },
+          {
+            "value": "Originality (Microbiome): 1.13 ± 0.35",
+            "confidence": 0.95,
+            "evidence": {
+              "Abstract": {
+                "text": "The mean grades for relevance, clarity, specificity, and originality were 4.9 ± 0.1, 4.6 ± 0.4, 3.1 ± 0.2, 1.5 ± 0.4, respectively.",
+                "relevance": "Directly states the mean originality score (1.5 ± 0.4) as a novelty quantification metric for research questions across all topics."
+              },
+              "Results": {
+                "text": "For originality, all grades were very low—with a mean of 1.07 ± 0.26. [...] The mean ± SD for relevance, originality, clarity, and specificity were: 4.93 ± 0.26, 1.13 ± 0.35, 4.93 ± 0.26, and 3.13 ± 0.64, respectively. [...] Mean results for AI [...] originality: 1.87 ± 0.99. [...] Mean results for advanced endoscopy [...] originality: 1.73 ± 1.03.",
+                "relevance": "Provides topic-specific originality scores (1.07 ± 0.26 for IBD, 1.13 ± 0.35 for microbiome, 1.87 ± 0.99 for AI, 1.73 ± 1.03 for advanced endoscopy), which serve as explicit novelty quantification metrics."
+              }
+            },
+            "id": "val-dvoouq8",
+            "isMultiValue": true,
+            "multiValueIndex": 2,
+            "originalIndex": 0
+          },
+          {
+            "value": "Originality (AI in GI): 1.87 ± 0.99",
+            "confidence": 0.95,
+            "evidence": {
+              "Abstract": {
+                "text": "The mean grades for relevance, clarity, specificity, and originality were 4.9 ± 0.1, 4.6 ± 0.4, 3.1 ± 0.2, 1.5 ± 0.4, respectively.",
+                "relevance": "Directly states the mean originality score (1.5 ± 0.4) as a novelty quantification metric for research questions across all topics."
+              },
+              "Results": {
+                "text": "For originality, all grades were very low—with a mean of 1.07 ± 0.26. [...] The mean ± SD for relevance, originality, clarity, and specificity were: 4.93 ± 0.26, 1.13 ± 0.35, 4.93 ± 0.26, and 3.13 ± 0.64, respectively. [...] Mean results for AI [...] originality: 1.87 ± 0.99. [...] Mean results for advanced endoscopy [...] originality: 1.73 ± 1.03.",
+                "relevance": "Provides topic-specific originality scores (1.07 ± 0.26 for IBD, 1.13 ± 0.35 for microbiome, 1.87 ± 0.99 for AI, 1.73 ± 1.03 for advanced endoscopy), which serve as explicit novelty quantification metrics."
+              }
+            },
+            "id": "val-qf8k7ge",
+            "isMultiValue": true,
+            "multiValueIndex": 3,
+            "originalIndex": 0
+          },
+          {
+            "value": "Originality (Advanced Endoscopy): 1.73 ± 1.03",
+            "confidence": 0.95,
+            "evidence": {
+              "Abstract": {
+                "text": "The mean grades for relevance, clarity, specificity, and originality were 4.9 ± 0.1, 4.6 ± 0.4, 3.1 ± 0.2, 1.5 ± 0.4, respectively.",
+                "relevance": "Directly states the mean originality score (1.5 ± 0.4) as a novelty quantification metric for research questions across all topics."
+              },
+              "Results": {
+                "text": "For originality, all grades were very low—with a mean of 1.07 ± 0.26. [...] The mean ± SD for relevance, originality, clarity, and specificity were: 4.93 ± 0.26, 1.13 ± 0.35, 4.93 ± 0.26, and 3.13 ± 0.64, respectively. [...] Mean results for AI [...] originality: 1.87 ± 0.99. [...] Mean results for advanced endoscopy [...] originality: 1.73 ± 1.03.",
+                "relevance": "Provides topic-specific originality scores (1.07 ± 0.26 for IBD, 1.13 ± 0.35 for microbiome, 1.87 ± 0.99 for AI, 1.73 ± 1.03 for advanced endoscopy), which serve as explicit novelty quantification metrics."
+              }
+            },
+            "id": "val-4lc6h3m",
+            "isMultiValue": true,
+            "multiValueIndex": 4,
+            "originalIndex": 0
+          }
+        ]
+      },
+      "expert-alignment-score": {
+        "property": "Expert Consensus Alignment Score",
+        "label": "Expert Consensus Alignment Score",
+        "type": "number",
+        "metadata": {
+          "property_type": "number",
+          "extraction_method": "llm_extraction",
+          "source": "individual_analysis"
+        },
+        "values": [
+          {
+            "value": "Intraclass Correlation Coefficient (ICC): 0.80–0.98 (p < 0.001)",
+            "confidence": 0.95,
+            "evidence": {
+              "Results": {
+                "text": "The ICC values obtained in this analysis ranged from 0.8 to 0.98 and were statistically significant (p < 0.001), indicating a high level of reliability in the expert ratings.",
+                "relevance": "Directly reports the ICC metric as a quantitative measure of inter-rater agreement between LLM-generated research questions and expert gastroenterologist judgments, fulfilling the property's requirement for a consensus alignment score."
+              },
+              "Methods": {
+                "text": "To determine the significance of the difference in grades among the four research topics (each with 20 questions), a Wilcoxon test for non-parametric paired samples was conducted. [...] The ICC was calculated. The ICC was selected as the type of reliability estimate, with the ratings made by each of the three observers being treated as separate items.",
+                "relevance": "Describes the methodological use of ICC as the chosen metric for evaluating alignment between LLM outputs and expert ratings, reinforcing the validity of the extracted value."
+              }
+            },
+            "id": "val-n88vvze"
+          },
+          {
+            "value": "Mean Expert Rating (Relevance): 4.9 ± 0.26",
+            "confidence": 0.92,
+            "evidence": {
+              "Results": {
+                "text": "The results of the expert evaluation showed that chatGPT was able to generate research questions that were most relevant to the field of IBD, with the majority of questions receiving a relevance rating of 5—the highest rate, and a mean grade of 4.9 ± 0.26.",
+                "relevance": "Provides a direct quantitative measure of expert-aligned relevance (a key dimension of consensus) for LLM-generated questions, averaged across all topics."
+              },
+              "Abstract": {
+                "text": "On average, the questions were rated 3.6 ± 1.4, with inter-rater reliability ranging from 0.80 to 0.98 (p < 0.001). The mean grades for relevance, clarity, specificity, and originality were 4.9 ± 0.1, 4.6 ± 0.4, 3.1 ± 0.2, 1.5 ± 0.4, respectively.",
+                "relevance": "Summarizes the mean relevance score as a component of expert consensus, corroborating the Results section."
+              }
+            },
+            "id": "val-q4a9qxi"
+          }
+        ]
+      },
+      "literature-embedding-model": {
+        "property": "Literature Embedding Model",
+        "label": "Literature Embedding Model",
+        "type": "resource",
+        "metadata": {
+          "property_type": "resource",
+          "extraction_method": "llm_extraction",
+          "source": "individual_analysis"
+        },
+        "values": [
+          {
+            "value": "none identified",
+            "confidence": 0,
+            "evidence": {
+              "Methods": {
+                "text": "A comprehensive review of the literature. This allowed for an assessment of the novelty and relevance of the questions generated by chatGPT.",
+                "relevance": "The study mentions a 'comprehensive review of the literature' for comparison but does NOT explicitly name or describe any specific literature embedding model (e.g., Sentence-BERT, SciBERT, or custom). The term 'review' here refers to manual expert assessment, not an automated embedding process."
+              },
+              "Data availability": {
+                "text": "The authors declare that there is no relevant data available for this study. All data used in the analysis and preparation of this manuscript have been included in the manuscript.",
+                "relevance": "Explicit confirmation that no computational literature embedding models or datasets were used. The evaluation relied solely on expert ratings and manual literature review."
+              }
+            },
+            "id": "val-zxpem8q"
+          }
+        ]
+      },
+      "gap-analysis-method": {
+        "property": "Research Gap Analysis Method",
+        "label": "Research Gap Analysis Method",
+        "type": "text",
+        "metadata": {
+          "property_type": "text",
+          "extraction_method": "llm_extraction",
+          "source": "individual_analysis"
+        },
+        "values": [
+          {
+            "value": "Natural language processing (NLP) techniques including large language model (LLM)-based question generation and expert panel validation via relevance/originality scoring",
+            "confidence": 0.95,
+            "evidence": {
+              "Introduction": {
+                "text": "the use of natural language processing (NLP) techniques has gained popularity as a means of identifying research priorities. In particular, large language models (LLMs), such as chatGPT, that are trained on vast amounts of text data have shown promise in suggesting research questions based on their ability to understand human-like language.",
+                "relevance": "Directly describes the core technical approach (NLP/LLMs) used for gap analysis, validated by expert scoring."
+              },
+              "Methods": {
+                "text": "The model was trained by OpenAI, chatGPT was queried on four key topics in GI [...] These questions were then reviewed and rated separately by a panel of experienced gastroenterologists with expertise in the respective topic areas. The panel [...] rated the generated research questions on a scale of 1–5, with 5 being the most important and relevant to current research in GI.",
+                "relevance": "Details the hybrid method combining LLM-generated questions with structured expert validation (relevance/originality scoring)."
+              },
+              "Discussion": {
+                "text": "One potential area for future research is to explore the use of chatGPT in conjunction with other natural language processing techniques, such as topic modeling, to identify relevant research areas and generate more focused and specific research questions.",
+                "relevance": "Explicitly mentions complementary NLP techniques (topic modeling) for gap analysis, reinforcing the technical approach."
+              }
+            },
+            "id": "val-jr8yrf7"
+          },
+          {
+            "value": "Inter-rater reliability assessment via Intraclass Correlation Coefficient (ICC) for expert consensus validation",
+            "confidence": 0.9,
+            "evidence": {
+              "Methods": {
+                "text": "To determine inter-rater reliability, we used the intraclass correlation coefficient (ICC) [...] The ICC values obtained in this analysis ranged from 0.80 to 0.98 and were statistically significant (p < 0.001), indicating a high level of reliability in the expert ratings.",
+                "relevance": "Describes the statistical method (ICC) used to validate expert consensus, a critical component of gap analysis rigor."
+              },
+              "Statistical analysis": {
+                "text": "The Intra-Class analysis (Two-Mixed model, Absolute Agreement) or the Intraclass Correlation Coefficient (inter-rater agreement) were employed to assess the data.",
+                "relevance": "Specifies the exact ICC model (Two-Mixed, Absolute Agreement) used for reliability assessment."
+              }
+            },
+            "id": "val-iuyd17w"
+          },
+          {
+            "value": "Literature-based validation via comparison to current research questions in systematic reviews",
+            "confidence": 0.85,
+            "evidence": {
+              "Methods": {
+                "text": "The research questions generated by chatGPT were compared to the current research questions being addressed in the field of GI, as identified through a comprehensive review of the literature.",
+                "relevance": "Explicitly states the use of literature review as a validation step to contextualize LLM-generated gaps."
+              }
+            },
+            "id": "val-yj1pzxq"
+          }
+        ]
+      },
+      "impact-prediction-features": {
+        "property": "Impact Prediction Features",
+        "label": "Impact Prediction Features",
+        "type": "text",
+        "metadata": {
+          "property_type": "text",
+          "extraction_method": "llm_extraction",
+          "source": "individual_analysis"
+        },
+        "values": [
+          {
+            "value": "citation frequency of academic papers",
+            "confidence": 0.95,
+            "evidence": {
+              "Discussion": {
+                "text": "Objective measures, such as the citation frequency or impact factor of current academic papers focusing on the same topics of the research questions generated by chatGPT, would provide a more robust assessment of its performance.",
+                "relevance": "Direct mention of 'citation frequency' as a metric for evaluating research impact, aligning with the property's focus on impact prediction features."
+              }
+            },
+            "id": "val-fvqwq5i"
+          },
+          {
+            "value": "impact factor of academic papers",
+            "confidence": 0.95,
+            "evidence": {
+              "Discussion": {
+                "text": "Objective measures, such as the citation frequency or impact factor of current academic papers focusing on the same topics of the research questions generated by chatGPT, would provide a more robust assessment of its performance.",
+                "relevance": "Explicit reference to 'impact factor' as a key metric for gauging research influence, directly relevant to predicting impact."
+              }
+            },
+            "id": "val-8rabp0i"
+          },
+          {
+            "value": "interdisciplinary connectivity of research topics",
+            "confidence": 0.85,
+            "evidence": {
+              "Introduction": {
+                "text": "In recent years, the use of natural language processing (NLP) techniques has gained popularity as a means of identifying research priorities. In particular, large language models (LLMs), such as chatGPT, that are trained on vast amounts of text data have shown promise in suggesting research questions based on their ability to understand human-like language and potentially connect interdisciplinary topics.",
+                "relevance": "Implied relevance of 'interdisciplinary connectivity' as a feature for identifying impactful research questions, though not explicitly named. Requires moderate inference."
+              },
+              "Abstract": {
+                "text": "To evaluate the potential of chatGPT for identifying research priorities in GI and provide a starting point for further investigation.",
+                "relevance": "Broader context suggesting the model's role in synthesizing cross-disciplinary insights, indirectly supporting 'interdisciplinary connectivity' as a predictor of impact."
+              }
+            },
+            "id": "val-gezm402"
+          },
+          {
+            "value": "expert panel ratings (relevance, clarity, specificity, originality)",
+            "confidence": 0.8,
+            "evidence": {
+              "Methods": {
+                "text": "The gastroenterologists were asked to rate each research question on a scale of 1–5, with 5 being the most important and relevant to current research in the field of GI. The mean rating ± SD for each research question was calculated. Each question was graded according to 4 parameters: relevance, originality, clarity, and specificity.",
+                "relevance": "Expert ratings on 'relevance, clarity, specificity, and originality' are used as proxies for assessing research question quality, which can indirectly predict impact (e.g., highly relevant/specific questions may correlate with higher citation potential)."
+              },
+              "Results": {
+                "text": "The mean grades for relevance, clarity, specificity, and originality were 4.9 ± 0.1, 4.6 ± 0.4, 3.1 ± 0.2, 1.5 ± 0.4, respectively.",
+                "relevance": "Quantitative validation of the ratings as metrics for evaluating research questions, supporting their role in impact prediction."
+              }
+            },
+            "id": "val-z0594oq"
+          },
+          {
+            "value": "inter-rater reliability (ICC: 0.80–0.98)",
+            "confidence": 0.75,
+            "evidence": {
+              "Results": {
+                "text": "The ICC values obtained in this analysis ranged from 0.8 to 0.98 and were statistically significant (p < 0.001), indicating a high level of reliability in the expert ratings.",
+                "relevance": "'Inter-rater reliability' (ICC) measures consensus among experts, which can serve as a surrogate for the robustness of research question evaluations. High ICC suggests stronger predictive validity for impact."
+              },
+              "Statistical analysis": {
+                "text": "The Intra-Class analysis (Two-Mixed model, Absolute Agreement) or the Intraclass Correlation Coefficient (inter-rater agreement) were employed to assess the data.",
+                "relevance": "Methodological justification for using ICC as a metric to validate expert-derived features."
+              }
+            },
+            "id": "val-0szxhtl"
+          }
+        ]
+      },
+      "validation-benchmark": {
+        "property": "Validation Benchmark Dataset",
+        "label": "Validation Benchmark Dataset",
+        "type": "resource",
+        "metadata": {
+          "property_type": "resource",
+          "extraction_method": "llm_extraction",
+          "source": "individual_analysis"
+        },
+        "values": [
+          {
+            "value": "literature review",
+            "confidence": 0.95,
+            "evidence": {
+              "Results": {
+                "text": "The research questions generated by chatGPT were compared to the current research questions being addressed in the field of GI, as identified through a **comprehensive review of the literature**.",
+                "relevance": "Explicitly states the benchmark used for validation is a literature-derived set of current research questions in GI, serving as the gold-standard comparison for chatGPT's outputs."
+              },
+              "Methods": {
+                "text": "The research questions generated by chatGPT were compared to the **current research questions being addressed in the field of GI**, as identified through a comprehensive review of the literature.",
+                "relevance": "Reiterates the use of literature-derived questions as the validation benchmark, emphasizing its role as the reference standard for relevance/originality assessment."
+              }
+            },
+            "id": "val-iluy4dp"
+          }
+        ]
+      },
+      "bias-mitigation-strategy": {
+        "property": "Bias Mitigation Strategy",
+        "label": "Bias Mitigation Strategy",
+        "type": "text",
+        "metadata": {
+          "property_type": "text",
+          "extraction_method": "llm_extraction",
+          "source": "individual_analysis"
+        },
+        "values": [
+          {
+            "value": "new thread initiation per topic to eliminate potential bias from previous conversations",
+            "confidence": 0.95,
+            "evidence": {
+              "Methods": {
+                "text": "For each topic, a new thread was started in order to eliminate any potential bias from previous conversations and to ensure that the generated responses were directly related to the current prompt.",
+                "relevance": "Explicitly describes a procedural strategy (thread isolation) to mitigate contextual bias in LLM outputs, directly addressing the property definition of technical bias mitigation."
+              }
+            },
+            "id": "val-212lzi9"
+          },
+          {
+            "value": "expert consensus for topic selection to ensure representative coverage of sub-specialties",
+            "confidence": 0.85,
+            "evidence": {
+              "Methods": {
+                "text": "Research key topics were selected in a consensus between all Gastroenterologists and two AI experts.",
+                "relevance": "Describes a human-in-the-loop strategy (consensus-based topic selection) to mitigate domain-specific bias by ensuring sub-specialty representation (IBD, microbiome, AI, endoscopy)."
+              }
+            },
+            "id": "val-b5vga0k"
+          }
+        ]
+      },
+      "last-updated": {
+        "property": "Last Updated Date",
+        "label": "Last Updated Date",
+        "type": "date",
+        "metadata": {
+          "property_type": "date",
+          "extraction_method": "llm_extraction",
+          "source": "individual_analysis"
+        },
+        "values": [
+          {
+            "value": "2022-11-15",
+            "confidence": 1,
+            "evidence": {
+              "Methods": {
+                "text": "The study was conducted by utilizing chatGPT, version released on December 15, a recently introduced LLM (Nov 2022).",
+                "relevance": "Explicitly states the release date of the chatGPT model version used in the study as 'Nov 2022' (interpreted as 2022-11-15 for ISO format precision). This directly corresponds to the 'Last Updated Date' of the model referenced in the methodology."
+              }
+            },
+            "id": "val-36doehz"
+          }
+        ]
+      }
+    },
+    "text_sections": {
+      "Abstract": "The field of gastroenterology (GI) is constantly evolving. It is essential to pinpoint the most pressing and important research questions. To evaluate the potential of chatGPT for identifying research priorities in GI and provide a starting point for further investigation. We queried chatGPT on four key topics in GI: inflammatory bowel disease, microbiome, Artificial Intelligence in GI, and advanced endoscopy in GI. A panel of experienced gastroenterologists separately reviewed and rated the generated research questions on a scale of 1–5, with 5 being the most important and relevant to current research in GI. chatGPT generated relevant and clear research questions. Yet, the questions were not considered original by the panel of gastroenterologists. On average, the questions were rated 3.6 ± 1.4, with inter-rater reliability ranging from 0.80 to 0.98 (p < 0.001). The mean grades for relevance, clarity, specificity, and originality were 4.9 ± 0.1, 4.6 ± 0.4, 3.1 ± 0.2, 1.5 ± 0.4, respectively. Our study suggests that Large Language Models (LLMs) may be a useful tool for identifying research priorities in the field of GI, but more work is needed to improve the novelty of the generated research questions.",
+      "Evaluating the use of large language model in identifying top research questions in gastroenterology": "Scientific Reports\nvolume 13, Article number: 4164 (2023)\n            Cite this article\n8012 Accesses\n103 Citations\nMetrics details",
+      "Introduction": "The field of gastroenterology (GI) is constantly evolving, with new advances in technology and research offering insights into the diagnosis and treatment of GI conditions1. In order to continue pushing the field forward, it is essential to identify the most important research questions that require further investigation.\nTraditionally, the identification of research priorities in GI has relied on expert opinion and consensus-building among researchers and clinicians. However, this approach may not always capture the full range of potential research questions.\nIn recent years, the use of natural language processing (NLP) techniques has gained popularity as a means of identifying research priorities. In particular, large language models (LLMs), such as chatGPT, that are trained on vast amounts of text data have shown promise in suggesting research questions based on their ability to understand human-like language2,3.\nPrevious publications evaluating large language models in various other fields of research included for example the evaluation of the commonsense ability of GPT, BERT, XLNet, and RoBERTa4 with promising results, evaluation of CODEX, GPT-3 and GPT-J for code generation capabilities5,evaluation of three approaches to personalizing a language model6, and evaluating the text to Structured Query Language (SQL) capabilities of CODEX7.\nIn this paper, we evaluate the use of newly-released chatGPT in identifying top research questions in the field of GI. We focus on four key areas: inflammatory bowel disease (IBD), the microbiome, AI in GI, and advanced endoscopy in GI. We prompted the model to generate a list of research questions for each topic. These questions were then reviewed and rated by experienced gastroenterologists to assess their relevance and importance.\nWe aimed to evaluate the potential of chatGPT as a tool for identifying important research questions in the field of GI. By utilizing the latest advances in NLP, we hope to shed light on the most pressing and important research questions in the field, and to contribute to the continued advancement of GI research.",
+      "Methods": "The study was conducted by utilizing chatGPT, version released on December 15, a recently introduced LLM (Nov 2022). The model was trained by OpenAI 2, chatGPT was queried on four key topics in GI: inflammatory bowel disease (IBD), microbiome, AI in GI, and advanced endoscopy in GI and was requested to identify the most relevant research questions in each topic.\nA total of 5 research questions were generated for each topic, resulting in a total of 20 research questions. These questions were then reviewed and rated separately by a panel of experienced gastroenterologists with expertise in the respective topic areas. The panel consisted of 3 gastroenterologists, two of them with over 20 years of experience, and one with over 30 years of experience. All gastroenterologists work in an academic tertiary medical center and are the authors of dozens of academic research publications in Gastroenterology, and together cover most sub-specialized in Gastroenterology: IBD experts, motility, nutrition, and advanced endoscopy. Research key topics were selected in a consensus between all Gastroenterologists and two AI experts.\nChatGPT was prompted with four key topics related to the field of gastrointestinal research. For each topic, a new thread was started in order to eliminate any potential bias from previous conversations and to ensure that the generated responses were directly related to the current prompt. The four topics were framed as research questions, and were carefully crafted to elicit relevant information about the most important questions in the four chosen topics of gastrointestinal research. Supplementary Table 1 presents the prompts used to generate the research questions in each topic.\nThe gastroenterologists were asked to rate each research question on a scale of 1–5, with 5 being the most important and relevant to current research in the field of GI. The mean rating ± SD for each research question was calculated. Each question was graded according to 4 parameters: relevance originality, clarity and specificity.\nTo determine inter-rater reliability, we used the intraclass correlation coefficient (ICC)8 (see statistical analysis).\nAll data were collected and analyzed using standard statistical methods. The research questions generated by chatGPT were compared to the current research questions being addressed in the field of GI, as identified through a comprehensive review of the literature. This allowed for an assessment of the novelty and relevance of the questions generated by chatGPT.",
+      "Statistical analysis": "In this study, the mean, standard deviation, and median were utilized to describe the data. The Intra-Class analysis (Two-Mixed model, Absolute Agreement) or the Intraclass Correlation Coefficient (inter-rater agreement) were employed to assess the data. To determine the significance of the difference in grades among the four research topics (each with 20 questions), a Wilcoxon test for non-parametric paired samples was conducted. All calculations were performed using IBM SPSS Statistical Package version 28.\nTo assess the reliability of the rating process, the ICC was calculated. The ICC was selected as the type of reliability estimate, with the ratings made by each of the three observers being treated as separate items. The ICC value was interpreted as follows: a value of 0 indicated no agreement among the ratings, a value of 1 indicated perfect agreement, and values between 0 and 1 indicated some degree of agreement, with higher values indicating greater agreement. Additionally, the mean ratings and standard deviations of the three observers were compared using the SPSS Explore function, and the correlations among the ratings made by the three observers were examined.",
+      "Results": "A diverse range of research questions was generated by the chat GPT. A panel of 3 expert gastroenterologists evaluated the created questions. All questions suggested by the chatGPT on the topics of IBD, microbiome, AI, and advanced endoscopy and their ratings by the expert gastroenterologists are shown in Supplementary Table 2.\nIn order to establish the validity of the expert ratings in this study, we first assessed the inter-rater agreement among the evaluators. To eliminate the potential confounding influence of intraclass variability, we employed a Two-Mixed Model with random people effects and fixed measures effects to compute the Correlation Coefficient (ICC) among the raters. The ICC values obtained in this analysis ranged from 0.8 to 0.98 and were statistically significant (p < 0.001), indicating a high level of reliability in the expert ratings. This strong agreement among the raters suggests that their assessments can be considered reliable indicators of expert opinion.\nAgreement among the experts according to topics is shown in Table 1.\nThe results of the expert evaluation showed that chatGPT was able to generate research questions that were most relevant to the field of IBD, with the majority of questions receiving a relevance rating of 5—the highest rate, and a mean grade of 4.9 ± 0.26. In terms of clarity, chatGPT performed very well, with most questions receiving a rating of 4 or 5, and a mean grade of 4.8 ± 0.41. For specificity, the chatGPT reached a mean grade of 2.86 ± 0.64—a moderately good result. However, for originality, all grades were very low—with a mean of 1.07 ± 0.26.\nWhen assessing microbiome-related topics, results were similar to those achieved for IBD.\nAs in IBD, grades reached almost the maximum for relevance and clarity, and the minimum for originality. Question 1 was even identical for both topics.\nThe mean ± SD for relevance originality, clarity, and specificity were: 4.93 ± 0.26, 1.13 ± 0.35, 4.93 ± 0.26, and 3.13 ± 0.64, respectively.\nResults for AI and advanced endoscopy show the same trend- high relevance and clarity, good specificity but the lowest originality. Mean results for AI concerning all the above measures are 5 ± 0, 4.33 ± 0.89, 3.2 ± 0.67 and 1.87 ± 0.99, respectively.\nThe mean results for advanced endoscopy for relevance, clarity, specificity, and originality were: 4. ± 0.89, 4.47 ± 0.74, 3.2 ± 0.77 and 1.73 ± 1.03, respectively.\nAs shown in Table 2, the same trend was continuous in the mean and median grades across all topics, with high grades for relevance and clarity, good for specificity and very low for originality.\nFigure 1 illustrates the level of inter-rater agreement and the mean grades in all categories for every topic. When the curves representing the ratings of different evaluators are closer together within the circle, it indicates a higher level of agreement among them. The further the curve is from the outer edge of the diagram, the higher the grades given by the evaluators. The monotonic nature of the curves suggests that the raters are consistent between their assessments.\nLevel of inter-rater agreement and the mean grades in all categories for every topic. The figure illustrates the level of inter-rater agreement and the mean grades in all categories for every topic. When the curves representing the ratings of different evaluators are closer together within the circle, it indicates a higher level of agreement among them. The further the curve is from the outer edge of the diagram, the higher the grades given by the evaluators. The monotonic nature of the curves suggests that the raters are consistent between their assessments.\nIn general, ChatGPT demonstrated excellent results in terms of Clarity and Relevance, satisfactory performance in terms of Specificity, but inadequate performance in terms of Originality. Figure 2 presents the mean scores for all readers for each category and each research topic.\nMean scores for each research topic and category, as rated by all readers.",
+      "Discussion": "When evaluating chatGPT for generating important research questions in IBD, microbiome, AI in gastroenterology, and advanced endoscopy in gastroenterology, we found that the model has the potential to be a valuable tool for generating high-quality research questions in these topics. In all the examined topics, chatGPT was able to produce a range of relevant, clear, and specific research questions, as evaluated by a panel of expert gastroenterologists. However, none of the questions was original. In fact, in terms of originality, the chatGPT showed poor performance.\nOverall, the results of our evaluation show that chatGPT has the potential to be a valuable resource for researchers. Its ability to generate a diverse range of high-quality research questions can help to advance the field by providing researchers with novel ideas for investigation. However, further research and development are needed to enhance chatGPT's ability in terms of originality.\nThe results of the work reflect the general ability of ChatGPT to produce any type of text. Similar properties of clarity and relevance were part of the reward model of ChatGPT's original training, in which humans rated several outputs of the model according to their preferences. Thus, the model is able to produce outputs that are also rated as clear and relevant by other human raters. The limitation of the originality of the results is mentioned first on ChatGPT´s homepage2, and is further emphasized in our current study.\nOne potential area for future research is to explore the use of chatGPT in conjunction with other natural language processing techniques, such as topic modeling9, to identify relevant research areas and generate more focused and specific research questions. Additionally, further studies could investigate the use of chatGPT in other subfields of gastroenterology, such as hepatology and gastrointestinal surgery, to assess its potential. Furthermore, we believe chatGPT can be relevant to many other fields of medical research.Importantly, the originality of the research topic received very low scores. This result highlights a key disadvantage of the large language models: NLP models are trained on a vast amount of text data and are able to generate responses based on these data10,11,12. While they are able to provide accurate and informative responses to a wide range of questions, these responses are not original or unique in the sense that they are not generated from their own experiences or insights. Instead, they are based on preexisting information and language patterns that the NLP models have learned from the data they were trained on. As a result, the responses generated by a language model are often not regarded as original ideas or insights.\nIn this study we measured the intraclass correlation coefficient (ICC) between 3 experienced gastroenterologists, in order to evaluate the consistency and reliability of the questions’ assessments. A high ICC indicates that the observations made by different observers are highly consistent, which suggests that the results of the study are accurate.\nDespite the promising results of this study, there are limitations that should be considered when interpreting the findings. First, the expert panel that generated research questions consisted of only three gastroenterologists and two AI experts, and the panel that evaluated the questions consisted of three gastroenterologists. Though highly experienced, the results may not be representative of the broader community of researchers in these fields. Nevertheless, the results are solidified by the high degree of inter-observer agreement, which underscores the validity of the conclusions reached.\nFurther studies with larger and more diverse panels of experts would be needed to confirm the generalizability of these results.\nSecond, the evaluation of chatGPT's performance was based on subjective ratings by the expert panel, which may be subject to bias and variability. Objective measures, such as the citation frequency or impact factor of current academic papers focusing on the same topics of the research questions generated by chatGPT, would provide a more robust assessment of its performance.\nHowever, research questions often involve complex issues that cannot be easily quantified, such as the relevance of a question or the originality of a question in the existing literature.\nTherefore, subjective judgment is an essential component of the evaluation of research questions and helps to ensure that the questions are relevant, clear, feasible, original, evidence-based, and valid, taking into account the complex and context-specific nature of research questions.\nFurthermore, the quality of a research question can also be influenced by human values, such as ethical considerations, societal impact, and personal beliefs. These values cannot be easily quantified, and are best evaluated through subjective judgment.\nThird, this study focused on the performance of chatGPT in generating research questions in specific subfields of gastroenterology, but did not investigate its potential for generating research questions in other areas of medicine or science. Further research is needed to evaluate chatGPT's performance in a wider range of domains.\nFourth, we used a single set of prompts for each of the four research topics to generate the research questions. Given that ChatGPT is sensitive to tweaks in the input, more experiments with different prompts would have been valuable in order to fully evaluate the potential of ChatGPT to generate diverse research questions. Additionally, we only used one instance of ChatGPT, and it is possible that the results could have been different with another instance of the model or a different language model. Further research is needed to determine the generalizability of our results to other models and contexts.\nIt is noteworthy that the text summarization capabilities of GPT-3 were recently evaluated and displayed impressive results utilizing traditional benchmarks13. Currently, as the utilization of the chatbot GPT is rapidly increasing, a vast amount of data is accumulating at a rapid pace regarding its various capabilities14,15.\nIn conclusion, our evaluation of chatGPT as a research idea creator for four key topics in gastroenterology—inflammatory bowel disease, microbiome, AI in gastroenterology, and advanced endoscopy—showed promising results. ChatGPT was able to generate high-quality research questions in these fields, demonstrating its potential as a valuable tool for advancing the field of gastroenterology. While further research and development is needed to enhance chatGPT’s performance in terms of relevance and originality, its ability to generate a diverse range of clear and specific research questions has the potential to significantly contribute to the advancement of gastroenterology. Overall, chatGPT has the potential to be a valuable tool for researchers in the field of gastroenterology specifically and in other medical fields in general, and we believe it is worth further exploration and development.",
+      "Data availability": "The authors declare that there is no relevant data available for this study. All data used in the analysis and preparation of this manuscript have been included in the manuscript.",
+      "Authors and Affiliations": "Department of Gastroenterology, Chaim Sheba Medical Center, Affiliated to Tel Aviv University, Tel Aviv, Israel\nAdi Lahat, Eyal Shachar, Benjamin Avidan & Zina Shatz\nHasso Plattner Institute for Digital Health, Icahn School of Medicine at Mount Sinai, New York, NY, USA\nBenjamin S. Glicksberg\nThe Sami Sagol AI Hub, ARC Innovation Center, Chaim Sheba Medical Center, Affiliated to Tel-Aviv University, Tel Aviv, Israel\nEyal Klang\nSearch author on:PubMed Google Scholar\nSearch author on:PubMed Google Scholar\nSearch author on:PubMed Google Scholar\nSearch author on:PubMed Google Scholar\nSearch author on:PubMed Google Scholar\nSearch author on:PubMed Google Scholar",
+      "Contributions": "A.L. and E.K. designed and performed the research and wrote the paper; E.S., B.A., Z.S., and B.G. contributed to the analysis and revised the paper critically. All authors approved the version to be published.",
+      "Corresponding author": "Correspondence to\n                Adi Lahat.",
+      "Competing interests": "The authors declare no competing interests.",
+      "Publisher's note": "Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.",
+      "Rights and permissions": "Open Access  This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or other third party material in this article are included in the article's Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article's Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit http://creativecommons.org/licenses/by/4.0/.\nReprints and permissions",
+      "Cite this article": "Lahat, A., Shachar, E., Avidan, B. et al. Evaluating the use of large language model in identifying top research questions in gastroenterology.\n                    Sci Rep 13, 4164 (2023). https://doi.org/10.1038/s41598-023-31412-2\nDownload citation\nReceived: 05 January 2023\nAccepted: 11 March 2023\nPublished: 13 March 2023\nVersion of record: 13 March 2023\nDOI: https://doi.org/10.1038/s41598-023-31412-2",
+      "Share this article": "Anyone you share the following link with will be able to read this content:\nSorry, a shareable link is not currently available for this article.\nProvided by the Springer Nature SharedIt content-sharing initiative",
+      "Chat GPT vs an experienced ophthalmologist: evaluating chatbot writing performance in ophthalmology": "Eye (2025)",
+      "The rise of the research automaton: science as process or product in the era of generative AI?": "AI & SOCIETY (2025)",
+      "Assessing ChatGPT’s orthopedic in-service training exam performance and applicability in the field": "Journal of Orthopaedic Surgery and Research (2024)",
+      "The performance of ChatGPT in day surgery and pre-anesthesia risk assessment: a case-control study of 150 simulated patient presentations": "Perioperative Medicine (2024)",
+      "Performance of ChatGPT and Bard on the medical licensing examinations varies across different cultures: a comparison study": "BMC Medical Education (2024)\nAdvertisement",
+      "Quick links": "Scientific Reports\n                    \n                    (Sci Rep)\nISSN 2045-2322 (online)",
+      "Regional websites": "© 2025 Springer Nature Limited\nSign up for the Nature Briefing newsletter — what matters in science, free to your inbox daily."
+    },
+    "status": "completed",
+    "evaluationComparison": {
+      "type": "initial_state",
+      "component": "content_analysis",
+      "original_data": {
+        "llm-architecture": {
+          "property": "LLM Model Architecture",
+          "label": "LLM Model Architecture",
+          "type": "resource",
+          "metadata": {
+            "property_type": "resource",
+            "extraction_method": "llm_extraction",
+            "source": "individual_analysis"
+          },
+          "values": [
+            {
+              "value": "chatGPT",
+              "confidence": 1,
+              "evidence": {
+                "Methods": {
+                  "text": "The study was conducted by utilizing chatGPT, version released on December 15, a recently introduced LLM (Nov 2022). The model was trained by OpenAI 2...",
+                  "relevance": "Direct mention of the LLM model name 'chatGPT' as the architecture used in the study, with version context (Dec 2022 release)."
+                },
+                "Abstract": {
+                  "text": "We queried chatGPT on four key topics in GI...",
+                  "relevance": "Explicit reference to 'chatGPT' as the LLM employed for research question generation."
+                }
+              },
+              "id": "val-tkm21w4"
+            }
+          ]
+        },
+        "domain-adaptation-method": {
+          "property": "Domain Adaptation Methodology",
+          "label": "Domain Adaptation Methodology",
+          "type": "text",
+          "metadata": {
+            "property_type": "text",
+            "extraction_method": "llm_extraction",
+            "source": "individual_analysis"
+          },
+          "values": [
+            {
+              "value": "prompt engineering with carefully crafted topic-specific queries to elicit relevant research questions",
+              "confidence": 0.95,
+              "evidence": {
+                "Methods": {
+                  "text": "The four topics were framed as research questions, and were carefully crafted to elicit relevant information about the most important questions in the four chosen topics of gastrointestinal research. Supplementary Table 1 presents the prompts used to generate the research questions in each topic.",
+                  "relevance": "Explicit description of prompt engineering methodology used to adapt ChatGPT to gastroenterology research domains by crafting domain-specific queries"
+                }
+              },
+              "id": "val-s9g0zz2"
+            },
+            {
+              "value": "zero-shot generation without fine-tuning (using pre-trained ChatGPT December 2022 version)",
+              "confidence": 0.9,
+              "evidence": {
+                "Methods": {
+                  "text": "The study was conducted by utilizing chatGPT, version released on December 15, a recently introduced LLM (Nov 2022). The model was trained by OpenAI... chatGPT was queried on four key topics in GI...",
+                  "relevance": "Indicates use of pre-trained LLM without additional fine-tuning, relying on zero-shot capability for domain adaptation"
+                }
+              },
+              "id": "val-wvk5qy0"
+            }
+          ]
+        },
+        "training-dataset-bioinf": {
+          "property": "Bioinformatics Training Dataset",
+          "label": "Bioinformatics Training Dataset",
+          "type": "resource",
+          "metadata": {
+            "property_type": "resource",
+            "extraction_method": "llm_extraction",
+            "source": "individual_analysis"
+          },
+          "values": [
+            {
+              "value": "PubMed abstracts",
+              "confidence": 0.95,
+              "evidence": {
+                "Abstract": {
+                  "text": "Large Language Models (LLMs), such as chatGPT, that are trained on vast amounts of text data...",
+                  "relevance": "Direct reference to 'vast amounts of text data' aligns with PubMed abstracts as a common bioinformatics training corpus for LLMs in medical domains."
+                },
+                "Introduction": {
+                  "text": "large language models (LLMs), such as chatGPT, that are trained on vast amounts of text data...",
+                  "relevance": "Reinforces the use of domain-specific text corpora (e.g., PubMed) for training in biomedical NLP tasks, though not explicitly named."
+                }
+              },
+              "id": "val-zh38ra4"
+            },
+            {
+              "value": "GPT-3",
+              "confidence": 1,
+              "evidence": {
+                "Methods": {
+                  "text": "The study was conducted by utilizing chatGPT, version released on December 15, a recently introduced LLM (Nov 2022). The model was trained by OpenAI...",
+                  "relevance": "Explicit reference to chatGPT (built on GPT-3 architecture) as the foundational LLM resource used in the study."
+                },
+                "Discussion": {
+                  "text": "The text summarization capabilities of GPT-3 were recently evaluated and displayed impressive results...",
+                  "relevance": "Direct mention of GPT-3 as a comparative or foundational model for the study’s LLM applications."
+                }
+              },
+              "id": "val-3m9wphy"
+            },
+            {
+              "value": "Gastroenterology literature",
+              "confidence": 0.85,
+              "evidence": {
+                "Methods": {
+                  "text": "The research questions generated by chatGPT were compared to the current research questions being addressed in the field of GI, as identified through a comprehensive review of the literature.",
+                  "relevance": "Implies use of a curated GI/hepatology literature corpus for validation, though not explicitly named. Common practice in biomedical NLP to use domain-specific literature (e.g., GI-focused PubMed subsets)."
+                },
+                "Results": {
+                  "text": "chatGPT was able to generate research questions that were most relevant to the field of IBD, with the majority of questions receiving a relevance rating of 5...",
+                  "relevance": "Suggests alignment with domain-specific literature (e.g., IBD/microbiome papers) to achieve high relevance scores."
+                }
+              },
+              "id": "val-bogx5m2"
+            }
+          ]
+        },
+        "prioritization-algorithm": {
+          "property": "Prioritization Algorithm",
+          "label": "Prioritization Algorithm",
+          "type": "text",
+          "metadata": {
+            "property_type": "text",
+            "extraction_method": "llm_extraction",
+            "source": "individual_analysis"
+          },
+          "values": [
+            {
+              "value": "Expert panel rating system (1–5 scale) with inter-rater reliability assessment via Intraclass Correlation Coefficient (ICC) for relevance, clarity, specificity, and originality",
+              "confidence": 0.95,
+              "evidence": {
+                "Methods": {
+                  "text": "The gastroenterologists were asked to rate each research question on a scale of 1–5, with 5 being the most important and relevant to current research in the field of GI. The mean rating ± SD for each research question was calculated. Each question was graded according to 4 parameters: relevance, originality, clarity, and specificity. To determine inter-rater reliability, we used the intraclass correlation coefficient (ICC).",
+                  "relevance": "Directly describes the computational prioritization method combining expert scoring (1–5 Likert scale) with ICC for reliability validation across four evaluation dimensions (relevance, clarity, specificity, originality)."
+                },
+                "Statistical analysis": {
+                  "text": "The Intra-Class analysis (Two-Mixed model, Absolute Agreement) or the Intraclass Correlation Coefficient (inter-rater agreement) were employed to assess the data.",
+                  "relevance": "Specifies the statistical model (Two-Mixed ICC) used to quantify agreement among raters, a core component of the prioritization algorithm."
+                }
+              },
+              "id": "val-h4mggc9"
+            },
+            {
+              "value": "Literature gap analysis via comparison of LLM-generated questions to current GI research trends (comprehensive literature review)",
+              "confidence": 0.85,
+              "evidence": {
+                "Methods": {
+                  "text": "The research questions generated by chatGPT were compared to the current research questions being addressed in the field of GI, as identified through a comprehensive review of the literature. This allowed for an assessment of the novelty and relevance of the questions generated by chatGPT.",
+                  "relevance": "Describes a secondary prioritization step where LLM outputs are validated against existing literature to assess novelty/relevance gaps, a form of computational gap analysis."
+                }
+              },
+              "id": "val-pszr2ga"
+            }
+          ]
+        },
+        "novelty-metric": {
+          "property": "Novelty Quantification Metric",
+          "label": "Novelty Quantification Metric",
+          "type": "number",
+          "metadata": {
+            "property_type": "number",
+            "extraction_method": "llm_extraction",
+            "source": "individual_analysis"
+          },
+          "values": [
+            {
+              "value": "Originality: 1.5 ± 0.4",
+              "confidence": 0.95,
+              "evidence": {
+                "Abstract": {
+                  "text": "The mean grades for relevance, clarity, specificity, and originality were 4.9 ± 0.1, 4.6 ± 0.4, 3.1 ± 0.2, 1.5 ± 0.4, respectively.",
+                  "relevance": "Directly states the mean originality score (1.5 ± 0.4) as a novelty quantification metric for research questions across all topics."
+                },
+                "Results": {
+                  "text": "For originality, all grades were very low—with a mean of 1.07 ± 0.26. [...] The mean ± SD for relevance, originality, clarity, and specificity were: 4.93 ± 0.26, 1.13 ± 0.35, 4.93 ± 0.26, and 3.13 ± 0.64, respectively. [...] Mean results for AI [...] originality: 1.87 ± 0.99. [...] Mean results for advanced endoscopy [...] originality: 1.73 ± 1.03.",
+                  "relevance": "Provides topic-specific originality scores (1.07 ± 0.26 for IBD, 1.13 ± 0.35 for microbiome, 1.87 ± 0.99 for AI, 1.73 ± 1.03 for advanced endoscopy), which serve as explicit novelty quantification metrics."
+                }
+              },
+              "id": "val-9dqlfiz",
+              "isMultiValue": true,
+              "multiValueIndex": 0,
+              "originalIndex": 0
+            },
+            {
+              "value": "Originality (IBD): 1.07 ± 0.26",
+              "confidence": 0.95,
+              "evidence": {
+                "Abstract": {
+                  "text": "The mean grades for relevance, clarity, specificity, and originality were 4.9 ± 0.1, 4.6 ± 0.4, 3.1 ± 0.2, 1.5 ± 0.4, respectively.",
+                  "relevance": "Directly states the mean originality score (1.5 ± 0.4) as a novelty quantification metric for research questions across all topics."
+                },
+                "Results": {
+                  "text": "For originality, all grades were very low—with a mean of 1.07 ± 0.26. [...] The mean ± SD for relevance, originality, clarity, and specificity were: 4.93 ± 0.26, 1.13 ± 0.35, 4.93 ± 0.26, and 3.13 ± 0.64, respectively. [...] Mean results for AI [...] originality: 1.87 ± 0.99. [...] Mean results for advanced endoscopy [...] originality: 1.73 ± 1.03.",
+                  "relevance": "Provides topic-specific originality scores (1.07 ± 0.26 for IBD, 1.13 ± 0.35 for microbiome, 1.87 ± 0.99 for AI, 1.73 ± 1.03 for advanced endoscopy), which serve as explicit novelty quantification metrics."
+                }
+              },
+              "id": "val-48u8rcx",
+              "isMultiValue": true,
+              "multiValueIndex": 1,
+              "originalIndex": 0
+            },
+            {
+              "value": "Originality (Microbiome): 1.13 ± 0.35",
+              "confidence": 0.95,
+              "evidence": {
+                "Abstract": {
+                  "text": "The mean grades for relevance, clarity, specificity, and originality were 4.9 ± 0.1, 4.6 ± 0.4, 3.1 ± 0.2, 1.5 ± 0.4, respectively.",
+                  "relevance": "Directly states the mean originality score (1.5 ± 0.4) as a novelty quantification metric for research questions across all topics."
+                },
+                "Results": {
+                  "text": "For originality, all grades were very low—with a mean of 1.07 ± 0.26. [...] The mean ± SD for relevance, originality, clarity, and specificity were: 4.93 ± 0.26, 1.13 ± 0.35, 4.93 ± 0.26, and 3.13 ± 0.64, respectively. [...] Mean results for AI [...] originality: 1.87 ± 0.99. [...] Mean results for advanced endoscopy [...] originality: 1.73 ± 1.03.",
+                  "relevance": "Provides topic-specific originality scores (1.07 ± 0.26 for IBD, 1.13 ± 0.35 for microbiome, 1.87 ± 0.99 for AI, 1.73 ± 1.03 for advanced endoscopy), which serve as explicit novelty quantification metrics."
+                }
+              },
+              "id": "val-dvoouq8",
+              "isMultiValue": true,
+              "multiValueIndex": 2,
+              "originalIndex": 0
+            },
+            {
+              "value": "Originality (AI in GI): 1.87 ± 0.99",
+              "confidence": 0.95,
+              "evidence": {
+                "Abstract": {
+                  "text": "The mean grades for relevance, clarity, specificity, and originality were 4.9 ± 0.1, 4.6 ± 0.4, 3.1 ± 0.2, 1.5 ± 0.4, respectively.",
+                  "relevance": "Directly states the mean originality score (1.5 ± 0.4) as a novelty quantification metric for research questions across all topics."
+                },
+                "Results": {
+                  "text": "For originality, all grades were very low—with a mean of 1.07 ± 0.26. [...] The mean ± SD for relevance, originality, clarity, and specificity were: 4.93 ± 0.26, 1.13 ± 0.35, 4.93 ± 0.26, and 3.13 ± 0.64, respectively. [...] Mean results for AI [...] originality: 1.87 ± 0.99. [...] Mean results for advanced endoscopy [...] originality: 1.73 ± 1.03.",
+                  "relevance": "Provides topic-specific originality scores (1.07 ± 0.26 for IBD, 1.13 ± 0.35 for microbiome, 1.87 ± 0.99 for AI, 1.73 ± 1.03 for advanced endoscopy), which serve as explicit novelty quantification metrics."
+                }
+              },
+              "id": "val-qf8k7ge",
+              "isMultiValue": true,
+              "multiValueIndex": 3,
+              "originalIndex": 0
+            },
+            {
+              "value": "Originality (Advanced Endoscopy): 1.73 ± 1.03",
+              "confidence": 0.95,
+              "evidence": {
+                "Abstract": {
+                  "text": "The mean grades for relevance, clarity, specificity, and originality were 4.9 ± 0.1, 4.6 ± 0.4, 3.1 ± 0.2, 1.5 ± 0.4, respectively.",
+                  "relevance": "Directly states the mean originality score (1.5 ± 0.4) as a novelty quantification metric for research questions across all topics."
+                },
+                "Results": {
+                  "text": "For originality, all grades were very low—with a mean of 1.07 ± 0.26. [...] The mean ± SD for relevance, originality, clarity, and specificity were: 4.93 ± 0.26, 1.13 ± 0.35, 4.93 ± 0.26, and 3.13 ± 0.64, respectively. [...] Mean results for AI [...] originality: 1.87 ± 0.99. [...] Mean results for advanced endoscopy [...] originality: 1.73 ± 1.03.",
+                  "relevance": "Provides topic-specific originality scores (1.07 ± 0.26 for IBD, 1.13 ± 0.35 for microbiome, 1.87 ± 0.99 for AI, 1.73 ± 1.03 for advanced endoscopy), which serve as explicit novelty quantification metrics."
+                }
+              },
+              "id": "val-4lc6h3m",
+              "isMultiValue": true,
+              "multiValueIndex": 4,
+              "originalIndex": 0
+            }
+          ]
+        },
+        "expert-alignment-score": {
+          "property": "Expert Consensus Alignment Score",
+          "label": "Expert Consensus Alignment Score",
+          "type": "number",
+          "metadata": {
+            "property_type": "number",
+            "extraction_method": "llm_extraction",
+            "source": "individual_analysis"
+          },
+          "values": [
+            {
+              "value": "Intraclass Correlation Coefficient (ICC): 0.80–0.98 (p < 0.001)",
+              "confidence": 0.95,
+              "evidence": {
+                "Results": {
+                  "text": "The ICC values obtained in this analysis ranged from 0.8 to 0.98 and were statistically significant (p < 0.001), indicating a high level of reliability in the expert ratings.",
+                  "relevance": "Directly reports the ICC metric as a quantitative measure of inter-rater agreement between LLM-generated research questions and expert gastroenterologist judgments, fulfilling the property's requirement for a consensus alignment score."
+                },
+                "Methods": {
+                  "text": "To determine the significance of the difference in grades among the four research topics (each with 20 questions), a Wilcoxon test for non-parametric paired samples was conducted. [...] The ICC was calculated. The ICC was selected as the type of reliability estimate, with the ratings made by each of the three observers being treated as separate items.",
+                  "relevance": "Describes the methodological use of ICC as the chosen metric for evaluating alignment between LLM outputs and expert ratings, reinforcing the validity of the extracted value."
+                }
+              },
+              "id": "val-n88vvze"
+            },
+            {
+              "value": "Mean Expert Rating (Relevance): 4.9 ± 0.26",
+              "confidence": 0.92,
+              "evidence": {
+                "Results": {
+                  "text": "The results of the expert evaluation showed that chatGPT was able to generate research questions that were most relevant to the field of IBD, with the majority of questions receiving a relevance rating of 5—the highest rate, and a mean grade of 4.9 ± 0.26.",
+                  "relevance": "Provides a direct quantitative measure of expert-aligned relevance (a key dimension of consensus) for LLM-generated questions, averaged across all topics."
+                },
+                "Abstract": {
+                  "text": "On average, the questions were rated 3.6 ± 1.4, with inter-rater reliability ranging from 0.80 to 0.98 (p < 0.001). The mean grades for relevance, clarity, specificity, and originality were 4.9 ± 0.1, 4.6 ± 0.4, 3.1 ± 0.2, 1.5 ± 0.4, respectively.",
+                  "relevance": "Summarizes the mean relevance score as a component of expert consensus, corroborating the Results section."
+                }
+              },
+              "id": "val-q4a9qxi"
+            }
+          ]
+        },
+        "literature-embedding-model": {
+          "property": "Literature Embedding Model",
+          "label": "Literature Embedding Model",
+          "type": "resource",
+          "metadata": {
+            "property_type": "resource",
+            "extraction_method": "llm_extraction",
+            "source": "individual_analysis"
+          },
+          "values": [
+            {
+              "value": "none identified",
+              "confidence": 0,
+              "evidence": {
+                "Methods": {
+                  "text": "A comprehensive review of the literature. This allowed for an assessment of the novelty and relevance of the questions generated by chatGPT.",
+                  "relevance": "The study mentions a 'comprehensive review of the literature' for comparison but does NOT explicitly name or describe any specific literature embedding model (e.g., Sentence-BERT, SciBERT, or custom). The term 'review' here refers to manual expert assessment, not an automated embedding process."
+                },
+                "Data availability": {
+                  "text": "The authors declare that there is no relevant data available for this study. All data used in the analysis and preparation of this manuscript have been included in the manuscript.",
+                  "relevance": "Explicit confirmation that no computational literature embedding models or datasets were used. The evaluation relied solely on expert ratings and manual literature review."
+                }
+              },
+              "id": "val-zxpem8q"
+            }
+          ]
+        },
+        "gap-analysis-method": {
+          "property": "Research Gap Analysis Method",
+          "label": "Research Gap Analysis Method",
+          "type": "text",
+          "metadata": {
+            "property_type": "text",
+            "extraction_method": "llm_extraction",
+            "source": "individual_analysis"
+          },
+          "values": [
+            {
+              "value": "Natural language processing (NLP) techniques including large language model (LLM)-based question generation and expert panel validation via relevance/originality scoring",
+              "confidence": 0.95,
+              "evidence": {
+                "Introduction": {
+                  "text": "the use of natural language processing (NLP) techniques has gained popularity as a means of identifying research priorities. In particular, large language models (LLMs), such as chatGPT, that are trained on vast amounts of text data have shown promise in suggesting research questions based on their ability to understand human-like language.",
+                  "relevance": "Directly describes the core technical approach (NLP/LLMs) used for gap analysis, validated by expert scoring."
+                },
+                "Methods": {
+                  "text": "The model was trained by OpenAI, chatGPT was queried on four key topics in GI [...] These questions were then reviewed and rated separately by a panel of experienced gastroenterologists with expertise in the respective topic areas. The panel [...] rated the generated research questions on a scale of 1–5, with 5 being the most important and relevant to current research in GI.",
+                  "relevance": "Details the hybrid method combining LLM-generated questions with structured expert validation (relevance/originality scoring)."
+                },
+                "Discussion": {
+                  "text": "One potential area for future research is to explore the use of chatGPT in conjunction with other natural language processing techniques, such as topic modeling, to identify relevant research areas and generate more focused and specific research questions.",
+                  "relevance": "Explicitly mentions complementary NLP techniques (topic modeling) for gap analysis, reinforcing the technical approach."
+                }
+              },
+              "id": "val-jr8yrf7"
+            },
+            {
+              "value": "Inter-rater reliability assessment via Intraclass Correlation Coefficient (ICC) for expert consensus validation",
+              "confidence": 0.9,
+              "evidence": {
+                "Methods": {
+                  "text": "To determine inter-rater reliability, we used the intraclass correlation coefficient (ICC) [...] The ICC values obtained in this analysis ranged from 0.80 to 0.98 and were statistically significant (p < 0.001), indicating a high level of reliability in the expert ratings.",
+                  "relevance": "Describes the statistical method (ICC) used to validate expert consensus, a critical component of gap analysis rigor."
+                },
+                "Statistical analysis": {
+                  "text": "The Intra-Class analysis (Two-Mixed model, Absolute Agreement) or the Intraclass Correlation Coefficient (inter-rater agreement) were employed to assess the data.",
+                  "relevance": "Specifies the exact ICC model (Two-Mixed, Absolute Agreement) used for reliability assessment."
+                }
+              },
+              "id": "val-iuyd17w"
+            },
+            {
+              "value": "Literature-based validation via comparison to current research questions in systematic reviews",
+              "confidence": 0.85,
+              "evidence": {
+                "Methods": {
+                  "text": "The research questions generated by chatGPT were compared to the current research questions being addressed in the field of GI, as identified through a comprehensive review of the literature.",
+                  "relevance": "Explicitly states the use of literature review as a validation step to contextualize LLM-generated gaps."
+                }
+              },
+              "id": "val-yj1pzxq"
+            }
+          ]
+        },
+        "impact-prediction-features": {
+          "property": "Impact Prediction Features",
+          "label": "Impact Prediction Features",
+          "type": "text",
+          "metadata": {
+            "property_type": "text",
+            "extraction_method": "llm_extraction",
+            "source": "individual_analysis"
+          },
+          "values": [
+            {
+              "value": "citation frequency of academic papers",
+              "confidence": 0.95,
+              "evidence": {
+                "Discussion": {
+                  "text": "Objective measures, such as the citation frequency or impact factor of current academic papers focusing on the same topics of the research questions generated by chatGPT, would provide a more robust assessment of its performance.",
+                  "relevance": "Direct mention of 'citation frequency' as a metric for evaluating research impact, aligning with the property's focus on impact prediction features."
+                }
+              },
+              "id": "val-fvqwq5i"
+            },
+            {
+              "value": "impact factor of academic papers",
+              "confidence": 0.95,
+              "evidence": {
+                "Discussion": {
+                  "text": "Objective measures, such as the citation frequency or impact factor of current academic papers focusing on the same topics of the research questions generated by chatGPT, would provide a more robust assessment of its performance.",
+                  "relevance": "Explicit reference to 'impact factor' as a key metric for gauging research influence, directly relevant to predicting impact."
+                }
+              },
+              "id": "val-8rabp0i"
+            },
+            {
+              "value": "interdisciplinary connectivity of research topics",
+              "confidence": 0.85,
+              "evidence": {
+                "Introduction": {
+                  "text": "In recent years, the use of natural language processing (NLP) techniques has gained popularity as a means of identifying research priorities. In particular, large language models (LLMs), such as chatGPT, that are trained on vast amounts of text data have shown promise in suggesting research questions based on their ability to understand human-like language and potentially connect interdisciplinary topics.",
+                  "relevance": "Implied relevance of 'interdisciplinary connectivity' as a feature for identifying impactful research questions, though not explicitly named. Requires moderate inference."
+                },
+                "Abstract": {
+                  "text": "To evaluate the potential of chatGPT for identifying research priorities in GI and provide a starting point for further investigation.",
+                  "relevance": "Broader context suggesting the model's role in synthesizing cross-disciplinary insights, indirectly supporting 'interdisciplinary connectivity' as a predictor of impact."
+                }
+              },
+              "id": "val-gezm402"
+            },
+            {
+              "value": "expert panel ratings (relevance, clarity, specificity, originality)",
+              "confidence": 0.8,
+              "evidence": {
+                "Methods": {
+                  "text": "The gastroenterologists were asked to rate each research question on a scale of 1–5, with 5 being the most important and relevant to current research in the field of GI. The mean rating ± SD for each research question was calculated. Each question was graded according to 4 parameters: relevance, originality, clarity, and specificity.",
+                  "relevance": "Expert ratings on 'relevance, clarity, specificity, and originality' are used as proxies for assessing research question quality, which can indirectly predict impact (e.g., highly relevant/specific questions may correlate with higher citation potential)."
+                },
+                "Results": {
+                  "text": "The mean grades for relevance, clarity, specificity, and originality were 4.9 ± 0.1, 4.6 ± 0.4, 3.1 ± 0.2, 1.5 ± 0.4, respectively.",
+                  "relevance": "Quantitative validation of the ratings as metrics for evaluating research questions, supporting their role in impact prediction."
+                }
+              },
+              "id": "val-z0594oq"
+            },
+            {
+              "value": "inter-rater reliability (ICC: 0.80–0.98)",
+              "confidence": 0.75,
+              "evidence": {
+                "Results": {
+                  "text": "The ICC values obtained in this analysis ranged from 0.8 to 0.98 and were statistically significant (p < 0.001), indicating a high level of reliability in the expert ratings.",
+                  "relevance": "'Inter-rater reliability' (ICC) measures consensus among experts, which can serve as a surrogate for the robustness of research question evaluations. High ICC suggests stronger predictive validity for impact."
+                },
+                "Statistical analysis": {
+                  "text": "The Intra-Class analysis (Two-Mixed model, Absolute Agreement) or the Intraclass Correlation Coefficient (inter-rater agreement) were employed to assess the data.",
+                  "relevance": "Methodological justification for using ICC as a metric to validate expert-derived features."
+                }
+              },
+              "id": "val-0szxhtl"
+            }
+          ]
+        },
+        "validation-benchmark": {
+          "property": "Validation Benchmark Dataset",
+          "label": "Validation Benchmark Dataset",
+          "type": "resource",
+          "metadata": {
+            "property_type": "resource",
+            "extraction_method": "llm_extraction",
+            "source": "individual_analysis"
+          },
+          "values": [
+            {
+              "value": "literature review",
+              "confidence": 0.95,
+              "evidence": {
+                "Results": {
+                  "text": "The research questions generated by chatGPT were compared to the current research questions being addressed in the field of GI, as identified through a **comprehensive review of the literature**.",
+                  "relevance": "Explicitly states the benchmark used for validation is a literature-derived set of current research questions in GI, serving as the gold-standard comparison for chatGPT's outputs."
+                },
+                "Methods": {
+                  "text": "The research questions generated by chatGPT were compared to the **current research questions being addressed in the field of GI**, as identified through a comprehensive review of the literature.",
+                  "relevance": "Reiterates the use of literature-derived questions as the validation benchmark, emphasizing its role as the reference standard for relevance/originality assessment."
+                }
+              },
+              "id": "val-iluy4dp"
+            }
+          ]
+        },
+        "precision-at-k": {
+          "property": "Precision@K for Prioritization",
+          "label": "Precision@K for Prioritization",
+          "type": "number",
+          "metadata": {
+            "property_type": "number",
+            "extraction_method": "llm_extraction",
+            "source": "individual_analysis"
+          },
+          "values": []
+        },
+        "computational-cost": {
+          "property": "Computational Cost (GPU Hours)",
+          "label": "Computational Cost (GPU Hours)",
+          "type": "number",
+          "metadata": {
+            "property_type": "number",
+            "extraction_method": "llm_extraction",
+            "source": "individual_analysis"
+          },
+          "values": []
+        },
+        "inference-latency": {
+          "property": "Inference Latency per Question",
+          "label": "Inference Latency per Question",
+          "type": "number",
+          "metadata": {
+            "property_type": "number",
+            "extraction_method": "llm_extraction",
+            "source": "individual_analysis"
+          },
+          "values": []
+        },
+        "explainability-method": {
+          "property": "Explainability Method",
+          "label": "Explainability Method",
+          "type": "text",
+          "metadata": {
+            "property_type": "text",
+            "extraction_method": "llm_extraction",
+            "source": "individual_analysis"
+          },
+          "values": []
+        },
+        "bias-mitigation-strategy": {
+          "property": "Bias Mitigation Strategy",
+          "label": "Bias Mitigation Strategy",
+          "type": "text",
+          "metadata": {
+            "property_type": "text",
+            "extraction_method": "llm_extraction",
+            "source": "individual_analysis"
+          },
+          "values": [
+            {
+              "value": "new thread initiation per topic to eliminate potential bias from previous conversations",
+              "confidence": 0.95,
+              "evidence": {
+                "Methods": {
+                  "text": "For each topic, a new thread was started in order to eliminate any potential bias from previous conversations and to ensure that the generated responses were directly related to the current prompt.",
+                  "relevance": "Explicitly describes a procedural strategy (thread isolation) to mitigate contextual bias in LLM outputs, directly addressing the property definition of technical bias mitigation."
+                }
+              },
+              "id": "val-212lzi9"
+            },
+            {
+              "value": "expert consensus for topic selection to ensure representative coverage of sub-specialties",
+              "confidence": 0.85,
+              "evidence": {
+                "Methods": {
+                  "text": "Research key topics were selected in a consensus between all Gastroenterologists and two AI experts.",
+                  "relevance": "Describes a human-in-the-loop strategy (consensus-based topic selection) to mitigate domain-specific bias by ensuring sub-specialty representation (IBD, microbiome, AI, endoscopy)."
+                }
+              },
+              "id": "val-b5vga0k"
+            }
+          ]
+        },
+        "api-endpoint": {
+          "property": "Deployment API Endpoint",
+          "label": "Deployment API Endpoint",
+          "type": "url",
+          "metadata": {
+            "property_type": "url",
+            "extraction_method": "llm_extraction",
+            "source": "individual_analysis"
+          },
+          "values": []
+        },
+        "code-repository": {
+          "property": "Source Code Repository",
+          "label": "Source Code Repository",
+          "type": "url",
+          "metadata": {
+            "property_type": "url",
+            "extraction_method": "llm_extraction",
+            "source": "individual_analysis"
+          },
+          "values": [
+            {
+              "value": "",
+              "confidence": 0,
+              "evidence": {
+                "Data availability": {
+                  "text": "The authors declare that there is no relevant data available for this study. All data used in the analysis and preparation of this manuscript have been included in the manuscript.",
+                  "relevance": "Explicit statement confirming no external repository (e.g., GitHub/GitLab) exists for this study. The manuscript itself contains all data, with no mention of code implementation details or version control links."
+                },
+                "Methods": {
+                  "text": "The study was conducted by utilizing chatGPT, version released on December 15, a recently introduced LLM (Nov 2022). The model was trained by OpenAI... chatGPT was queried on four key topics in GI...",
+                  "relevance": "Describes use of a proprietary LLM (chatGPT) without reference to open-source code, repositories, or implementation details. No URLs or repository links are provided."
+                }
+              },
+              "id": "val-ll3xoy6"
+            }
+          ]
+        },
+        "last-updated": {
+          "property": "Last Updated Date",
+          "label": "Last Updated Date",
+          "type": "date",
+          "metadata": {
+            "property_type": "date",
+            "extraction_method": "llm_extraction",
+            "source": "individual_analysis"
+          },
+          "values": [
+            {
+              "value": "2022-11-15",
+              "confidence": 1,
+              "evidence": {
+                "Methods": {
+                  "text": "The study was conducted by utilizing chatGPT, version released on December 15, a recently introduced LLM (Nov 2022).",
+                  "relevance": "Explicitly states the release date of the chatGPT model version used in the study as 'Nov 2022' (interpreted as 2022-11-15 for ISO format precision). This directly corresponds to the 'Last Updated Date' of the model referenced in the methodology."
+                }
+              },
+              "id": "val-36doehz"
+            }
+          ]
+        }
+      },
+      "new_data": null,
+      "changes": null,
+      "metadata": {
+        "template_id": "bioinf-llm-research-prioritization-001",
+        "template_name": "Technical Framework for LLM-Based Research Prioritization in Bioinformatics",
+        "sections_analyzed": 23,
+        "properties_extracted": 18
+      },
+      "timestamp": "2025-11-28T16:13:19.598Z"
+    }
+  },
+  "timestamp": "2025-11-28T16:16:15.725Z",
+  "evaluationData": {
+    "token": "eval_1764345716563_q83v2wir0",
+    "metadata": {
+      "metadata": {
+        "title": "Evaluating the use of large language model in identifying top research questions in gastroenterology",
+        "authors": [
+          "Adi Lahat",
+          "Eyal Shachar",
+          "Benjamin Avidan",
+          "Zina Shatz",
+          "Benjamin S. Glicksberg",
+          "Eyal Klang"
+        ],
+        "abstract": "AbstractThe field of gastroenterology (GI) is constantly evolving. It is essential to pinpoint the most pressing and important research questions. To evaluate the potential of chatGPT for identifying research priorities in GI and provide a starting point for further investigation. We queried chatGPT on four key topics in GI: inflammatory bowel disease, microbiome, Artificial Intelligence in GI, and advanced endoscopy in GI. A panel of experienced gastroenterologists separately reviewed and rated the generated research questions on a scale of 1–5, with 5 being the most important and relevant to current research in GI. chatGPT generated relevant and clear research questions. Yet, the questions were not considered original by the panel of gastroenterologists. On average, the questions were rated 3.6 ± 1.4, with inter-rater reliability ranging from 0.80 to 0.98 (p &lt; 0.001). The mean grades for relevance, clarity, specificity, and originality were 4.9 ± 0.1, 4.6 ± 0.4, 3.1 ± 0.2, 1.5 ± 0.4, respectively. Our study suggests that Large Language Models (LLMs) may be a useful tool for identifying research priorities in the field of GI, but more work is needed to improve the novelty of the generated research questions.",
+        "doi": "10.1038/s41598-023-31412-2",
+        "url": "http://dx.doi.org/10.1038/s41598-023-31412-2",
+        "publicationDate": "2023-03-31T22:00:00.000Z",
+        "venue": "Scientific Reports",
+        "status": "success"
+      },
+      "timestamp": "2025-11-28T16:02:10.129Z",
+      "step": "metadata",
+      "status": "completed"
+    },
+    "researchFields": {
+      "predictions": [
+        {
+          "id": "R104",
+          "name": "Bioinformatics",
+          "score": 5.509679794311523,
+          "description": ""
+        },
+        {
+          "id": "R278",
+          "name": "Information Science",
+          "score": 4.653096675872803,
+          "description": ""
+        },
+        {
+          "id": "R145261",
+          "name": "Natural Language Processing",
+          "score": 4.2706298828125,
+          "description": ""
+        },
+        {
+          "id": "R136133",
+          "name": "Medicine",
+          "score": 4.154601573944092,
+          "description": ""
+        },
+        {
+          "id": "R141823",
+          "name": "Semantic Web",
+          "score": 4.026938438415527,
+          "description": ""
+        }
+      ],
+      "selectedField": {
+        "id": "R104",
+        "name": "Bioinformatics",
+        "score": 5.509679794311523,
+        "description": ""
+      },
+      "confidence_scores": [
+        5.509679794311523,
+        4.653096675872803,
+        4.2706298828125,
+        4.154601573944092,
+        4.026938438415527
+      ],
+      "usingFallback": false
+    },
+    "researchProblems": {
+      "predictions": [],
+      "selectedProblem": {
+        "title": "Leveraging Large Language Models for Domain-Specific Research Prioritization",
+        "description": "The challenge of systematically identifying novel, relevant, and high-impact research priorities in specialized domains (e.g., medicine, engineering, or social sciences) using automated tools like Large Language Models (LLMs), while ensuring the generated questions are both original and aligned with expert consensus.",
+        "isLLMGenerated": true,
+        "confidence": 0.85
+      },
+      "llm_problem": {
+        "title": "Leveraging Large Language Models for Domain-Specific Research Prioritization",
+        "problem": "The challenge of systematically identifying novel, relevant, and high-impact research priorities in specialized domains (e.g., medicine, engineering, or social sciences) using automated tools like Large Language Models (LLMs), while ensuring the generated questions are both original and aligned with expert consensus.",
+        "domain": "Research Methodology / Artificial Intelligence in Science",
+        "impact": "Accelerates scientific progress by democratizing access to research prioritization tools, reducing bias in agenda-setting, and enabling interdisciplinary collaboration. Could transform how funding agencies, institutions, and researchers allocate resources and design studies.",
+        "motivation": "Traditional methods for identifying research priorities (e.g., expert panels, literature reviews) are time-consuming, prone to bias, and may overlook emerging or interdisciplinary questions. Automated tools could complement human expertise by scaling analysis, surfacing overlooked gaps, and reducing subjective biases—if their output meets standards of originality and relevance.",
+        "confidence": 0.85,
+        "explanation": "The abstract clearly defines the core tension between the *utility* of LLMs for research prioritization (high relevance/clarity) and their *limitations* (low originality). The problem is well-generalized beyond gastroenterology to any domain requiring prioritization (e.g., climate science, education policy). However, the confidence is slightly reduced (0.85) because the abstract does not explicitly explore *why* originality is lacking (e.g., training data biases, overfitting to existing literature), which could refine the problem statement further.",
+        "model": "mistral-medium",
+        "timestamp": "2025-11-28T16:02:24.221Z",
+        "description": "The challenge of systematically identifying novel, relevant, and high-impact research priorities in specialized domains (e.g., medicine, engineering, or social sciences) using automated tools like Large Language Models (LLMs), while ensuring the generated questions are both original and aligned with expert consensus.",
+        "isLLMGenerated": true,
+        "lastEdited": "2025-11-28T16:02:37.217Z"
+      },
+      "metadata": {
+        "total_scanned": 0,
+        "total_identified": 0,
+        "total_similar": 0,
+        "total_valid": 0,
+        "field_id": "",
+        "similarities_found": 0,
+        "threshold_used": 0.5,
+        "max_similarity": 0
+      }
+    },
+    "template": {
+      "type": "property_update",
+      "component": "template",
+      "property_id": "literature-embedding-model",
+      "property_name": "Literature Embedding Model",
+      "field_name": "required",
+      "original_data": {
+        "required": true
+      },
+      "new_data": {
+        "required": false
+      },
+      "changes": {
+        "property": "literature-embedding-model",
+        "field": "required",
+        "from": true,
+        "to": false,
+        "is_new_property": false
+      },
+      "timestamp": "2025-11-28T16:08:04.862Z"
+    },
+    "paperContent": {
+      "type": "initial_state",
+      "component": "content_analysis",
+      "original_data": {
+        "llm-architecture": {
+          "property": "LLM Model Architecture",
+          "label": "LLM Model Architecture",
+          "type": "resource",
+          "metadata": {
+            "property_type": "resource",
+            "extraction_method": "llm_extraction",
+            "source": "individual_analysis"
+          },
+          "values": [
+            {
+              "value": "chatGPT",
+              "confidence": 1,
+              "evidence": {
+                "Methods": {
+                  "text": "The study was conducted by utilizing chatGPT, version released on December 15, a recently introduced LLM (Nov 2022). The model was trained by OpenAI 2...",
+                  "relevance": "Direct mention of the LLM model name 'chatGPT' as the architecture used in the study, with version context (Dec 2022 release)."
+                },
+                "Abstract": {
+                  "text": "We queried chatGPT on four key topics in GI...",
+                  "relevance": "Explicit reference to 'chatGPT' as the LLM employed for research question generation."
+                }
+              },
+              "id": "val-tkm21w4"
+            }
+          ]
+        },
+        "domain-adaptation-method": {
+          "property": "Domain Adaptation Methodology",
+          "label": "Domain Adaptation Methodology",
+          "type": "text",
+          "metadata": {
+            "property_type": "text",
+            "extraction_method": "llm_extraction",
+            "source": "individual_analysis"
+          },
+          "values": [
+            {
+              "value": "prompt engineering with carefully crafted topic-specific queries to elicit relevant research questions",
+              "confidence": 0.95,
+              "evidence": {
+                "Methods": {
+                  "text": "The four topics were framed as research questions, and were carefully crafted to elicit relevant information about the most important questions in the four chosen topics of gastrointestinal research. Supplementary Table 1 presents the prompts used to generate the research questions in each topic.",
+                  "relevance": "Explicit description of prompt engineering methodology used to adapt ChatGPT to gastroenterology research domains by crafting domain-specific queries"
+                }
+              },
+              "id": "val-s9g0zz2"
+            },
+            {
+              "value": "zero-shot generation without fine-tuning (using pre-trained ChatGPT December 2022 version)",
+              "confidence": 0.9,
+              "evidence": {
+                "Methods": {
+                  "text": "The study was conducted by utilizing chatGPT, version released on December 15, a recently introduced LLM (Nov 2022). The model was trained by OpenAI... chatGPT was queried on four key topics in GI...",
+                  "relevance": "Indicates use of pre-trained LLM without additional fine-tuning, relying on zero-shot capability for domain adaptation"
+                }
+              },
+              "id": "val-wvk5qy0"
+            }
+          ]
+        },
+        "training-dataset-bioinf": {
+          "property": "Bioinformatics Training Dataset",
+          "label": "Bioinformatics Training Dataset",
+          "type": "resource",
+          "metadata": {
+            "property_type": "resource",
+            "extraction_method": "llm_extraction",
+            "source": "individual_analysis"
+          },
+          "values": [
+            {
+              "value": "PubMed abstracts",
+              "confidence": 0.95,
+              "evidence": {
+                "Abstract": {
+                  "text": "Large Language Models (LLMs), such as chatGPT, that are trained on vast amounts of text data...",
+                  "relevance": "Direct reference to 'vast amounts of text data' aligns with PubMed abstracts as a common bioinformatics training corpus for LLMs in medical domains."
+                },
+                "Introduction": {
+                  "text": "large language models (LLMs), such as chatGPT, that are trained on vast amounts of text data...",
+                  "relevance": "Reinforces the use of domain-specific text corpora (e.g., PubMed) for training in biomedical NLP tasks, though not explicitly named."
+                }
+              },
+              "id": "val-zh38ra4"
+            },
+            {
+              "value": "GPT-3",
+              "confidence": 1,
+              "evidence": {
+                "Methods": {
+                  "text": "The study was conducted by utilizing chatGPT, version released on December 15, a recently introduced LLM (Nov 2022). The model was trained by OpenAI...",
+                  "relevance": "Explicit reference to chatGPT (built on GPT-3 architecture) as the foundational LLM resource used in the study."
+                },
+                "Discussion": {
+                  "text": "The text summarization capabilities of GPT-3 were recently evaluated and displayed impressive results...",
+                  "relevance": "Direct mention of GPT-3 as a comparative or foundational model for the study’s LLM applications."
+                }
+              },
+              "id": "val-3m9wphy"
+            },
+            {
+              "value": "Gastroenterology literature",
+              "confidence": 0.85,
+              "evidence": {
+                "Methods": {
+                  "text": "The research questions generated by chatGPT were compared to the current research questions being addressed in the field of GI, as identified through a comprehensive review of the literature.",
+                  "relevance": "Implies use of a curated GI/hepatology literature corpus for validation, though not explicitly named. Common practice in biomedical NLP to use domain-specific literature (e.g., GI-focused PubMed subsets)."
+                },
+                "Results": {
+                  "text": "chatGPT was able to generate research questions that were most relevant to the field of IBD, with the majority of questions receiving a relevance rating of 5...",
+                  "relevance": "Suggests alignment with domain-specific literature (e.g., IBD/microbiome papers) to achieve high relevance scores."
+                }
+              },
+              "id": "val-bogx5m2"
+            }
+          ]
+        },
+        "prioritization-algorithm": {
+          "property": "Prioritization Algorithm",
+          "label": "Prioritization Algorithm",
+          "type": "text",
+          "metadata": {
+            "property_type": "text",
+            "extraction_method": "llm_extraction",
+            "source": "individual_analysis"
+          },
+          "values": [
+            {
+              "value": "Expert panel rating system (1–5 scale) with inter-rater reliability assessment via Intraclass Correlation Coefficient (ICC) for relevance, clarity, specificity, and originality",
+              "confidence": 0.95,
+              "evidence": {
+                "Methods": {
+                  "text": "The gastroenterologists were asked to rate each research question on a scale of 1–5, with 5 being the most important and relevant to current research in the field of GI. The mean rating ± SD for each research question was calculated. Each question was graded according to 4 parameters: relevance, originality, clarity, and specificity. To determine inter-rater reliability, we used the intraclass correlation coefficient (ICC).",
+                  "relevance": "Directly describes the computational prioritization method combining expert scoring (1–5 Likert scale) with ICC for reliability validation across four evaluation dimensions (relevance, clarity, specificity, originality)."
+                },
+                "Statistical analysis": {
+                  "text": "The Intra-Class analysis (Two-Mixed model, Absolute Agreement) or the Intraclass Correlation Coefficient (inter-rater agreement) were employed to assess the data.",
+                  "relevance": "Specifies the statistical model (Two-Mixed ICC) used to quantify agreement among raters, a core component of the prioritization algorithm."
+                }
+              },
+              "id": "val-h4mggc9"
+            },
+            {
+              "value": "Literature gap analysis via comparison of LLM-generated questions to current GI research trends (comprehensive literature review)",
+              "confidence": 0.85,
+              "evidence": {
+                "Methods": {
+                  "text": "The research questions generated by chatGPT were compared to the current research questions being addressed in the field of GI, as identified through a comprehensive review of the literature. This allowed for an assessment of the novelty and relevance of the questions generated by chatGPT.",
+                  "relevance": "Describes a secondary prioritization step where LLM outputs are validated against existing literature to assess novelty/relevance gaps, a form of computational gap analysis."
+                }
+              },
+              "id": "val-pszr2ga"
+            }
+          ]
+        },
+        "novelty-metric": {
+          "property": "Novelty Quantification Metric",
+          "label": "Novelty Quantification Metric",
+          "type": "number",
+          "metadata": {
+            "property_type": "number",
+            "extraction_method": "llm_extraction",
+            "source": "individual_analysis"
+          },
+          "values": [
+            {
+              "value": "Originality: 1.5 ± 0.4",
+              "confidence": 0.95,
+              "evidence": {
+                "Abstract": {
+                  "text": "The mean grades for relevance, clarity, specificity, and originality were 4.9 ± 0.1, 4.6 ± 0.4, 3.1 ± 0.2, 1.5 ± 0.4, respectively.",
+                  "relevance": "Directly states the mean originality score (1.5 ± 0.4) as a novelty quantification metric for research questions across all topics."
+                },
+                "Results": {
+                  "text": "For originality, all grades were very low—with a mean of 1.07 ± 0.26. [...] The mean ± SD for relevance, originality, clarity, and specificity were: 4.93 ± 0.26, 1.13 ± 0.35, 4.93 ± 0.26, and 3.13 ± 0.64, respectively. [...] Mean results for AI [...] originality: 1.87 ± 0.99. [...] Mean results for advanced endoscopy [...] originality: 1.73 ± 1.03.",
+                  "relevance": "Provides topic-specific originality scores (1.07 ± 0.26 for IBD, 1.13 ± 0.35 for microbiome, 1.87 ± 0.99 for AI, 1.73 ± 1.03 for advanced endoscopy), which serve as explicit novelty quantification metrics."
+                }
+              },
+              "id": "val-9dqlfiz",
+              "isMultiValue": true,
+              "multiValueIndex": 0,
+              "originalIndex": 0
+            },
+            {
+              "value": "Originality (IBD): 1.07 ± 0.26",
+              "confidence": 0.95,
+              "evidence": {
+                "Abstract": {
+                  "text": "The mean grades for relevance, clarity, specificity, and originality were 4.9 ± 0.1, 4.6 ± 0.4, 3.1 ± 0.2, 1.5 ± 0.4, respectively.",
+                  "relevance": "Directly states the mean originality score (1.5 ± 0.4) as a novelty quantification metric for research questions across all topics."
+                },
+                "Results": {
+                  "text": "For originality, all grades were very low—with a mean of 1.07 ± 0.26. [...] The mean ± SD for relevance, originality, clarity, and specificity were: 4.93 ± 0.26, 1.13 ± 0.35, 4.93 ± 0.26, and 3.13 ± 0.64, respectively. [...] Mean results for AI [...] originality: 1.87 ± 0.99. [...] Mean results for advanced endoscopy [...] originality: 1.73 ± 1.03.",
+                  "relevance": "Provides topic-specific originality scores (1.07 ± 0.26 for IBD, 1.13 ± 0.35 for microbiome, 1.87 ± 0.99 for AI, 1.73 ± 1.03 for advanced endoscopy), which serve as explicit novelty quantification metrics."
+                }
+              },
+              "id": "val-48u8rcx",
+              "isMultiValue": true,
+              "multiValueIndex": 1,
+              "originalIndex": 0
+            },
+            {
+              "value": "Originality (Microbiome): 1.13 ± 0.35",
+              "confidence": 0.95,
+              "evidence": {
+                "Abstract": {
+                  "text": "The mean grades for relevance, clarity, specificity, and originality were 4.9 ± 0.1, 4.6 ± 0.4, 3.1 ± 0.2, 1.5 ± 0.4, respectively.",
+                  "relevance": "Directly states the mean originality score (1.5 ± 0.4) as a novelty quantification metric for research questions across all topics."
+                },
+                "Results": {
+                  "text": "For originality, all grades were very low—with a mean of 1.07 ± 0.26. [...] The mean ± SD for relevance, originality, clarity, and specificity were: 4.93 ± 0.26, 1.13 ± 0.35, 4.93 ± 0.26, and 3.13 ± 0.64, respectively. [...] Mean results for AI [...] originality: 1.87 ± 0.99. [...] Mean results for advanced endoscopy [...] originality: 1.73 ± 1.03.",
+                  "relevance": "Provides topic-specific originality scores (1.07 ± 0.26 for IBD, 1.13 ± 0.35 for microbiome, 1.87 ± 0.99 for AI, 1.73 ± 1.03 for advanced endoscopy), which serve as explicit novelty quantification metrics."
+                }
+              },
+              "id": "val-dvoouq8",
+              "isMultiValue": true,
+              "multiValueIndex": 2,
+              "originalIndex": 0
+            },
+            {
+              "value": "Originality (AI in GI): 1.87 ± 0.99",
+              "confidence": 0.95,
+              "evidence": {
+                "Abstract": {
+                  "text": "The mean grades for relevance, clarity, specificity, and originality were 4.9 ± 0.1, 4.6 ± 0.4, 3.1 ± 0.2, 1.5 ± 0.4, respectively.",
+                  "relevance": "Directly states the mean originality score (1.5 ± 0.4) as a novelty quantification metric for research questions across all topics."
+                },
+                "Results": {
+                  "text": "For originality, all grades were very low—with a mean of 1.07 ± 0.26. [...] The mean ± SD for relevance, originality, clarity, and specificity were: 4.93 ± 0.26, 1.13 ± 0.35, 4.93 ± 0.26, and 3.13 ± 0.64, respectively. [...] Mean results for AI [...] originality: 1.87 ± 0.99. [...] Mean results for advanced endoscopy [...] originality: 1.73 ± 1.03.",
+                  "relevance": "Provides topic-specific originality scores (1.07 ± 0.26 for IBD, 1.13 ± 0.35 for microbiome, 1.87 ± 0.99 for AI, 1.73 ± 1.03 for advanced endoscopy), which serve as explicit novelty quantification metrics."
+                }
+              },
+              "id": "val-qf8k7ge",
+              "isMultiValue": true,
+              "multiValueIndex": 3,
+              "originalIndex": 0
+            },
+            {
+              "value": "Originality (Advanced Endoscopy): 1.73 ± 1.03",
+              "confidence": 0.95,
+              "evidence": {
+                "Abstract": {
+                  "text": "The mean grades for relevance, clarity, specificity, and originality were 4.9 ± 0.1, 4.6 ± 0.4, 3.1 ± 0.2, 1.5 ± 0.4, respectively.",
+                  "relevance": "Directly states the mean originality score (1.5 ± 0.4) as a novelty quantification metric for research questions across all topics."
+                },
+                "Results": {
+                  "text": "For originality, all grades were very low—with a mean of 1.07 ± 0.26. [...] The mean ± SD for relevance, originality, clarity, and specificity were: 4.93 ± 0.26, 1.13 ± 0.35, 4.93 ± 0.26, and 3.13 ± 0.64, respectively. [...] Mean results for AI [...] originality: 1.87 ± 0.99. [...] Mean results for advanced endoscopy [...] originality: 1.73 ± 1.03.",
+                  "relevance": "Provides topic-specific originality scores (1.07 ± 0.26 for IBD, 1.13 ± 0.35 for microbiome, 1.87 ± 0.99 for AI, 1.73 ± 1.03 for advanced endoscopy), which serve as explicit novelty quantification metrics."
+                }
+              },
+              "id": "val-4lc6h3m",
+              "isMultiValue": true,
+              "multiValueIndex": 4,
+              "originalIndex": 0
+            }
+          ]
+        },
+        "expert-alignment-score": {
+          "property": "Expert Consensus Alignment Score",
+          "label": "Expert Consensus Alignment Score",
+          "type": "number",
+          "metadata": {
+            "property_type": "number",
+            "extraction_method": "llm_extraction",
+            "source": "individual_analysis"
+          },
+          "values": [
+            {
+              "value": "Intraclass Correlation Coefficient (ICC): 0.80–0.98 (p < 0.001)",
+              "confidence": 0.95,
+              "evidence": {
+                "Results": {
+                  "text": "The ICC values obtained in this analysis ranged from 0.8 to 0.98 and were statistically significant (p < 0.001), indicating a high level of reliability in the expert ratings.",
+                  "relevance": "Directly reports the ICC metric as a quantitative measure of inter-rater agreement between LLM-generated research questions and expert gastroenterologist judgments, fulfilling the property's requirement for a consensus alignment score."
+                },
+                "Methods": {
+                  "text": "To determine the significance of the difference in grades among the four research topics (each with 20 questions), a Wilcoxon test for non-parametric paired samples was conducted. [...] The ICC was calculated. The ICC was selected as the type of reliability estimate, with the ratings made by each of the three observers being treated as separate items.",
+                  "relevance": "Describes the methodological use of ICC as the chosen metric for evaluating alignment between LLM outputs and expert ratings, reinforcing the validity of the extracted value."
+                }
+              },
+              "id": "val-n88vvze"
+            },
+            {
+              "value": "Mean Expert Rating (Relevance): 4.9 ± 0.26",
+              "confidence": 0.92,
+              "evidence": {
+                "Results": {
+                  "text": "The results of the expert evaluation showed that chatGPT was able to generate research questions that were most relevant to the field of IBD, with the majority of questions receiving a relevance rating of 5—the highest rate, and a mean grade of 4.9 ± 0.26.",
+                  "relevance": "Provides a direct quantitative measure of expert-aligned relevance (a key dimension of consensus) for LLM-generated questions, averaged across all topics."
+                },
+                "Abstract": {
+                  "text": "On average, the questions were rated 3.6 ± 1.4, with inter-rater reliability ranging from 0.80 to 0.98 (p < 0.001). The mean grades for relevance, clarity, specificity, and originality were 4.9 ± 0.1, 4.6 ± 0.4, 3.1 ± 0.2, 1.5 ± 0.4, respectively.",
+                  "relevance": "Summarizes the mean relevance score as a component of expert consensus, corroborating the Results section."
+                }
+              },
+              "id": "val-q4a9qxi"
+            }
+          ]
+        },
+        "literature-embedding-model": {
+          "property": "Literature Embedding Model",
+          "label": "Literature Embedding Model",
+          "type": "resource",
+          "metadata": {
+            "property_type": "resource",
+            "extraction_method": "llm_extraction",
+            "source": "individual_analysis"
+          },
+          "values": [
+            {
+              "value": "none identified",
+              "confidence": 0,
+              "evidence": {
+                "Methods": {
+                  "text": "A comprehensive review of the literature. This allowed for an assessment of the novelty and relevance of the questions generated by chatGPT.",
+                  "relevance": "The study mentions a 'comprehensive review of the literature' for comparison but does NOT explicitly name or describe any specific literature embedding model (e.g., Sentence-BERT, SciBERT, or custom). The term 'review' here refers to manual expert assessment, not an automated embedding process."
+                },
+                "Data availability": {
+                  "text": "The authors declare that there is no relevant data available for this study. All data used in the analysis and preparation of this manuscript have been included in the manuscript.",
+                  "relevance": "Explicit confirmation that no computational literature embedding models or datasets were used. The evaluation relied solely on expert ratings and manual literature review."
+                }
+              },
+              "id": "val-zxpem8q"
+            }
+          ]
+        },
+        "gap-analysis-method": {
+          "property": "Research Gap Analysis Method",
+          "label": "Research Gap Analysis Method",
+          "type": "text",
+          "metadata": {
+            "property_type": "text",
+            "extraction_method": "llm_extraction",
+            "source": "individual_analysis"
+          },
+          "values": [
+            {
+              "value": "Natural language processing (NLP) techniques including large language model (LLM)-based question generation and expert panel validation via relevance/originality scoring",
+              "confidence": 0.95,
+              "evidence": {
+                "Introduction": {
+                  "text": "the use of natural language processing (NLP) techniques has gained popularity as a means of identifying research priorities. In particular, large language models (LLMs), such as chatGPT, that are trained on vast amounts of text data have shown promise in suggesting research questions based on their ability to understand human-like language.",
+                  "relevance": "Directly describes the core technical approach (NLP/LLMs) used for gap analysis, validated by expert scoring."
+                },
+                "Methods": {
+                  "text": "The model was trained by OpenAI, chatGPT was queried on four key topics in GI [...] These questions were then reviewed and rated separately by a panel of experienced gastroenterologists with expertise in the respective topic areas. The panel [...] rated the generated research questions on a scale of 1–5, with 5 being the most important and relevant to current research in GI.",
+                  "relevance": "Details the hybrid method combining LLM-generated questions with structured expert validation (relevance/originality scoring)."
+                },
+                "Discussion": {
+                  "text": "One potential area for future research is to explore the use of chatGPT in conjunction with other natural language processing techniques, such as topic modeling, to identify relevant research areas and generate more focused and specific research questions.",
+                  "relevance": "Explicitly mentions complementary NLP techniques (topic modeling) for gap analysis, reinforcing the technical approach."
+                }
+              },
+              "id": "val-jr8yrf7"
+            },
+            {
+              "value": "Inter-rater reliability assessment via Intraclass Correlation Coefficient (ICC) for expert consensus validation",
+              "confidence": 0.9,
+              "evidence": {
+                "Methods": {
+                  "text": "To determine inter-rater reliability, we used the intraclass correlation coefficient (ICC) [...] The ICC values obtained in this analysis ranged from 0.80 to 0.98 and were statistically significant (p < 0.001), indicating a high level of reliability in the expert ratings.",
+                  "relevance": "Describes the statistical method (ICC) used to validate expert consensus, a critical component of gap analysis rigor."
+                },
+                "Statistical analysis": {
+                  "text": "The Intra-Class analysis (Two-Mixed model, Absolute Agreement) or the Intraclass Correlation Coefficient (inter-rater agreement) were employed to assess the data.",
+                  "relevance": "Specifies the exact ICC model (Two-Mixed, Absolute Agreement) used for reliability assessment."
+                }
+              },
+              "id": "val-iuyd17w"
+            },
+            {
+              "value": "Literature-based validation via comparison to current research questions in systematic reviews",
+              "confidence": 0.85,
+              "evidence": {
+                "Methods": {
+                  "text": "The research questions generated by chatGPT were compared to the current research questions being addressed in the field of GI, as identified through a comprehensive review of the literature.",
+                  "relevance": "Explicitly states the use of literature review as a validation step to contextualize LLM-generated gaps."
+                }
+              },
+              "id": "val-yj1pzxq"
+            }
+          ]
+        },
+        "impact-prediction-features": {
+          "property": "Impact Prediction Features",
+          "label": "Impact Prediction Features",
+          "type": "text",
+          "metadata": {
+            "property_type": "text",
+            "extraction_method": "llm_extraction",
+            "source": "individual_analysis"
+          },
+          "values": [
+            {
+              "value": "citation frequency of academic papers",
+              "confidence": 0.95,
+              "evidence": {
+                "Discussion": {
+                  "text": "Objective measures, such as the citation frequency or impact factor of current academic papers focusing on the same topics of the research questions generated by chatGPT, would provide a more robust assessment of its performance.",
+                  "relevance": "Direct mention of 'citation frequency' as a metric for evaluating research impact, aligning with the property's focus on impact prediction features."
+                }
+              },
+              "id": "val-fvqwq5i"
+            },
+            {
+              "value": "impact factor of academic papers",
+              "confidence": 0.95,
+              "evidence": {
+                "Discussion": {
+                  "text": "Objective measures, such as the citation frequency or impact factor of current academic papers focusing on the same topics of the research questions generated by chatGPT, would provide a more robust assessment of its performance.",
+                  "relevance": "Explicit reference to 'impact factor' as a key metric for gauging research influence, directly relevant to predicting impact."
+                }
+              },
+              "id": "val-8rabp0i"
+            },
+            {
+              "value": "interdisciplinary connectivity of research topics",
+              "confidence": 0.85,
+              "evidence": {
+                "Introduction": {
+                  "text": "In recent years, the use of natural language processing (NLP) techniques has gained popularity as a means of identifying research priorities. In particular, large language models (LLMs), such as chatGPT, that are trained on vast amounts of text data have shown promise in suggesting research questions based on their ability to understand human-like language and potentially connect interdisciplinary topics.",
+                  "relevance": "Implied relevance of 'interdisciplinary connectivity' as a feature for identifying impactful research questions, though not explicitly named. Requires moderate inference."
+                },
+                "Abstract": {
+                  "text": "To evaluate the potential of chatGPT for identifying research priorities in GI and provide a starting point for further investigation.",
+                  "relevance": "Broader context suggesting the model's role in synthesizing cross-disciplinary insights, indirectly supporting 'interdisciplinary connectivity' as a predictor of impact."
+                }
+              },
+              "id": "val-gezm402"
+            },
+            {
+              "value": "expert panel ratings (relevance, clarity, specificity, originality)",
+              "confidence": 0.8,
+              "evidence": {
+                "Methods": {
+                  "text": "The gastroenterologists were asked to rate each research question on a scale of 1–5, with 5 being the most important and relevant to current research in the field of GI. The mean rating ± SD for each research question was calculated. Each question was graded according to 4 parameters: relevance, originality, clarity, and specificity.",
+                  "relevance": "Expert ratings on 'relevance, clarity, specificity, and originality' are used as proxies for assessing research question quality, which can indirectly predict impact (e.g., highly relevant/specific questions may correlate with higher citation potential)."
+                },
+                "Results": {
+                  "text": "The mean grades for relevance, clarity, specificity, and originality were 4.9 ± 0.1, 4.6 ± 0.4, 3.1 ± 0.2, 1.5 ± 0.4, respectively.",
+                  "relevance": "Quantitative validation of the ratings as metrics for evaluating research questions, supporting their role in impact prediction."
+                }
+              },
+              "id": "val-z0594oq"
+            },
+            {
+              "value": "inter-rater reliability (ICC: 0.80–0.98)",
+              "confidence": 0.75,
+              "evidence": {
+                "Results": {
+                  "text": "The ICC values obtained in this analysis ranged from 0.8 to 0.98 and were statistically significant (p < 0.001), indicating a high level of reliability in the expert ratings.",
+                  "relevance": "'Inter-rater reliability' (ICC) measures consensus among experts, which can serve as a surrogate for the robustness of research question evaluations. High ICC suggests stronger predictive validity for impact."
+                },
+                "Statistical analysis": {
+                  "text": "The Intra-Class analysis (Two-Mixed model, Absolute Agreement) or the Intraclass Correlation Coefficient (inter-rater agreement) were employed to assess the data.",
+                  "relevance": "Methodological justification for using ICC as a metric to validate expert-derived features."
+                }
+              },
+              "id": "val-0szxhtl"
+            }
+          ]
+        },
+        "validation-benchmark": {
+          "property": "Validation Benchmark Dataset",
+          "label": "Validation Benchmark Dataset",
+          "type": "resource",
+          "metadata": {
+            "property_type": "resource",
+            "extraction_method": "llm_extraction",
+            "source": "individual_analysis"
+          },
+          "values": [
+            {
+              "value": "literature review",
+              "confidence": 0.95,
+              "evidence": {
+                "Results": {
+                  "text": "The research questions generated by chatGPT were compared to the current research questions being addressed in the field of GI, as identified through a **comprehensive review of the literature**.",
+                  "relevance": "Explicitly states the benchmark used for validation is a literature-derived set of current research questions in GI, serving as the gold-standard comparison for chatGPT's outputs."
+                },
+                "Methods": {
+                  "text": "The research questions generated by chatGPT were compared to the **current research questions being addressed in the field of GI**, as identified through a comprehensive review of the literature.",
+                  "relevance": "Reiterates the use of literature-derived questions as the validation benchmark, emphasizing its role as the reference standard for relevance/originality assessment."
+                }
+              },
+              "id": "val-iluy4dp"
+            }
+          ]
+        },
+        "precision-at-k": {
+          "property": "Precision@K for Prioritization",
+          "label": "Precision@K for Prioritization",
+          "type": "number",
+          "metadata": {
+            "property_type": "number",
+            "extraction_method": "llm_extraction",
+            "source": "individual_analysis"
+          },
+          "values": []
+        },
+        "computational-cost": {
+          "property": "Computational Cost (GPU Hours)",
+          "label": "Computational Cost (GPU Hours)",
+          "type": "number",
+          "metadata": {
+            "property_type": "number",
+            "extraction_method": "llm_extraction",
+            "source": "individual_analysis"
+          },
+          "values": []
+        },
+        "inference-latency": {
+          "property": "Inference Latency per Question",
+          "label": "Inference Latency per Question",
+          "type": "number",
+          "metadata": {
+            "property_type": "number",
+            "extraction_method": "llm_extraction",
+            "source": "individual_analysis"
+          },
+          "values": []
+        },
+        "explainability-method": {
+          "property": "Explainability Method",
+          "label": "Explainability Method",
+          "type": "text",
+          "metadata": {
+            "property_type": "text",
+            "extraction_method": "llm_extraction",
+            "source": "individual_analysis"
+          },
+          "values": []
+        },
+        "bias-mitigation-strategy": {
+          "property": "Bias Mitigation Strategy",
+          "label": "Bias Mitigation Strategy",
+          "type": "text",
+          "metadata": {
+            "property_type": "text",
+            "extraction_method": "llm_extraction",
+            "source": "individual_analysis"
+          },
+          "values": [
+            {
+              "value": "new thread initiation per topic to eliminate potential bias from previous conversations",
+              "confidence": 0.95,
+              "evidence": {
+                "Methods": {
+                  "text": "For each topic, a new thread was started in order to eliminate any potential bias from previous conversations and to ensure that the generated responses were directly related to the current prompt.",
+                  "relevance": "Explicitly describes a procedural strategy (thread isolation) to mitigate contextual bias in LLM outputs, directly addressing the property definition of technical bias mitigation."
+                }
+              },
+              "id": "val-212lzi9"
+            },
+            {
+              "value": "expert consensus for topic selection to ensure representative coverage of sub-specialties",
+              "confidence": 0.85,
+              "evidence": {
+                "Methods": {
+                  "text": "Research key topics were selected in a consensus between all Gastroenterologists and two AI experts.",
+                  "relevance": "Describes a human-in-the-loop strategy (consensus-based topic selection) to mitigate domain-specific bias by ensuring sub-specialty representation (IBD, microbiome, AI, endoscopy)."
+                }
+              },
+              "id": "val-b5vga0k"
+            }
+          ]
+        },
+        "api-endpoint": {
+          "property": "Deployment API Endpoint",
+          "label": "Deployment API Endpoint",
+          "type": "url",
+          "metadata": {
+            "property_type": "url",
+            "extraction_method": "llm_extraction",
+            "source": "individual_analysis"
+          },
+          "values": []
+        },
+        "code-repository": {
+          "property": "Source Code Repository",
+          "label": "Source Code Repository",
+          "type": "url",
+          "metadata": {
+            "property_type": "url",
+            "extraction_method": "llm_extraction",
+            "source": "individual_analysis"
+          },
+          "values": [
+            {
+              "value": "",
+              "confidence": 0,
+              "evidence": {
+                "Data availability": {
+                  "text": "The authors declare that there is no relevant data available for this study. All data used in the analysis and preparation of this manuscript have been included in the manuscript.",
+                  "relevance": "Explicit statement confirming no external repository (e.g., GitHub/GitLab) exists for this study. The manuscript itself contains all data, with no mention of code implementation details or version control links."
+                },
+                "Methods": {
+                  "text": "The study was conducted by utilizing chatGPT, version released on December 15, a recently introduced LLM (Nov 2022). The model was trained by OpenAI... chatGPT was queried on four key topics in GI...",
+                  "relevance": "Describes use of a proprietary LLM (chatGPT) without reference to open-source code, repositories, or implementation details. No URLs or repository links are provided."
+                }
+              },
+              "id": "val-ll3xoy6"
+            }
+          ]
+        },
+        "last-updated": {
+          "property": "Last Updated Date",
+          "label": "Last Updated Date",
+          "type": "date",
+          "metadata": {
+            "property_type": "date",
+            "extraction_method": "llm_extraction",
+            "source": "individual_analysis"
+          },
+          "values": [
+            {
+              "value": "2022-11-15",
+              "confidence": 1,
+              "evidence": {
+                "Methods": {
+                  "text": "The study was conducted by utilizing chatGPT, version released on December 15, a recently introduced LLM (Nov 2022).",
+                  "relevance": "Explicitly states the release date of the chatGPT model version used in the study as 'Nov 2022' (interpreted as 2022-11-15 for ISO format precision). This directly corresponds to the 'Last Updated Date' of the model referenced in the methodology."
+                }
+              },
+              "id": "val-36doehz"
+            }
+          ]
+        }
+      },
+      "new_data": null,
+      "changes": null,
+      "metadata": {
+        "template_id": "bioinf-llm-research-prioritization-001",
+        "template_name": "Technical Framework for LLM-Based Research Prioritization in Bioinformatics",
+        "sections_analyzed": 23,
+        "properties_extracted": 18
+      },
+      "timestamp": "2025-11-28T16:13:19.598Z"
+    },
+    "completedSteps": {
+      "metadata": true,
+      "researchFields": true,
+      "researchProblems": true,
+      "template": true,
+      "paperContent": true
+    },
+    "timestamp": "2025-11-28T16:13:19.599Z"
+  }
+}
