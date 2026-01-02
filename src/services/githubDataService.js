@@ -1,7 +1,7 @@
 // src/services/githubDataService.js
 import config from '../config/appConfig';
 // Static data imports for demo mode
-const staticEvaluations = import.meta.glob('../data/userEvaluations/evaluations/*.json', { eager: true });
+const staticEvaluations = import.meta.glob('../../data/userEvaluations/evaluations/*.json', { eager: true });
 import { processEvaluationData } from '../utils/dataProcessing';
 import { calculateConfusionMatrices } from '../utils/confusionMatrixCalculator';
 import { calculateStatistics } from '../utils/statisticalAnalysis';
