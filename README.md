@@ -326,6 +326,17 @@ const result = await dataService.saveEvaluation(evaluationData);
 | [smart-paper-analysis-frontend](https://github.com/Webo1980/smart-paper-analysis-frontend) | Web application integrated with ORKG |
 | [ORKGEx-2.0](https://github.com/Webo1980/ORKGEx-2.0) | Chrome extension for paper annotation |
 
+## Analytics
+
+This application uses Google Analytics (GA4) to collect anonymous usage statistics for research purposes.
+
+**Data collected:**
+- Page views (evaluation form, dashboard)
+- Session duration
+- General location (country-level)
+
+No personally identifiable information is collected beyond what users voluntarily provide in the evaluation form. Analytics data is used solely to understand usage patterns and improve the evaluation system.
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
